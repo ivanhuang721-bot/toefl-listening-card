@@ -1,5 +1,5 @@
 // 云端课程：以后每天可以继续在这里追加最新 TOEFL 听力材料。
-const TOEFL_LESSONS = [
+window.TOEFL_LESSONS = [
   {
     id: '2026-09-15-am',
     date: '2026-09-15',
