@@ -44,7 +44,7 @@ main{max-width:820px;margin:auto;padding:14px 12px 48px}
 <section class="hero">
   <h1>🎧 TOEFL 听力卡</h1>
   <p>现在只保留驾驶模式：单词 → 回忆 → 原句 → 下一词。适合只听、不看屏幕的复习。</p>
-  <div class="version">v15 · iPhone 音频启动优化 + 锁屏播放</div>
+  <div class="version">v16 · iPhone 语音播放优化 + 音频会话</div>
 </section>
 
 <section id="home">
@@ -58,7 +58,7 @@ main{max-width:820px;margin:auto;padding:14px 12px 48px}
     </div>
     <div class="row" style="margin-top:11px">
       <button class="btn orange" id="startDriver">🚗 开始驾驶模式</button>
-      <button class="btn secondary" id="startFromBeginning">🔁 从第一个开始</button>
+      <button class="btn secondary" id="startFromBeginning">🔁 从第一个开始</button><button class="btn secondary" id="testSound">🔊 测试手机声音</button>
     </div>
   </div>
 
@@ -131,6 +131,7 @@ const driver={on:false, paused:false, sentence:true, showMeaning:true, meaningAu
 const $=id=>document.querySelector(id);
 const esc=x=>String(x).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
 const audio=$('#driverAudio');
+try{if(navigator.audioSession)navigator.audioSession.type='playback';}catch(e){}
 
 function sentenceFor(t,w){
   const parts=t.match(/[^.!?]+[.!?]+|[^.!?]+$/g)||[];
@@ -170,6 +171,38 @@ function renderResume(){
     b.classList.add('hidden');
   }
 }
+function isIOSDevice(){
+  return /iPhone|iPad|iPod/i.test(navigator.userAgent||'') || (navigator.platform==='MacIntel' && navigator.maxTouchPoints>1);
+}
+function getSpeechVoice(lang){
+  const voices=speechSynthesis.getVoices();
+  return voices.find(v=>v.lang===lang)||voices.find(v=>v.lang&&v.lang.toLowerCase().startsWith(lang.split('-')[0].toLowerCase()))||null;
+}
+function waitForVoices(){
+  return new Promise(resolve=>{
+    const v=speechSynthesis.getVoices();
+    if(v.length)return resolve(v);
+    let done=false;
+    const finish=()=>{if(done)return;done=true;resolve(speechSynthesis.getVoices())};
+    speechSynthesis.addEventListener('voiceschanged',finish,{once:true});
+    setTimeout(finish,800);
+  });
+}
+function speakIOS(t,rate,lang='en-US'){
+  return new Promise(async resolve=>{
+    if(!t)return resolve(true);
+    await waitForVoices();
+    speechSynthesis.cancel();
+    const u=new SpeechSynthesisUtterance(t);
+    u.lang=lang;
+    u.rate=Math.max(0.6,Math.min(1.2,Number(rate)||1));
+    const v=getSpeechVoice(lang);
+    if(v)u.voice=v;
+    u.onend=()=>resolve(true);
+    u.onerror=()=>resolve(false);
+    speechSynthesis.speak(u);
+  });
+}
 function audioUrl(t,lang='en-US'){
   return 'https://translate.google.com/translate_tts?client=tw-ob&ie=UTF-8&tl='+encodeURIComponent(lang)+'&q='+encodeURIComponent(t);
 }
@@ -183,6 +216,12 @@ function speakFallback(t,rate,lang){
 function playAudioText(t,rate,lang='en-US',token=driver.token){
   return new Promise(async resolve=>{
     if(token!==driver.token||!driver.on)return resolve(false);
+    if(isIOSDevice()){
+      const ok=await speakIOS(t,rate,lang);
+      if(!ok) $('#audioIssue').classList.remove('hidden');
+      resolve(ok);
+      return;
+    }
     let finished=false;
     const finish=()=>{if(finished)return;finished=true;resolve(true)};
     audio.onended=finish;
@@ -324,6 +363,7 @@ async function playCurrent(token){
   if(token===driver.token&&driver.on)playCurrent(token);
 }
 function openDriver(startIndex=idx){
+  try{if(navigator.audioSession)navigator.audioSession.type='playback';}catch(e){}
   primeIOSAudio();
   $('#audioIssue').classList.add('hidden');
   idx=((startIndex%cards.length)+cards.length)%cards.length;
@@ -397,6 +437,7 @@ function renderList(){
   $('#list').querySelectorAll('button[data-idx]').forEach(b=>b.onclick=()=>openDriver(Number(b.dataset.idx)));
 }
 
+$('#testSound').onclick=async()=>{try{if(navigator.audioSession)navigator.audioSession.type='playback';}catch(e){};await speakIOS('Hello. This is a TOEFL listening test.',1,'en-US');};
 $('#startDriver').onclick=()=>openDriver(idx);
 $('#startFromBeginning').onclick=()=>openDriver(0);
 $('#resumeBtn').onclick=()=>openDriver(idx);
@@ -425,7 +466,7 @@ loadCards();
 renderResume();
 renderList();
 bindMediaSession();
-if(navigator.serviceWorker)navigator.serviceWorker.register('./sw.js?v=15').catch(()=>{});
+if(navigator.serviceWorker)navigator.serviceWorker.register('./sw.js?v=16').catch(()=>{});
 </script>
 </body>
 </html>
