@@ -132,6 +132,14 @@ const audio=$('#driverAudio');
 try{if(navigator.audioSession)navigator.audioSession.type='playback';}catch(e){}
 const courseMeta={starts:[0,8.04,15.624,24.384,33.216,41.976,49.44,56.976,67.848,78.72,89.592,100.632,107.928,114.384,121.656,133.632,145.608,157.584,169.56,181.848,189.144,196.416,203.688,210.792,220.008,229.2,238.248,249.336,260.424,271.512,282.6,293.808,305.112,318.12,331.656,344.664,348.72,354.552,362.976,371.4,380.088,388.992,398.04,407.328,419.376,431.424,445.104,452.064,471.312,490.56,495.576,505.632,513.792,522.864,530.016,540.216,550.368,560.328,570.6],duration:578.088};let audioReady=true;
 
+function loadCards(){
+  const sentences=(TEXT.match(/[^.!?]+[.!?]+/g)||[]).map(s=>s.trim());
+  cards=WORDS.map(word=>{
+    const sentence=sentences.find(s=>s.toLowerCase().includes(word.toLowerCase()))||'';
+    return {word,sentence,contextMeaning:MEANINGS[word]||'',ok:0};
+  });
+}
+
 function saveProgress(){localStorage.setItem('listeningProgress',JSON.stringify({idx,updatedAt:Date.now()}))}
 function audioIndexAtTime(t){
   const starts=courseMeta.starts||[];
