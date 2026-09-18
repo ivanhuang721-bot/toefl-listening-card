@@ -1,0 +1,362 @@
+{
+  "voice": "en-US-JennyNeural",
+  "rate": "-5%",
+  "pause_after_word_ms": 2000,
+  "gap_after_sentence_ms": 700,
+  "cards": [
+    {
+      "id": "001",
+      "word": "so well protected",
+      "sentence": "Imagine an animal so well protected that even a hungry tiger walks away frustrated.",
+      "meaning": "保护得非常严密的"
+    },
+    {
+      "id": "002",
+      "word": "frustrated",
+      "sentence": "Imagine an animal so well protected that even a hungry tiger walks away frustrated.",
+      "meaning": "沮丧的；受挫的"
+    },
+    {
+      "id": "003",
+      "word": "nocturnal",
+      "sentence": "Meet the Indian pangolin, a nocturnal mammal covered in overlapping scales that act like a suit of armor.",
+      "meaning": "夜行的；夜间活动的"
+    },
+    {
+      "id": "004",
+      "word": "overlapping",
+      "sentence": "Meet the Indian pangolin, a nocturnal mammal covered in overlapping scales that act like a suit of armor.",
+      "meaning": "重叠的"
+    },
+    {
+      "id": "005",
+      "word": "armor",
+      "sentence": "Meet the Indian pangolin, a nocturnal mammal covered in overlapping scales that act like a suit of armor.",
+      "meaning": "盔甲；防护层"
+    },
+    {
+      "id": "006",
+      "word": "keratin",
+      "sentence": "These scales are made of keratin, the same protein found in human fingernails.",
+      "meaning": "角蛋白"
+    },
+    {
+      "id": "007",
+      "word": "fingernails",
+      "sentence": "These scales are made of keratin, the same protein found in human fingernails.",
+      "meaning": "手指甲"
+    },
+    {
+      "id": "008",
+      "word": "enemy",
+      "sentence": "When it encounters an enemy, the pangolin performs volvation, curling into a tight ball, providing itself with an impenetrable shield.",
+      "meaning": "敌人"
+    },
+    {
+      "id": "009",
+      "word": "volvation",
+      "sentence": "When it encounters an enemy, the pangolin performs volvation, curling into a tight ball, providing itself with an impenetrable shield.",
+      "meaning": "蜷缩成球的防御行为"
+    },
+    {
+      "id": "010",
+      "word": "curling",
+      "sentence": "When it encounters an enemy, the pangolin performs volvation, curling into a tight ball, providing itself with an impenetrable shield.",
+      "meaning": "蜷缩；卷曲"
+    },
+    {
+      "id": "011",
+      "word": "impenetrable",
+      "sentence": "When it encounters an enemy, the pangolin performs volvation, curling into a tight ball, providing itself with an impenetrable shield.",
+      "meaning": "无法穿透的"
+    },
+    {
+      "id": "012",
+      "word": "exceptional",
+      "sentence": "This remarkable use of volvation makes pangolin exceptional among mammals.",
+      "meaning": "非凡的；例外的"
+    },
+    {
+      "id": "013",
+      "word": "creatures",
+      "sentence": "Few other creatures can achieve such a complete protective posture.",
+      "meaning": "生物；动物"
+    },
+    {
+      "id": "014",
+      "word": "complete protective posture",
+      "sentence": "Few other creatures can achieve such a complete protective posture.",
+      "meaning": "完整的防御姿态"
+    },
+    {
+      "id": "015",
+      "word": "claws",
+      "sentence": "Pangolins also have strong claws for digging and a long, sticky tongue that can extend to twenty-five centimeters, perfect for capturing ants and termites.",
+      "meaning": "爪子"
+    },
+    {
+      "id": "016",
+      "word": "sticky",
+      "sentence": "Pangolins also have strong claws for digging and a long, sticky tongue that can extend to twenty-five centimeters, perfect for capturing ants and termites.",
+      "meaning": "黏的"
+    },
+    {
+      "id": "017",
+      "word": "extend",
+      "sentence": "Pangolins also have strong claws for digging and a long, sticky tongue that can extend to twenty-five centimeters, perfect for capturing ants and termites.",
+      "meaning": "延伸；伸展"
+    },
+    {
+      "id": "018",
+      "word": "capturing",
+      "sentence": "Pangolins also have strong claws for digging and a long, sticky tongue that can extend to twenty-five centimeters, perfect for capturing ants and termites.",
+      "meaning": "捕捉"
+    },
+    {
+      "id": "019",
+      "word": "ants and termites",
+      "sentence": "Pangolins also have strong claws for digging and a long, sticky tongue that can extend to twenty-five centimeters, perfect for capturing ants and termites.",
+      "meaning": "蚂蚁和白蚁"
+    },
+    {
+      "id": "020",
+      "word": "lack teeth",
+      "sentence": "They lack teeth, so instead of chewing, they grind their food in their stomach.",
+      "meaning": "没有牙齿"
+    },
+    {
+      "id": "021",
+      "word": "chewing",
+      "sentence": "They lack teeth, so instead of chewing, they grind their food in their stomach.",
+      "meaning": "咀嚼"
+    },
+    {
+      "id": "022",
+      "word": "grind",
+      "sentence": "They lack teeth, so instead of chewing, they grind their food in their stomach.",
+      "meaning": "磨碎"
+    },
+    {
+      "id": "023",
+      "word": "is lined",
+      "sentence": "Their stomach is lined with keratin plates, similar to their outer scales.",
+      "meaning": "内衬有；铺有"
+    },
+    {
+      "id": "024",
+      "word": "contractions",
+      "sentence": "These plates are extremely hard and work together with the contractions of the stomach to crush and grind captured prey.",
+      "meaning": "收缩"
+    },
+    {
+      "id": "025",
+      "word": "crush and grind",
+      "sentence": "These plates are extremely hard and work together with the contractions of the stomach to crush and grind captured prey.",
+      "meaning": "压碎并磨碎"
+    },
+    {
+      "id": "026",
+      "word": "prey",
+      "sentence": "These plates are extremely hard and work together with the contractions of the stomach to crush and grind captured prey.",
+      "meaning": "猎物"
+    },
+    {
+      "id": "027",
+      "word": "deters",
+      "sentence": "Now, although the Indian pangolin’s armor deters most predators, tigers, leopards, and hyenas occasionally manage to pry them open.",
+      "meaning": "阻止；吓退"
+    },
+    {
+      "id": "028",
+      "word": "predators",
+      "sentence": "Now, although the Indian pangolin’s armor deters most predators, tigers, leopards, and hyenas occasionally manage to pry them open.",
+      "meaning": "捕食者"
+    },
+    {
+      "id": "029",
+      "word": "leopards",
+      "sentence": "Now, although the Indian pangolin’s armor deters most predators, tigers, leopards, and hyenas occasionally manage to pry them open.",
+      "meaning": "豹子"
+    },
+    {
+      "id": "030",
+      "word": "hyenas",
+      "sentence": "Now, although the Indian pangolin’s armor deters most predators, tigers, leopards, and hyenas occasionally manage to pry them open.",
+      "meaning": "鬣狗"
+    },
+    {
+      "id": "031",
+      "word": "occasionally",
+      "sentence": "Now, although the Indian pangolin’s armor deters most predators, tigers, leopards, and hyenas occasionally manage to pry them open.",
+      "meaning": "偶尔"
+    },
+    {
+      "id": "032",
+      "word": "manage to pry",
+      "sentence": "Now, although the Indian pangolin’s armor deters most predators, tigers, leopards, and hyenas occasionally manage to pry them open.",
+      "meaning": "设法撬开"
+    },
+    {
+      "id": "033",
+      "word": "along with",
+      "sentence": "Still, the greatest threat to the Indian pangolin is illegal hunting for scales and meat, which, along with habitat destruction, have pushed it toward endangered status.",
+      "meaning": "连同；以及"
+    },
+    {
+      "id": "034",
+      "word": "habitat destruction",
+      "sentence": "Still, the greatest threat to the Indian pangolin is illegal hunting for scales and meat, which, along with habitat destruction, have pushed it toward endangered status.",
+      "meaning": "栖息地破坏"
+    },
+    {
+      "id": "035",
+      "word": "status",
+      "sentence": "Still, the greatest threat to the Indian pangolin is illegal hunting for scales and meat, which, along with habitat destruction, have pushed it toward endangered status.",
+      "meaning": "状态；地位"
+    },
+    {
+      "id": "036",
+      "word": "matter",
+      "sentence": "Why does this matter?",
+      "meaning": "要紧；重要"
+    },
+    {
+      "id": "037",
+      "word": "guardians",
+      "sentence": "Well, pangolins are ecological guardians.",
+      "meaning": "守护者"
+    },
+    {
+      "id": "038",
+      "word": "consuming",
+      "sentence": "By consuming millions of insects, they prevent pest outbreaks that could harm crops and forests.",
+      "meaning": "摄食；消耗"
+    },
+    {
+      "id": "039",
+      "word": "insects",
+      "sentence": "By consuming millions of insects, they prevent pest outbreaks that could harm crops and forests.",
+      "meaning": "昆虫"
+    },
+    {
+      "id": "040",
+      "word": "pest outbreaks",
+      "sentence": "By consuming millions of insects, they prevent pest outbreaks that could harm crops and forests.",
+      "meaning": "害虫暴发"
+    },
+    {
+      "id": "041",
+      "word": "crops and forests",
+      "sentence": "By consuming millions of insects, they prevent pest outbreaks that could harm crops and forests.",
+      "meaning": "农作物和森林"
+    },
+    {
+      "id": "042",
+      "word": "disrupt",
+      "sentence": "Losing pangolins would disrupt these processes, creating ripple effects across various ecosystems.",
+      "meaning": "扰乱；破坏"
+    },
+    {
+      "id": "043",
+      "word": "ripple effects",
+      "sentence": "Losing pangolins would disrupt these processes, creating ripple effects across various ecosystems.",
+      "meaning": "连锁影响"
+    },
+    {
+      "id": "044",
+      "word": "regular",
+      "sentence": "Imagine taking a regular piano and transforming its sound by inserting everyday objects like screws, bolts, and rubber erasers between the strings.",
+      "meaning": "普通的；常规的"
+    },
+    {
+      "id": "045",
+      "word": "inserting",
+      "sentence": "Imagine taking a regular piano and transforming its sound by inserting everyday objects like screws, bolts, and rubber erasers between the strings.",
+      "meaning": "插入"
+    },
+    {
+      "id": "046",
+      "word": "screws, bolts, rubber erasers",
+      "sentence": "Imagine taking a regular piano and transforming its sound by inserting everyday objects like screws, bolts, and rubber erasers between the strings.",
+      "meaning": "螺丝、螺栓和橡皮擦"
+    },
+    {
+      "id": "047",
+      "word": "avant-garde",
+      "sentence": "It was developed by the avant-garde composer John Cage in 1940.",
+      "meaning": "前卫的"
+    },
+    {
+      "id": "048",
+      "word": "percussion",
+      "sentence": "Cage was working at a university in Seattle, and he needed to write music with percussion to accompany dancers, but the performance space’s stage wasn’t big enough for percussion instruments like drums, so he made the sounds with just the piano by placing objects between the strings.",
+      "meaning": "打击乐"
+    },
+    {
+      "id": "049",
+      "word": "drums",
+      "sentence": "Cage was working at a university in Seattle, and he needed to write music with percussion to accompany dancers, but the performance space’s stage wasn’t big enough for percussion instruments like drums, so he made the sounds with just the piano by placing objects between the strings.",
+      "meaning": "鼓"
+    },
+    {
+      "id": "050",
+      "word": "improvisation",
+      "sentence": "It had a feel of improvisation.",
+      "meaning": "即兴创作"
+    },
+    {
+      "id": "051",
+      "word": "seashells",
+      "sentence": "Cage himself said that looking for items was kind of like walking on the beach and looking for shiny or beautiful seashells that you liked.",
+      "meaning": "贝壳"
+    },
+    {
+      "id": "052",
+      "word": "ended up",
+      "sentence": "Cage ended up composing a collection of music for prepared piano in the mid-1940s.",
+      "meaning": "最终；结果"
+    },
+    {
+      "id": "053",
+      "word": "ancient Hindu theory",
+      "sentence": "For this collection, Cage was inspired by ancient Hindu theory and about eight essential emotions.",
+      "meaning": "古代印度教理论"
+    },
+    {
+      "id": "054",
+      "word": "philosophy",
+      "sentence": "He wanted his listeners to sense eight essential emotions from Hindu philosophy.",
+      "meaning": "哲学"
+    },
+    {
+      "id": "055",
+      "word": "would be familiar to",
+      "sentence": "The result is a blending of sounds that would be familiar to a western audience, plus sounds reminiscent of Indonesian gamelan.",
+      "meaning": "会为……所熟悉"
+    },
+    {
+      "id": "056",
+      "word": "western audience",
+      "sentence": "The result is a blending of sounds that would be familiar to a western audience, plus sounds reminiscent of Indonesian gamelan.",
+      "meaning": "西方听众"
+    },
+    {
+      "id": "057",
+      "word": "reminiscent of",
+      "sentence": "The result is a blending of sounds that would be familiar to a western audience, plus sounds reminiscent of Indonesian gamelan.",
+      "meaning": "使人想起；类似于"
+    },
+    {
+      "id": "058",
+      "word": "Indonesian gamelan",
+      "sentence": "The result is a blending of sounds that would be familiar to a western audience, plus sounds reminiscent of Indonesian gamelan.",
+      "meaning": "印度尼西亚甘美兰音乐"
+    },
+    {
+      "id": "059",
+      "word": "profile",
+      "sentence": "This prepared piano music really raised John Cage’s profile in the music world.",
+      "meaning": "知名度；影响力"
+    }
+  ]
+}
