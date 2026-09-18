@@ -44,7 +44,7 @@ main{max-width:820px;margin:auto;padding:14px 12px 48px}
 <section class="hero">
   <h1>🎧 TOEFL 听力卡</h1>
   <p>现在只保留驾驶模式：单词 → 回忆 → 原句 → 下一词。适合只听、不看屏幕的复习。</p>
-  <div class="version">v17 · 原生音频课程 + 锁屏连续播放</div>
+  <div class="version">v18 · 原生音频课程 + 缓存修复</div>
 </section>
 
 <section id="home">
@@ -130,7 +130,7 @@ const $=id=>document.querySelector(id);
 const esc=x=>String(x).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
 const audio=$('#driverAudio');
 try{if(navigator.audioSession)navigator.audioSession.type='playback';}catch(e){}
-let courseMeta={starts:[],duration:0},audioReady=false;
+const courseMeta={starts:[0,8.04,15.624,24.384,33.216,41.976,49.44,56.976,67.848,78.72,89.592,100.632,107.928,114.384,121.656,133.632,145.608,157.584,169.56,181.848,189.144,196.416,203.688,210.792,220.008,229.2,238.248,249.336,260.424,271.512,282.6,293.808,305.112,318.12,331.656,344.664,348.72,354.552,362.976,371.4,380.088,388.992,398.04,407.328,419.376,431.424,445.104,452.064,471.312,490.56,495.576,505.632,513.792,522.864,530.016,540.216,550.368,560.328,570.6],duration:578.088};let audioReady=true;
 
 function saveProgress(){localStorage.setItem('listeningProgress',JSON.stringify({idx,updatedAt:Date.now()}))}
 function audioIndexAtTime(t){
@@ -191,22 +191,14 @@ function syncIndexFromTime(){
   }
 }
 function setPlaybackRate(){audio.playbackRate=Number($('#driverSpeed').value)||0.8}
-async function loadCourseAudio(){
-  try{
-    const meta=await fetch('./audio/course.meta.json?v=17',{cache:'no-store'}).then(r=>r.json());
-    if(!meta||!Array.isArray(meta.starts)||meta.starts.length!==cards.length)throw new Error('audio metadata mismatch');
-    courseMeta=meta;
-    audio.src='./audio/course.mp3?v=17';
-    audio.preload='auto';
-    audioReady=true;
-    $('#courseCount').textContent=cards.length;
-    $('#startDriver').disabled=false;
-    $('#startFromBeginning').disabled=false;
-    renderResume();
-  }catch(e){
-    $('#courseCount').textContent=cards.length;
-    $('#dStatus').textContent='音频文件还在生成，请稍后刷新页面';
-  }
+function loadCourseAudio(){
+  audio.src='./audio/course.mp3?v=18';
+  audio.preload='auto';
+  audioReady=true;
+  $('#courseCount').textContent=cards.length;
+  $('#startDriver').disabled=false;
+  $('#startFromBeginning').disabled=false;
+  renderResume();
 }
 function openDriver(startIndex=idx){
   if(!audioReady){
@@ -326,7 +318,7 @@ renderResume();
 renderList();
 bindMediaSession();
 loadCourseAudio();
-if(navigator.serviceWorker)navigator.serviceWorker.register('./sw.js?v=17').catch(()=>{});
+if(navigator.serviceWorker){navigator.serviceWorker.getRegistrations().then(rs=>Promise.all(rs.map(r=>r.unregister()))).catch(()=>{});if(window.caches)window.caches.keys().then(keys=>Promise.all(keys.map(k=>caches.delete(k)))).catch(()=>{});}
 </script>
 </body>
 </html>
