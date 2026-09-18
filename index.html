@@ -79,7 +79,7 @@ main{max-width:820px;margin:auto;padding:14px 12px 48px}
 <section class="hero">
   <h1>🎧 TOEFL 听力卡</h1>
   <p>现在只保留驾驶模式：单词 → 回忆 → 原句 → 下一词。适合只听、不看屏幕的复习。</p>
-  <div class="version">v26 · 记忆练习交互修复</div>
+  <div class="version">v27 · 记忆练习按钮修复</div>
 </section>
 
 <section id="home">
@@ -264,7 +264,7 @@ function resetPracticeCard(){
   $('#pSentence').classList.toggle('hidden',!practice.revealed);
   $('#pAnswerHint').classList.toggle('hidden',practice.revealed);
   $('#practiceRating').classList.toggle('hidden',!practice.revealed);
-  $('#practiceReviewNav').classList.toggle('hidden',!practice.rated.has(practice.index));
+  $('#practiceReviewNav').classList.toggle('hidden',practice.rated.size===0);
   $('#practiceComplete').classList.add('hidden');
 }
 function openPractice(startIndex){
@@ -287,6 +287,7 @@ function renderPractice(status){
   $('#pWord').textContent=c.word;
   $('#pMeaning').textContent='中文：'+c.contextMeaning;
   $('#pSentence').textContent=c.sentence||'未找到原句';
+  $('#practicePrev').disabled=practice.pos===0;
   $('#practiceNext').disabled=!practice.rated.has(practice.index) || practice.pos===practice.queue.length-1;
   resetPracticeCard();
   if(practice.rated.has(practice.index)){
@@ -327,27 +328,29 @@ function practiceMove(delta){
 function ratePractice(status){
   if(!practice.on||!practice.revealed)return;
   practiceStopAudio();
-  scheduleMemory(practice.index,status);
   practice.rated.add(practice.index);
+  scheduleMemory(practice.index,status);
   const allDone=practice.rated.size===practice.queue.length;
+  $('#practiceReviewNav').classList.remove('hidden');
   if(allDone){
     renderPractice(status==='know'?'✅ 已记录：会':'✅ 最后一个词已完成');
-    $('#practiceReviewNav').classList.remove('hidden');
     $('#practicePrev').disabled=practice.pos===0;
     $('#practiceNext').disabled=true;
     $('#practiceComplete').classList.remove('hidden');
-    renderPlan();
     return;
   }
   $('#pStatus').textContent=status==='know'?'✅ 已记录：会':status==='fuzzy'?'🤔 已记录：模糊':'❌ 已记录：不会';
-  $('#practiceReviewNav').classList.remove('hidden');
   $('#practicePrev').disabled=practice.pos===0;
+  $('#practiceNext').disabled=false;
   setTimeout(()=>{
     if(!practice.on)return;
     practice.pos++;
     practice.index=practice.queue[practice.pos];
     renderPractice('➡️ 下一词');
-  },220);
+    $('#practiceReviewNav').classList.remove('hidden');
+    $('#practicePrev').disabled=practice.pos===0;
+    $('#practiceNext').disabled=!practice.rated.has(practice.index) || practice.pos===practice.queue.length-1;
+  },260);
   renderPlan();
 }
 function finishPractice(){
