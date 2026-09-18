@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>iPhone 音频测试</title>
+<style>
+body{font-family:-apple-system,BlinkMacSystemFont,sans-serif;background:#f5f7fb;color:#172033;padding:24px}
+.card{background:white;border-radius:18px;padding:18px;max-width:640px;margin:auto;box-shadow:0 4px 18px #0001}
+button{display:block;width:100%;margin:10px 0;padding:14px;border:0;border-radius:12px;background:#111827;color:#fff;font-weight:800;font-size:16px}
+.ok{color:#166534}.warn{color:#92400e}.muted{color:#667085;font-size:14px;line-height:1.6}
+</style></head>
+<body><div class="card">
+<h2>🔊 iPhone 原生音频测试</h2>
+<p class="muted">这个页面完全不使用 Google TTS、speechSynthesis，也不依赖外部音频文件。它只测试 iPhone Safari 自己能否播放一个本地生成的声音。</p>
+<button id="test">▶️ 播放原生音频测试音</button>
+<button id="speech">🗣️ 测试系统语音</button>
+<div id="out" class="muted"></div>
+<hr>
+<p class="muted"><b>判断：</b><br>
+① 第一个按钮有声音：iPhone Safari 的原生 HTML 音频正常，问题主要在我们之前的 TTS/音频源。<br>
+② 第一个也完全没声音：问题已经与 TOEFL 网站无关，需要继续排查 iOS 27/Safari 的网页音频环境。</p>
+</div>
+<script>
+function makeWav(seconds=.8,freq=660){
+ const sr=16000,n=Math.floor(sr*seconds),data=n*2,b=new ArrayBuffer(44+data),v=new DataView(b);
+ const w=(o,s)=>{for(let i=0;i<s.length;i++)v.setUint8(o+i,s.charCodeAt(i))};
+ w(0,'RIFF');v.setUint32(4,36+data,true);w(8,'WAVE');w(12,'fmt ');v.setUint32(16,16,true);
+ v.setUint16(20,1,true);v.setUint16(22,1,true);v.setUint32(24,sr,true);v.setUint32(28,sr*2,true);
+ v.setUint16(32,2,true);v.setUint16(34,16,true);w(36,'data');v.setUint32(40,data,true);
+ for(let i=0;i<n;i++){const env=Math.min(1,i/800, (n-i)/1600);v.setInt16(44+i*2,Math.max(-1,Math.min(1,Math.sin(2*Math.PI*freq*i/sr)*env))*30000,true)}
+ return URL.createObjectURL(new Blob([b],{type:'audio/wav'}));
+}
+document.querySelector('#test').onclick=async()=>{
+ try{if(navigator.audioSession)navigator.audioSession.type='playback'}catch(e){}
+ const a=new Audio(makeWav());
+ a.preload='auto';
+ try{await a.play();document.querySelector('#out').innerHTML='<span class="ok">✅ play() 成功。请听是否真的有“哔”声。</span>'}
+ catch(e){document.querySelector('#out').innerHTML='<span class="warn">❌ play() 被拒绝：'+String(e)+'</span>'}
+};
+document.querySelector('#speech').onclick=()=>{
+ speechSynthesis.cancel();
+ const u=new SpeechSynthesisUtterance('Hello. This is a TOEFL listening test.');
+ u.lang='en-US';u.rate=.9;speechSynthesis.speak(u);
+ document.querySelector('#out').textContent='系统语音已请求播放。';
+};
+</script></body></html>
