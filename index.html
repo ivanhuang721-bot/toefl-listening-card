@@ -54,7 +54,7 @@ main{max-width:820px;margin:auto;padding:14px 12px 48px}
 <section class="hero">
   <h1>🎧 TOEFL 听力卡</h1>
   <p>现在只保留驾驶模式：单词 → 回忆 → 原句 → 下一词。适合只听、不看屏幕的复习。</p>
-  <div class="version">v20 · 驾驶模式 + 每日记忆计划</div>
+  <div class="version">v21 · 驾驶模式 + 每日记忆计划（修复版）</div>
 </section>
 
 <section id="home">
@@ -69,6 +69,22 @@ main{max-width:820px;margin:auto;padding:14px 12px 48px}
     <div class="row" style="margin-top:11px">
       <button class="btn orange" id="startDriver">🚗 开始驾驶模式</button>
       <button class="btn secondary" id="startFromBeginning">🔁 从第一个开始</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="title">📅 今日记忆计划</div>
+    <div class="sub">新增词今天先学一次；之后按记忆结果自动安排下一次复习。你只需要每天完成这里的任务。</div>
+    <div class="planStats">
+      <div class="planStat"><b id="newCount">0</b><span>今日新词</span></div>
+      <div class="planStat"><b id="dueCount">0</b><span>今日待复习</span></div>
+      <div class="planStat"><b id="planTotal">0</b><span>今日总量</span></div>
+    </div>
+    <div class="planProgress"><i id="planProgressBar"></i></div>
+    <div class="sub" id="planText">正在计算今日计划…</div>
+    <div class="row" style="margin-top:11px">
+      <button class="btn orange" id="startTodayPlan">📅 开始今日复习</button>
+      <button class="btn secondary" id="completeTodayPlan" disabled>✅ 完成今日复习计划</button>
     </div>
   </div>
 
@@ -114,6 +130,14 @@ main{max-width:820px;margin:auto;padding:14px 12px 48px}
   <div class="driverHint" id="dHint"></div>
 
   <div class="driverControls">
+    <div id="memoryControls" class="hidden">
+      <div class="planMuted" style="text-align:center">听完当前词后，请判断记忆程度</div>
+      <div class="memoryButtons">
+        <button class="memKnow" id="memKnow">✅ 会</button>
+        <button class="memFuzzy" id="memFuzzy">🤔 模糊</button>
+        <button class="memNo" id="memNo">❌ 不会</button>
+      </div>
+    </div>
     <div class="controlGrid">
       <button id="driverPrev" style="background:#334155;color:#fff">← 上一个</button>
       <button id="driverPause" style="background:#1f5f46;color:#fff">⏸ 暂停</button>
@@ -131,10 +155,13 @@ main{max-width:820px;margin:auto;padding:14px 12px 48px}
 
 <script>
 const WORDS=['so well protected','frustrated','nocturnal','overlapping','armor','keratin','fingernails','enemy','volvation','curling','impenetrable','exceptional','creatures','complete protective posture','claws','sticky','extend','capturing','ants and termites','lack teeth','chewing','grind','is lined','contractions','crush and grind','prey','deters','predators','leopards','hyenas','occasionally','manage to pry','along with','habitat destruction','status','matter','guardians','consuming','insects','pest outbreaks','crops and forests','disrupt','ripple effects','regular','inserting','screws, bolts, rubber erasers','avant-garde','percussion','drums','improvisation','seashells','ended up','ancient Hindu theory','philosophy','would be familiar to','western audience','reminiscent of','Indonesian gamelan','profile'];
-const TEXT=`Imagine an animal so well protected that even a hungry tiger walks away frustrated. Meet the Indian pangolin, a nocturnal mammal covered in overlapping scales that act like a suit of armor. These scales are made of keratin, the same protein found in human fingernails. They’re a powerful defense mechanism. When it encounters an enemy, the pangolin performs volvation, curling into a tight ball, providing itself with an impenetrable shield. This remarkable use of volvation makes pangolin exceptional among mammals. Few other creatures can achieve such a complete protective posture. Pangolins also have strong claws for digging and a long, sticky tongue that can extend to twenty-five centimeters, perfect for capturing ants and termites. They lack teeth, so instead of chewing, they grind their food in their stomach. Their stomach is lined with keratin plates, similar to their outer scales. These plates are extremely hard and work together with the contractions of the stomach to crush and grind captured prey. Now, although the Indian pangolin’s armor deters most predators, tigers, leopards, and hyenas occasionally manage to pry them open. Still, the greatest threat to the Indian pangolin is illegal hunting for scales and meat, which, along with habitat destruction, have pushed it toward endangered status. Why does this matter? Well, pangolins are ecological guardians. By consuming millions of insects, they prevent pest outbreaks that could harm crops and forests. Their digging also helps air get into the soil, improving plant health. Losing pangolins would disrupt these processes, creating ripple effects across various ecosystems.\n\nListen to a talk in a music history class. Imagine taking a regular piano and transforming its sound by inserting everyday objects like screws, bolts, and rubber erasers between the strings. This is what’s known as a prepared piano. It was developed by the avant-garde composer John Cage in 1940. Cage was working at a university in Seattle, and he needed to write music with percussion to accompany dancers, but the performance space’s stage wasn’t big enough for percussion instruments like drums, so he made the sounds with just the piano by placing objects between the strings. Now, Cage spent time searching for items that made the kind of sounds he was looking for. It had a feel of improvisation. Cage himself said that looking for items was kind of like walking on the beach and looking for shiny or beautiful seashells that you liked. That is, he didn’t know ahead of time what items he wanted to use. He just kept looking around and seeing what suited his needs. Cage ended up composing a collection of music for prepared piano in the mid-1940s. He included specific instructions for how to prepare the piano. For this collection, Cage was inspired by ancient Hindu theory and about eight essential emotions. He wanted his listeners to sense eight essential emotions from Hindu philosophy. The result is a blending of sounds that would be familiar to a western audience, plus sounds reminiscent of Indonesian gamelan. Um, gamelan is traditional Indonesian percussion music. This prepared piano music really raised John Cage’s profile in the music world.`;
+const TEXT=`Imagine an animal so well protected that even a hungry tiger walks away frustrated. Meet the Indian pangolin, a nocturnal mammal covered in overlapping scales that act like a suit of armor. These scales are made of keratin, the same protein found in human fingernails. They’re a powerful defense mechanism. When it encounters an enemy, the pangolin performs volvation, curling into a tight ball, providing itself with an impenetrable shield. This remarkable use of volvation makes pangolin exceptional among mammals. Few other creatures can achieve such a complete protective posture. Pangolins also have strong claws for digging and a long, sticky tongue that can extend to twenty-five centimeters, perfect for capturing ants and termites. They lack teeth, so instead of chewing, they grind their food in their stomach. Their stomach is lined with keratin plates, similar to their outer scales. These plates are extremely hard and work together with the contractions of the stomach to crush and grind captured prey. Now, although the Indian pangolin’s armor deters most predators, tigers, leopards, and hyenas occasionally manage to pry them open. Still, the greatest threat to the Indian pangolin is illegal hunting for scales and meat, which, along with habitat destruction, have pushed it toward endangered status. Why does this matter? Well, pangolins are ecological guardians. By consuming millions of insects, they prevent pest outbreaks that could harm crops and forests. Their digging also helps air get into the soil, improving plant health. Losing pangolins would disrupt these processes, creating ripple effects across various ecosystems.
+
+Listen to a talk in a music history class. Imagine taking a regular piano and transforming its sound by inserting everyday objects like screws, bolts, and rubber erasers between the strings. This is what’s known as a prepared piano. It was developed by the avant-garde composer John Cage in 1940. Cage was working at a university in Seattle, and he needed to write music with percussion to accompany dancers, but the performance space’s stage wasn’t big enough for percussion instruments like drums, so he made the sounds with just the piano by placing objects between the strings. Now, Cage spent time searching for items that made the kind of sounds he was looking for. It had a feel of improvisation. Cage himself said that looking for items was kind of like walking on the beach and looking for shiny or beautiful seashells that you liked. That is, he didn’t know ahead of time what items he wanted to use. He just kept looking around and seeing what suited his needs. Cage ended up composing a collection of music for prepared piano in the mid-1940s. He included specific instructions for how to prepare the piano. For this collection, Cage was inspired by ancient Hindu theory and about eight essential emotions. He wanted his listeners to sense eight essential emotions from Hindu philosophy. The result is a blending of sounds that would be familiar to a western audience, plus sounds reminiscent of Indonesian gamelan. Um, gamelan is traditional Indonesian percussion music. This prepared piano music really raised John Cage’s profile in the music world.`;
 const MEANINGS={'so well protected':'保护得非常严密的','frustrated':'沮丧的；受挫的','nocturnal':'夜行的；夜间活动的','overlapping':'重叠的','armor':'盔甲；防护层','keratin':'角蛋白','fingernails':'手指甲','enemy':'敌人','volvation':'蜷缩成球的防御行为','curling':'蜷缩；卷曲','impenetrable':'无法穿透的','exceptional':'非凡的；例外的','creatures':'生物；动物','complete protective posture':'完整的防御姿态','claws':'爪子','sticky':'黏的','extend':'延伸；伸展','capturing':'捕捉','ants and termites':'蚂蚁和白蚁','lack teeth':'没有牙齿','chewing':'咀嚼','grind':'磨碎','is lined':'内衬有；铺有','contractions':'收缩','crush and grind':'压碎并磨碎','prey':'猎物','deters':'阻止；吓退','predators':'捕食者','leopards':'豹子','hyenas':'鬣狗','occasionally':'偶尔','manage to pry':'设法撬开','along with':'连同；以及','habitat destruction':'栖息地破坏','status':'状态；地位','matter':'要紧；重要','guardians':'守护者','consuming':'摄食；消耗','insects':'昆虫','pest outbreaks':'害虫暴发','crops and forests':'农作物和森林','disrupt':'扰乱；破坏','ripple effects':'连锁影响','regular':'普通的；常规的','inserting':'插入','screws, bolts, rubber erasers':'螺丝、螺栓和橡皮擦','avant-garde':'前卫的','percussion':'打击乐','drums':'鼓','improvisation':'即兴创作','seashells':'贝壳','ended up':'最终；结果','ancient Hindu theory':'古代印度教理论','philosophy':'哲学','would be familiar to':'会为……所熟悉','western audience':'西方听众','reminiscent of':'使人想起；类似于','Indonesian gamelan':'印度尼西亚甘美兰音乐','profile':'知名度；影响力'};
 
-let cards=[], idx=0, filter='all';\nconst memory={mode:'all',queue:[],queuePos:0};
+let cards=[], idx=0, filter='all';
+const memory={mode:'all',queue:[],queuePos:0};
 const driver={on:false, paused:false, sentence:true, showMeaning:true, meaningAudio:false, wordShown:true, token:0, stage:'idle'};
 const $=id=>document.querySelector(id);
 const esc=x=>String(x).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
@@ -348,10 +375,14 @@ function openDriver(startIndex=idx, mode='all'){
   }
   try{if(navigator.audioSession)navigator.audioSession.type='playback';}catch(e){}
   idx=((startIndex%cards.length)+cards.length)%cards.length;
+  memory.mode=mode;
+  if(mode==='plan'){memory.queue=memory.queue.length?memory.queue:getDueIndices();memory.queuePos=Math.max(0,memory.queue.indexOf(idx));}
+  else{memory.queue=[];memory.queuePos=0;}
   saveProgress();
   driver.on=true;driver.paused=false;driver.token++;
   driver.wordShown=true;
   $('#driver').classList.remove('hidden');
+  $('#memoryControls').classList.toggle('hidden',mode!=='plan');
   $('#driverPause').classList.remove('hidden');
   $('#driverResume').classList.add('hidden');
   setPlaybackRate();
@@ -446,7 +477,12 @@ $('#driverPause').onclick=pauseDriver;
 $('#driverResume').onclick=resumeDriver;
 $('#driverPrev').onclick=()=>goTo(-1,true);
 $('#driverNext').onclick=()=>goTo(1,true);
-$('#driverReplay').onclick=replayCurrent;\n$('#memKnow').onclick=()=>markMemory('know');\n$('#memFuzzy').onclick=()=>markMemory('fuzzy');\n$('#memNo').onclick=()=>markMemory('no');\n$('#startTodayPlan').onclick=startTodayPlan;\n$('#completeTodayPlan').onclick=completeTodayPlan;
+$('#driverReplay').onclick=replayCurrent;
+$('#memKnow').onclick=()=>markMemory('know');
+$('#memFuzzy').onclick=()=>markMemory('fuzzy');
+$('#memNo').onclick=()=>markMemory('no');
+$('#startTodayPlan').onclick=startTodayPlan;
+$('#completeTodayPlan').onclick=completeTodayPlan;
 $('#driverWordToggle').onclick=()=>{driver.wordShown=!driver.wordShown;setDriverText('当前状态')};
 $('#driverMeaningToggle').onclick=()=>{driver.showMeaning=!driver.showMeaning;setDriverText('当前状态')};
 $('#meaningDisplayToggle').onclick=()=>{driver.showMeaning=!driver.showMeaning;$('#meaningDisplayToggle').classList.toggle('on',driver.showMeaning);setDriverText('当前状态')};
@@ -457,13 +493,15 @@ document.addEventListener('visibilitychange',()=>{
   if(document.hidden&&driver.on)updateMediaSession();
 });
 loadCards();
+ensureMemory();
 $('#courseCount').textContent=cards.length;
 $('#startDriver').disabled=true;
 $('#startFromBeginning').disabled=true;
 renderResume();
 renderList();
 bindMediaSession();
-loadCourseAudio();\nrenderPlan();
+loadCourseAudio();
+renderPlan();
 if(navigator.serviceWorker){navigator.serviceWorker.getRegistrations().then(rs=>Promise.all(rs.map(r=>r.unregister()))).catch(()=>{});if(window.caches)window.caches.keys().then(keys=>Promise.all(keys.map(k=>caches.delete(k)))).catch(()=>{});}
 </script>
 </body>
