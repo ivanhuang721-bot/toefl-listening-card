@@ -44,13 +44,13 @@ main{max-width:820px;margin:auto;padding:14px 12px 48px}
 <section class="hero">
   <h1>🎧 TOEFL 听力卡</h1>
   <p>现在只保留驾驶模式：单词 → 回忆 → 原句 → 下一词。适合只听、不看屏幕的复习。</p>
-  <div class="version">v16 · iPhone 语音播放优化 + 音频会话</div>
+  <div class="version">v17 · 原生音频课程 + 锁屏连续播放</div>
 </section>
 
 <section id="home">
   <div class="card">
     <div class="title">📚 9月15日早上｜Indian pangolin + Prepared piano</div>
-    <div class="sub">当前课程共 57 个听力生词。开始前设置一次，之后可以锁屏继续听。</div>
+    <div class="sub">当前课程共 <span id="courseCount">—</span> 个听力生词。开始前设置一次，之后可以锁屏继续听。</div>
     <div class="resumeBox">
       <b>🧠 上次进度</b>
       <div class="sub" id="resumeText">还没有开始记录</div>
@@ -58,7 +58,7 @@ main{max-width:820px;margin:auto;padding:14px 12px 48px}
     </div>
     <div class="row" style="margin-top:11px">
       <button class="btn orange" id="startDriver">🚗 开始驾驶模式</button>
-      <button class="btn secondary" id="startFromBeginning">🔁 从第一个开始</button><button class="btn secondary" id="testSound">🔊 测试手机声音</button>
+      <button class="btn secondary" id="startFromBeginning">🔁 从第一个开始</button>
     </div>
   </div>
 
@@ -66,15 +66,13 @@ main{max-width:820px;margin:auto;padding:14px 12px 48px}
     <div class="title">🚗 驾驶模式设置</div>
     <div class="setting"><div><b>中文意思显示</b><div class="sub">驾驶模式里显示当前单词的中文释义</div></div><button class="toggle on" id="meaningDisplayToggle"></button></div>
     <div class="setting"><div><b>原句播放</b><div class="sub">单词之后自动播放完整原句</div></div><button class="toggle on" id="sentenceToggle"></button></div>
-    <div class="setting"><div><b>中文释义播报</b><div class="sub">需要时在原句后自动播报中文意思</div></div><button class="toggle" id="meaningAudioToggle"></button></div>
-    <div class="setting"><div><b>单词速度</b></div><select id="driverSpeed"><option value="0.7">0.7×</option><option value="0.8" selected>0.8×</option><option value="0.9">0.9×</option><option value="1">1.0×</option></select></div>
-    <div class="setting"><div><b>句子速度</b></div><select id="sentenceSpeed"><option value="0.65">0.65×</option><option value="0.8" selected>0.8×</option><option value="0.9">0.9×</option><option value="1">1.0×</option></select></div>
-    <div class="setting"><div><b>回忆停顿</b><div class="sub">单词播放后，留给你回忆意思的时间</div></div><select id="recallGap"><option value="1200">1.2 秒</option><option value="2000" selected>2 秒</option><option value="3000">3 秒</option><option value="4000">4 秒</option><option value="5000">5 秒</option></select></div>
+    <div class="setting"><div><b>播放速度</b><div class="sub">单词和原句一起跟随该速度播放</div></div><select id="driverSpeed"><option value="0.75">0.75×</option><option value="0.8" selected>0.8×</option><option value="0.9">0.9×</option><option value="1">1.0×</option><option value="1.1">1.1×</option></select></div>
+    <div class="setting"><div><b>固定回忆停顿</b><div class="sub">每个单词后约 2 秒，再播放原句</div></div><span class="sub">2.0 秒</span></div>
   </div>
 
   <div class="card">
     <div class="title">🔒 锁屏播放</div>
-    <div class="sub">开始驾驶模式后，音频由同一个播放器连续播放，并启用系统媒体控制。锁屏后可以继续听；耳机/锁屏媒体控制也支持上一词、下一词、暂停和继续。</div>
+    <div class="sub">开始驾驶模式后，整个课程使用一个连续的原生音频文件播放：单词 → 2秒回忆 → 原句 → 下一词。锁屏后继续播放，耳机/锁屏媒体控制支持上一词、下一词、暂停和继续。</div>
   </div>
 
   <div class="card">
@@ -103,7 +101,7 @@ main{max-width:820px;margin:auto;padding:14px 12px 48px}
   <div class="driverWord" id="dWord"></div>
   <div class="driverMeaning" id="dMeaning"></div>
   <div class="driverSentence" id="dSentence"></div>
-  <div class="driverHint" id="dHint"></div><div id="audioIssue" class="driverHint hidden" style="color:#fecaca;margin-top:6px">🔇 手机音频没有启动：请点“启动声音”</div>
+  <div class="driverHint" id="dHint"></div>
 
   <div class="driverControls">
     <div class="controlGrid">
@@ -112,11 +110,11 @@ main{max-width:820px;margin:auto;padding:14px 12px 48px}
       <button id="driverNext" style="background:#334155;color:#fff">下一个 →</button>
     </div>
     <div class="controlSecondary">
-      <button id="driverReplay">🔁 重播当前</button>
+      <button id="driverReplay">🔁 重播当前词</button>
       <button id="driverResume" class="hidden" style="background:#176b3a">▶️ 继续</button>
     </div>
     <button class="bigStop" id="driverStop">停止驾驶模式</button>
-    <button class="bigStop" id="driverSound" style="background:#176b3a;margin-top:8px">🔊 启动声音</button>
+    
     <div class="safe">请勿边骑车/驾驶边看屏幕。出发前点击开始即可。</div>
   </div>
 </div>
@@ -132,189 +130,42 @@ const $=id=>document.querySelector(id);
 const esc=x=>String(x).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
 const audio=$('#driverAudio');
 try{if(navigator.audioSession)navigator.audioSession.type='playback';}catch(e){}
+let courseMeta={starts:[],duration:0},audioReady=false;
 
-function sentenceFor(t,w){
-  const parts=t.match(/[^.!?]+[.!?]+|[^.!?]+$/g)||[];
-  return (parts.find(x=>x.toLowerCase().includes(w.toLowerCase()))||'').trim();
-}
-function makeCards(){
-  cards=WORDS.map(w=>({
-    word:w,
-    sentence:sentenceFor(TEXT,w),
-    contextMeaning:MEANINGS[w]||'中文解释待补充',
-    level:'',
-    ok:0,
-    hard:false
-  }));
-  saveCards();
-}
-function saveCards(){localStorage.setItem('cardsFinal',JSON.stringify(cards))}
-function loadCards(){
-  let s=null;
-  try{s=JSON.parse(localStorage.getItem('cardsFinal')||'null')}catch(e){}
-  if(s&&s.length===WORDS.length)cards=s; else makeCards();
-  try{
-    const p=JSON.parse(localStorage.getItem('listeningProgress')||'{}');
-    if(Number.isInteger(p.idx)&&p.idx>=0&&p.idx<WORDS.length)idx=p.idx;
-  }catch(e){}
-}
 function saveProgress(){localStorage.setItem('listeningProgress',JSON.stringify({idx,updatedAt:Date.now()}))}
-function renderResume(){
-  let p={};
-  try{p=JSON.parse(localStorage.getItem('listeningProgress')||'{}')}catch(e){}
-  const b=$('#resumeBtn');
-  if(Number.isInteger(p.idx)){
-    $('#resumeText').textContent='上次听到：第 '+(p.idx+1)+' / '+WORDS.length+' 个';
-    b.classList.remove('hidden');
-  }else{
-    $('#resumeText').textContent='还没有开始记录';
-    b.classList.add('hidden');
+function audioIndexAtTime(t){
+  const starts=courseMeta.starts||[];
+  if(!starts.length)return idx;
+  let lo=0,hi=starts.length-1;
+  while(lo<=hi){
+    const mid=Math.floor((lo+hi)/2);
+    if(starts[mid]<=t)lo=mid+1;else hi=mid-1;
   }
-}
-function isIOSDevice(){
-  return /iPhone|iPad|iPod/i.test(navigator.userAgent||'') || (navigator.platform==='MacIntel' && navigator.maxTouchPoints>1);
-}
-function getSpeechVoice(lang){
-  const voices=speechSynthesis.getVoices();
-  return voices.find(v=>v.lang===lang)||voices.find(v=>v.lang&&v.lang.toLowerCase().startsWith(lang.split('-')[0].toLowerCase()))||null;
-}
-function waitForVoices(){
-  return new Promise(resolve=>{
-    const v=speechSynthesis.getVoices();
-    if(v.length)return resolve(v);
-    let done=false;
-    const finish=()=>{if(done)return;done=true;resolve(speechSynthesis.getVoices())};
-    speechSynthesis.addEventListener('voiceschanged',finish,{once:true});
-    setTimeout(finish,800);
-  });
-}
-function speakIOS(t,rate,lang='en-US'){
-  return new Promise(async resolve=>{
-    if(!t)return resolve(true);
-    await waitForVoices();
-    speechSynthesis.cancel();
-    const u=new SpeechSynthesisUtterance(t);
-    u.lang=lang;
-    u.rate=Math.max(0.6,Math.min(1.2,Number(rate)||1));
-    const v=getSpeechVoice(lang);
-    if(v)u.voice=v;
-    u.onend=()=>resolve(true);
-    u.onerror=()=>resolve(false);
-    speechSynthesis.speak(u);
-  });
-}
-function audioUrl(t,lang='en-US'){
-  return 'https://translate.google.com/translate_tts?client=tw-ob&ie=UTF-8&tl='+encodeURIComponent(lang)+'&q='+encodeURIComponent(t);
-}
-function speakFallback(t,rate,lang){
-  return new Promise(resolve=>{
-    const u=new SpeechSynthesisUtterance(t);
-    u.lang=lang;u.rate=rate;u.onend=resolve;u.onerror=resolve;
-    speechSynthesis.speak(u);
-  });
-}
-function playAudioText(t,rate,lang='en-US',token=driver.token){
-  return new Promise(async resolve=>{
-    if(token!==driver.token||!driver.on)return resolve(false);
-    if(isIOSDevice()){
-      const ok=await speakIOS(t,rate,lang);
-      if(!ok) $('#audioIssue').classList.remove('hidden');
-      resolve(ok);
-      return;
-    }
-    let finished=false;
-    const finish=()=>{if(finished)return;finished=true;resolve(true)};
-    audio.onended=finish;
-    audio.onerror=async()=>{
-      if(finished)return;
-      finished=true;
-      try{await speakFallback(t,rate,lang)}catch(e){}
-      resolve(true);
-    };
-    audio.playbackRate=Math.max(.5,Math.min(1.5,Number(rate)||1));
-    audio.src=audioUrl(t,lang);
-    try{await audio.play();}catch(e){audio.onerror();}
-  });
-}
-function silentWavUrl(seconds){
-  seconds=Math.max(.2,Number(seconds)||1);
-  const sampleRate=8000, samples=Math.floor(sampleRate*seconds), dataLen=samples*2, buf=new ArrayBuffer(44+dataLen), v=new DataView(buf);
-  const w=(o,s)=>{for(let i=0;i<s.length;i++)v.setUint8(o+i,s.charCodeAt(i))};
-  w(0,'RIFF');v.setUint32(4,36+dataLen,true);w(8,'WAVE');w(12,'fmt ');v.setUint32(16,16,true);v.setUint16(20,1,true);v.setUint16(22,1,true);v.setUint32(24,sampleRate,true);v.setUint32(28,sampleRate*2,true);v.setUint16(32,2,true);v.setUint16(34,16,true);w(36,'data');v.setUint32(40,dataLen,true);
-  return URL.createObjectURL(new Blob([buf],{type:'audio/wav'}));
-}
-async function playRecallSilence(seconds,token){
-  return new Promise(async resolve=>{
-    if(token!==driver.token||!driver.on)return resolve(false);
-    let finished=false;
-    const url=silentWavUrl(seconds);
-    const clean=()=>{URL.revokeObjectURL(url);};
-    const finish=()=>{if(finished)return;finished=true;clean();resolve(true)};
-    audio.onended=finish;
-    audio.onerror=finish;
-    audio.playbackRate=1;
-    audio.src=url;
-    audio.load();
-    try{await audio.play();}catch(e){finish();}
-  });
-}
-function primeIOSAudio(){
-  try{
-    const url=silentWavUrl(0.12);
-    audio.muted=false;
-    audio.volume=0;
-    audio.src=url;
-    const p=audio.play();
-    if(p&&p.then){
-      p.then(()=>{
-        audio.volume=1;
-        setTimeout(()=>{
-          try{audio.pause();audio.currentTime=0;}catch(e){}
-          try{URL.revokeObjectURL(url);}catch(e){}
-        },160);
-      }).catch(()=>{
-        audio.volume=1;
-        try{URL.revokeObjectURL(url);}catch(e){}
-      });
-    }
-    return p||Promise.resolve();
-  }catch(e){return Promise.resolve();}
-}
-async function verifyAudioStart(){
-  try{
-    if(audio.src){
-      await audio.play();
-      $('#audioIssue').classList.add('hidden');
-      return true;
-    }
-  }catch(e){}
-  $('#audioIssue').classList.remove('hidden');
-  return false;
+  return Math.max(0,Math.min(starts.length-1,hi));
 }
 function updateMediaSession(){
   try{
-    if(!('mediaSession' in navigator))return;
-    const c=cards[idx];
+    if(!('mediaSession' in navigator)||!cards[idx])return;
     navigator.mediaSession.metadata=new MediaMetadata({
-      title:c.word,
-      artist:driver.showMeaning?c.contextMeaning:'TOEFL 听力卡',
-      album:'TOEFL 驾驶模式'
+      title:cards[idx].word,
+      artist:'TOEFL 听力卡',
+      album:driver.showMeaning?cards[idx].contextMeaning:'驾驶模式'
     });
-    navigator.mediaSession.playbackState=driver.paused?'paused':'playing';
+    navigator.mediaSession.playbackState=audio.paused?'paused':'playing';
   }catch(e){}
 }
 function bindMediaSession(){
   if(!('mediaSession' in navigator))return;
-  const run=(name,fn)=>{
-    try{navigator.mediaSession.setActionHandler(name,fn)}catch(e){}
-  };
-  run('previoustrack',()=>goTo(-1,true));
-  run('nexttrack',()=>goTo(1,true));
-  run('pause',()=>pauseDriver());
-  run('play',()=>resumeDriver());
+  const set=(name,fn)=>{try{navigator.mediaSession.setActionHandler(name,fn)}catch(e){}};
+  set('previoustrack',()=>goTo(-1,true));
+  set('nexttrack',()=>goTo(1,true));
+  set('pause',()=>pauseDriver());
+  set('play',()=>resumeDriver());
+  set('seekbackward',()=>goTo(-1,true));
+  set('seekforward',()=>goTo(1,true));
 }
 function setDriverText(status){
-  const c=cards[idx];
+  const c=cards[idx];if(!c)return;
   $('#dCount').textContent='第 '+(idx+1)+' / '+cards.length;
   $('#dStatus').textContent=status;
   $('#dWord').textContent=c.word;
@@ -325,108 +176,120 @@ function setDriverText(status){
   $('#dSentence').classList.toggle('hidden',!driver.sentence);
   $('#driverWordToggle').textContent=driver.wordShown?'🙈 隐藏单词':'👁 单词';
   $('#driverMeaningToggle').textContent=driver.showMeaning?'🙈 隐藏释义':'🇨🇳 释义';
-  $('#dHint').textContent=driver.stage==='recall'?'🧠 回忆这个词的中文意思':'';
   updateMediaSession();
 }
-async function playCurrent(token){
-  if(token!==driver.token||!driver.on)return;
-  const c=cards[idx];
-  driver.stage='word';
-  setDriverText('🔊 播放单词');
-  await playAudioText(c.word,Number($('#driverSpeed').value),'en-US',token);
-  if(token!==driver.token||!driver.on)return;
-
-  driver.stage='recall';
-  setDriverText('🧠 回忆意思…');
-  await playRecallSilence(Number($('#recallGap').value)/1000,token);
-  if(token!==driver.token||!driver.on)return;
-
-  if(driver.sentence){
-    driver.stage='sentence';
-    setDriverText('🎧 播放原句');
-    await playAudioText(c.sentence,Number($('#sentenceSpeed').value),'en-US',token);
-    if(token!==driver.token||!driver.on)return;
+function syncIndexFromTime(){
+  if(!audioReady||!courseMeta.starts.length)return;
+  const next=audioIndexAtTime(audio.currentTime);
+  if(next!==idx){
+    idx=next;
+    cards[idx].ok=1;
+    saveCards();saveProgress();
+    setDriverText(driver.paused?'⏸ 已暂停':'🎧 正在播放');
+  }else if(driver.on){
+    setDriverText(driver.paused?'⏸ 已暂停':'🎧 正在播放');
   }
-  if(driver.meaningAudio){
-    driver.stage='meaning';
-    setDriverText('🇨🇳 播放中文释义');
-    await playAudioText(c.contextMeaning,1,'zh-CN',token);
-    if(token!==driver.token||!driver.on)return;
+}
+function setPlaybackRate(){audio.playbackRate=Number($('#driverSpeed').value)||0.8}
+async function loadCourseAudio(){
+  try{
+    const meta=await fetch('./audio/course.meta.json?v=17',{cache:'no-store'}).then(r=>r.json());
+    if(!meta||!Array.isArray(meta.starts)||meta.starts.length!==cards.length)throw new Error('audio metadata mismatch');
+    courseMeta=meta;
+    audio.src='./audio/course.mp3?v=17';
+    audio.preload='auto';
+    audioReady=true;
+    $('#courseCount').textContent=cards.length;
+    $('#startDriver').disabled=false;
+    $('#startFromBeginning').disabled=false;
+    renderResume();
+  }catch(e){
+    $('#courseCount').textContent=cards.length;
+    $('#dStatus').textContent='音频文件还在生成，请稍后刷新页面';
   }
-
-  cards[idx].ok=1;
-  saveCards();
-  idx=(idx+1)%cards.length;
-  saveProgress();
-  renderResume();
-  await new Promise(r=>setTimeout(r,300));
-  if(token===driver.token&&driver.on)playCurrent(token);
 }
 function openDriver(startIndex=idx){
+  if(!audioReady){
+    alert('课程音频还没有准备好，请稍后刷新页面。');
+    return;
+  }
   try{if(navigator.audioSession)navigator.audioSession.type='playback';}catch(e){}
-  primeIOSAudio();
-  $('#audioIssue').classList.add('hidden');
   idx=((startIndex%cards.length)+cards.length)%cards.length;
   saveProgress();
-  driver.on=true;driver.paused=false;driver.token++;driver.wordShown=true;
+  driver.on=true;driver.paused=false;driver.token++;
+  driver.wordShown=true;
   $('#driver').classList.remove('hidden');
   $('#driverPause').classList.remove('hidden');
   $('#driverResume').classList.add('hidden');
+  setPlaybackRate();
+  audio.currentTime=courseMeta.starts[idx]||0;
+  setDriverText('▶️ 开始播放');
   bindMediaSession();
-  setDriverText('准备开始');
-  playCurrent(driver.token);
+  const p=audio.play();
+  if(p&&p.catch)p.catch(()=>$('#dStatus').textContent='请点“继续”开始声音播放');
+  updateMediaSession();
 }
 function stopDriver(){
   driver.on=false;driver.paused=false;driver.token++;
-  speechSynthesis.cancel();
   audio.pause();
-  audio.removeAttribute('src');
   $('#driver').classList.add('hidden');
   try{if('mediaSession' in navigator)navigator.mediaSession.playbackState='none'}catch(e){}
 }
 function pauseDriver(){
   if(!driver.on)return;
-  driver.paused=true;
-  audio.pause();
-  speechSynthesis.pause();
-  $('#driverPause').classList.add('hidden');
-  $('#driverResume').classList.remove('hidden');
-  $('#dStatus').textContent='⏸ 已暂停';
+  driver.paused=true;audio.pause();
+  $('#driverPause').classList.add('hidden');$('#driverResume').classList.remove('hidden');
+  setDriverText('⏸ 已暂停');
   try{if('mediaSession' in navigator)navigator.mediaSession.playbackState='paused'}catch(e){}
 }
 function resumeDriver(){
   if(!driver.on)return;
-  driver.paused=false;
-  $('#driverPause').classList.remove('hidden');
-  $('#driverResume').classList.add('hidden');
-  if(audio.src)audio.play().catch(()=>{});
-  speechSynthesis.resume();
-  setDriverText(driver.stage==='recall'?'🧠 继续回忆…':'▶️ 继续播放');
-  try{if('mediaSession' in navigator)navigator.mediaSession.playbackState='playing'}catch(e){}
+  driver.paused=false;setPlaybackRate();
+  const p=audio.play();if(p&&p.catch)p.catch(()=>{});
+  $('#driverPause').classList.remove('hidden');$('#driverResume').classList.add('hidden');
+  setDriverText('▶️ 继续播放');
+  updateMediaSession();
 }
 function goTo(delta,restart=true){
-  if(!cards.length)return;
-  driver.token++;
-  audio.pause();speechSynthesis.cancel();
+  if(!audioReady)return;
   idx=(idx+delta+cards.length)%cards.length;
-  saveProgress();renderResume();
-  if(driver.on){
+  saveProgress();setDriverText(driver.paused?'⏸ 已暂停':'🎧 正在播放');
+  if(driver.on&&restart){
+    setPlaybackRate();
+    audio.currentTime=courseMeta.starts[idx]||0;
+    const p=audio.play();if(p&&p.catch)p.catch(()=>{});
     driver.paused=false;
-    $('#driverPause').classList.remove('hidden');
-    $('#driverResume').classList.add('hidden');
-    if(restart)playCurrent(driver.token);
+    $('#driverPause').classList.remove('hidden');$('#driverResume').classList.add('hidden');
   }
 }
-function startManualAudio(){primeIOSAudio();setTimeout(()=>{if(driver.on)replayCurrent();},180)}
 function replayCurrent(){
-  if(!driver.on)return;
-  driver.token++;
-  audio.pause();speechSynthesis.cancel();
+  if(!driver.on||!audioReady)return;
+  setPlaybackRate();audio.currentTime=courseMeta.starts[idx]||0;
   driver.paused=false;
-  $('#driverPause').classList.remove('hidden');
-  $('#driverResume').classList.add('hidden');
-  playCurrent(driver.token);
+  $('#driverPause').classList.remove('hidden');$('#driverResume').classList.add('hidden');
+  const p=audio.play();if(p&&p.catch)p.catch(()=>{});
+  setDriverText('🔁 重播当前词');
 }
+function renderResume(){
+  let p={};try{p=JSON.parse(localStorage.getItem('listeningProgress')||'{}')}catch(e){}
+  const b=$('#resumeBtn');
+  if(Number.isInteger(p.idx)){
+    $('#resumeText').textContent='上次听到：第 '+(p.idx+1)+' / '+cards.length+' 个';
+    b.classList.remove('hidden');
+  }else{
+    $('#resumeText').textContent='还没有开始记录';
+    b.classList.add('hidden');
+  }
+}
+audio.addEventListener('timeupdate',syncIndexFromTime);
+audio.addEventListener('ended',()=>{
+  driver.paused=true;
+  $('#driverPause').classList.add('hidden');
+  $('#driverResume').classList.remove('hidden');
+  setDriverText('✅ 本轮课程播放完成');
+  try{if('mediaSession' in navigator)navigator.mediaSession.playbackState='paused'}catch(e){}
+});
+audio.addEventListener('loadedmetadata',()=>{if(courseMeta.starts.length)setPlaybackRate()});
 function renderList(){
   const q=($('#q').value||'').toLowerCase();
   const arr=cards.filter(c=>c.word.toLowerCase().includes(q)||c.sentence.toLowerCase().includes(q));
@@ -437,7 +300,6 @@ function renderList(){
   $('#list').querySelectorAll('button[data-idx]').forEach(b=>b.onclick=()=>openDriver(Number(b.dataset.idx)));
 }
 
-$('#testSound').onclick=async()=>{try{if(navigator.audioSession)navigator.audioSession.type='playback';}catch(e){};await speakIOS('Hello. This is a TOEFL listening test.',1,'en-US');};
 $('#startDriver').onclick=()=>openDriver(idx);
 $('#startFromBeginning').onclick=()=>openDriver(0);
 $('#resumeBtn').onclick=()=>openDriver(idx);
@@ -447,26 +309,24 @@ $('#driverResume').onclick=resumeDriver;
 $('#driverPrev').onclick=()=>goTo(-1,true);
 $('#driverNext').onclick=()=>goTo(1,true);
 $('#driverReplay').onclick=replayCurrent;
-$('#driverSound').onclick=startManualAudio;
-$('#driverSound').onclick=startManualAudio;
-$('#driverWordToggle').onclick=()=>{driver.wordShown=!driver.wordShown;setDriverText(driver.stage==='recall'?'🧠 回忆意思…':'当前状态')};
-$('#driverMeaningToggle').onclick=()=>{driver.showMeaning=!driver.showMeaning;setDriverText(driver.stage==='recall'?'🧠 回忆意思…':'当前状态')};
-$('#meaningDisplayToggle').onclick=()=>{driver.showMeaning=!driver.showMeaning;$('#meaningDisplayToggle').classList.toggle('on',driver.showMeaning);setDriverText(driver.stage==='recall'?'🧠 回忆意思…':'当前状态')};
+$('#driverWordToggle').onclick=()=>{driver.wordShown=!driver.wordShown;setDriverText('当前状态')};
+$('#driverMeaningToggle').onclick=()=>{driver.showMeaning=!driver.showMeaning;setDriverText('当前状态')};
+$('#meaningDisplayToggle').onclick=()=>{driver.showMeaning=!driver.showMeaning;$('#meaningDisplayToggle').classList.toggle('on',driver.showMeaning);setDriverText('当前状态')};
 $('#sentenceToggle').onclick=()=>{driver.sentence=!driver.sentence;$('#sentenceToggle').classList.toggle('on',driver.sentence)};
-$('#meaningAudioToggle').onclick=()=>{driver.meaningAudio=!driver.meaningAudio;$('#meaningAudioToggle').classList.toggle('on',driver.meaningAudio)};
 $('#q').oninput=renderList;
-
+$('#driverSpeed').onchange=setPlaybackRate;
 document.addEventListener('visibilitychange',()=>{
-  if(document.hidden&&driver.on){
-    try{if('mediaSession' in navigator)navigator.mediaSession.playbackState=driver.paused?'paused':'playing'}catch(e){}
-  }
+  if(document.hidden&&driver.on)updateMediaSession();
 });
-
 loadCards();
+$('#courseCount').textContent=cards.length;
+$('#startDriver').disabled=true;
+$('#startFromBeginning').disabled=true;
 renderResume();
 renderList();
 bindMediaSession();
-if(navigator.serviceWorker)navigator.serviceWorker.register('./sw.js?v=16').catch(()=>{});
+loadCourseAudio();
+if(navigator.serviceWorker)navigator.serviceWorker.register('./sw.js?v=17').catch(()=>{});
 </script>
 </body>
 </html>
