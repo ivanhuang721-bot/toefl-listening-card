@@ -357,6 +357,1162 @@
       "word": "profile",
       "sentence": "This prepared piano music really raised John Cage’s profile in the music world.",
       "meaning": "知名度；影响力"
+    },
+    {
+      "id": "060",
+      "word": "forensic science",
+      "meaning": "法医学",
+      "sentence": "Forensic science can help investigators identify evidence and reconstruct what happened at a crime scene.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "061",
+      "word": "enthusiastic",
+      "meaning": "热情的；热心的",
+      "sentence": "The students were enthusiastic about joining the new science seminar.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "062",
+      "word": "accommodations",
+      "meaning": "住宿；膳宿",
+      "sentence": "The university provides affordable accommodations for students attending the summer program.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "063",
+      "word": "restrictions",
+      "meaning": "限制；约束规定",
+      "sentence": "The park has strict restrictions on where visitors can camp.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "064",
+      "word": "seminar",
+      "meaning": "研讨会；专题讨论会",
+      "sentence": "Professor Lee is leading a seminar on the history of modern medicine.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "065",
+      "word": "extra credit",
+      "meaning": "额外学分",
+      "sentence": "The professor offered extra credit to students who attended the optional lecture.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "066",
+      "word": "sport complex",
+      "meaning": "体育中心",
+      "sentence": "The new sport complex includes several basketball courts and a swimming pool.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "067",
+      "word": "conference",
+      "meaning": "会议；大会",
+      "sentence": "She presented her research at an international conference last month.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "068",
+      "word": "actionable",
+      "meaning": "可付诸行动的；可行的",
+      "sentence": "The survey provided several actionable suggestions for improving campus services.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "069",
+      "word": "rehearsal",
+      "meaning": "彩排；预演",
+      "sentence": "The actors stayed late for a rehearsal before the opening night.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "070",
+      "word": "absent from",
+      "meaning": "缺席……",
+      "sentence": "Several students were absent from class because of the severe weather.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "071",
+      "word": "frees up",
+      "meaning": "空出来；腾出（时间/空间）",
+      "sentence": "Using online forms frees up staff time for more important tasks.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "072",
+      "word": "concession stand",
+      "meaning": "小卖部；售货摊",
+      "sentence": "We bought drinks and popcorn at the concession stand before the game.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "073",
+      "word": "run out of sth",
+      "meaning": "用完；耗尽",
+      "sentence": "We ran out of water during the long hike.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "074",
+      "word": "quick peek",
+      "meaning": "快速瞥一眼；快速看一看",
+      "sentence": "I took a quick peek at the schedule before the meeting started.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "075",
+      "word": "kitchenware",
+      "meaning": "厨具",
+      "sentence": "The store sells affordable kitchenware for students living off campus.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "076",
+      "word": "informative",
+      "meaning": "信息丰富的；增长见闻的",
+      "sentence": "The museum tour was informative and helped us understand the local culture.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "077",
+      "word": "pushed back",
+      "meaning": "推迟（时间）",
+      "sentence": "The meeting was pushed back because the speaker's flight was delayed.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "078",
+      "word": "guest speaker",
+      "meaning": "特邀嘉宾；客座演讲人",
+      "sentence": "The biology class invited a guest speaker to discuss marine conservation.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "079",
+      "word": "how come",
+      "meaning": "为什么（口语）",
+      "sentence": "How come the library is closed so early today?",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "080",
+      "word": "amusement",
+      "meaning": "娱乐的",
+      "sentence": "The city is planning a new amusement area near the waterfront.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "081",
+      "word": "rides",
+      "meaning": "（游乐园）游乐设施；项目",
+      "sentence": "The amusement park has dozens of rides for visitors of all ages.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "082",
+      "word": "run out of",
+      "meaning": "用完；耗尽",
+      "sentence": "The restaurant ran out of fresh vegetables during the busy lunch period.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "083",
+      "word": "hired",
+      "meaning": "雇佣；hire 的过去式",
+      "sentence": "The park hired several students to help visitors during the summer.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "084",
+      "word": "vendor",
+      "meaning": "小贩；供应商",
+      "sentence": "A local vendor was selling handmade snacks near the entrance.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "085",
+      "word": "concessions",
+      "meaning": "（公园场馆）售卖小吃饮料的摊位",
+      "sentence": "The stadium concessions sell drinks, sandwiches, and snacks.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "086",
+      "word": "under new management",
+      "meaning": "换了新的管理团队",
+      "sentence": "The restaurant is under new management and has changed its menu.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "087",
+      "word": "get settled in",
+      "meaning": "安顿下来；适应新工作或环境",
+      "sentence": "It took me a few days to get settled in at my new apartment.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "088",
+      "word": "off to lunch",
+      "meaning": "去吃午饭",
+      "sentence": "We're off to lunch after we finish setting up the equipment.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "089",
+      "word": "tasty",
+      "meaning": "美味的",
+      "sentence": "The students found a small restaurant that served surprisingly tasty food.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "090",
+      "word": "left a lot to be desired",
+      "meaning": "有待改善；不尽人意",
+      "sentence": "The first version of the exhibit left a lot to be desired.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "091",
+      "word": "award",
+      "meaning": "奖项；奖品",
+      "sentence": "The university gave her an award for outstanding research.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "092",
+      "word": "auditorium",
+      "meaning": "礼堂；报告厅",
+      "sentence": "The ceremony will take place in the main auditorium at noon.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "093",
+      "word": "honoring recipients",
+      "meaning": "表彰获奖者",
+      "sentence": "The university held a ceremony honoring recipients of this year's scholarships.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "094",
+      "word": "excellence",
+      "meaning": "优秀；杰出",
+      "sentence": "The award recognizes excellence in teaching and research.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "095",
+      "word": "fellowship",
+      "meaning": "奖学金；学术奖金",
+      "sentence": "He received a fellowship that allowed him to study abroad.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "096",
+      "word": "reception",
+      "meaning": "招待会；欢迎会",
+      "sentence": "A small reception was held after the award ceremony.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "097",
+      "word": "afterward",
+      "meaning": "之后；随后",
+      "sentence": "We discussed the lecture afterward over coffee.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "098",
+      "word": "refreshments",
+      "meaning": "茶点；简餐；饮料",
+      "sentence": "Light refreshments will be served after the presentation.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "099",
+      "word": "field trip",
+      "meaning": "实地考察；户外研学",
+      "sentence": "Our class is going on a field trip to a nearby forest.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "100",
+      "word": "Nature Reserve",
+      "meaning": "自然保护区",
+      "sentence": "The students will visit a Nature Reserve to observe local birds.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "101",
+      "word": "experts",
+      "meaning": "专家",
+      "sentence": "Several experts will guide the students during the field trip.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "102",
+      "word": "ornithologist",
+      "meaning": "鸟类学家",
+      "sentence": "An ornithologist will explain how the reserve protects migratory birds.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "103",
+      "word": "botanist",
+      "meaning": "植物学家",
+      "sentence": "A botanist will introduce the students to several native plant species.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "104",
+      "word": "trails",
+      "meaning": "小径；步道",
+      "sentence": "The reserve has several trails that lead to the observation area.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "105",
+      "word": "climbers",
+      "meaning": "登山者",
+      "sentence": "The guide warned climbers to avoid the steep trail after heavy rain.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "106",
+      "word": "tide pool",
+      "meaning": "潮间带水坑；潮池",
+      "sentence": "The students examined small crabs and sea stars in a tide pool.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "107",
+      "word": "first ever",
+      "meaning": "有史以来第一次",
+      "sentence": "This was the school's first ever bowling tournament.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "108",
+      "word": "bowling tournament",
+      "meaning": "保龄球锦标赛",
+      "sentence": "The bowling tournament attracted students from several nearby colleges.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "109",
+      "word": "a pair",
+      "meaning": "一双",
+      "sentence": "You need a pair of bowling shoes before entering the lanes.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "110",
+      "word": "rent",
+      "meaning": "租用",
+      "sentence": "Visitors can rent bowling shoes at the front desk.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "111",
+      "word": "front desk",
+      "meaning": "前台",
+      "sentence": "Please return the equipment to the front desk when you finish.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "112",
+      "word": "waive",
+      "meaning": "免除（费用）",
+      "sentence": "The organizer agreed to waive the entry fee for students.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "113",
+      "word": "tricky",
+      "meaning": "难操作的；棘手的",
+      "sentence": "The registration system can be tricky for first-time users.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "114",
+      "word": "enter data",
+      "meaning": "录入数据",
+      "sentence": "Students were asked to enter data into the computer before the event.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "115",
+      "word": "press",
+      "meaning": "按下",
+      "sentence": "Press the green button to begin the registration process.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "116",
+      "word": "button",
+      "meaning": "按钮",
+      "sentence": "The red button will cancel the current selection.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "117",
+      "word": "assist",
+      "meaning": "协助；帮忙",
+      "sentence": "Staff members are available to assist visitors at the front desk.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "118",
+      "word": "revelation",
+      "meaning": "新发现；启示",
+      "sentence": "The discovery was a revelation that changed how scholars understood the city.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "119",
+      "word": "decline",
+      "meaning": "衰落；衰退",
+      "sentence": "The lecture focused on the decline of the Maya civilization.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "120",
+      "word": "impressive",
+      "meaning": "宏伟的；令人印象深刻的",
+      "sentence": "The ancient city's architecture was extremely impressive.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "121",
+      "word": "flourishing",
+      "meaning": "繁荣昌盛的",
+      "sentence": "At its peak, the city was a flourishing center of trade.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "122",
+      "word": "crumbled",
+      "meaning": "崩溃；衰败",
+      "sentence": "Many buildings crumbled after the population declined.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "123",
+      "word": "scholars",
+      "meaning": "学者",
+      "sentence": "Scholars have proposed several explanations for the civilization's decline.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "124",
+      "word": "debated",
+      "meaning": "争论；讨论",
+      "sentence": "Researchers debated whether climate change played a major role.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "125",
+      "word": "brought ... into the spotlight",
+      "meaning": "使……成为焦点",
+      "sentence": "The new evidence brought the effects of drought into the spotlight.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "126",
+      "word": "stalagmites",
+      "meaning": "石笋",
+      "sentence": "Scientists studied stalagmites in caves to learn about ancient rainfall.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "127",
+      "word": "geological",
+      "meaning": "地质的",
+      "sentence": "The professor explained how geological changes shaped the region.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "128",
+      "word": "precipitation",
+      "meaning": "降水量（雨、雪）",
+      "sentence": "The researchers used the cave record to estimate past precipitation.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "129",
+      "word": "former",
+      "meaning": "先前的；昔日的",
+      "sentence": "The former capital was once a major political center.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "130",
+      "word": "heartlands",
+      "meaning": "核心腹地",
+      "sentence": "The drought affected the agricultural heartlands most severely.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "131",
+      "word": "revealed",
+      "meaning": "揭示；显示",
+      "sentence": "The analysis revealed evidence of a prolonged dry period.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "132",
+      "word": "prolonged",
+      "meaning": "长期的；持久的",
+      "sentence": "A prolonged drought can place enormous pressure on farmers.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "133",
+      "word": "droughts",
+      "meaning": "干旱",
+      "sentence": "Severe droughts can reduce food production and damage ecosystems.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "134",
+      "word": "coincided with",
+      "meaning": "与……同时发生",
+      "sentence": "The period of political unrest coincided with several major droughts.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "135",
+      "word": "heavily dependent on",
+      "meaning": "高度依赖",
+      "sentence": "The ancient population was heavily dependent on agriculture.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "136",
+      "word": "agriculture",
+      "meaning": "农业",
+      "sentence": "Agriculture required a reliable supply of water.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "137",
+      "word": "scarcity",
+      "meaning": "短缺；匮乏",
+      "sentence": "Water scarcity can create serious problems for growing cities.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "138",
+      "word": "immense",
+      "meaning": "巨大的",
+      "sentence": "The civilization covered an immense area of the region.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "139",
+      "word": "societal",
+      "meaning": "社会的",
+      "sentence": "The drought may have caused major societal changes.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "140",
+      "word": "struggling",
+      "meaning": "艰难挣扎",
+      "sentence": "Communities were struggling to find enough water and food.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "141",
+      "word": "social unrest",
+      "meaning": "社会动荡",
+      "sentence": "Food shortages may have contributed to social unrest.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "142",
+      "word": "sole",
+      "meaning": "唯一的",
+      "sentence": "Climate was probably not the sole cause of the civilization's decline.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "143",
+      "word": "warfare",
+      "meaning": "战争；战事",
+      "sentence": "Some scholars believe warfare also weakened the region.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "144",
+      "word": "politics",
+      "meaning": "政治",
+      "sentence": "The lecture considered the relationship between climate and politics.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "145",
+      "word": "sheds light on",
+      "meaning": "阐明；帮助了解",
+      "sentence": "The cave evidence sheds light on environmental conditions in the past.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "146",
+      "word": "vulnerability",
+      "meaning": "脆弱性；易受伤害性",
+      "sentence": "The study shows the vulnerability of farming communities to drought.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "147",
+      "word": "depict",
+      "meaning": "描绘；刻画",
+      "sentence": "The paintings depict strange figures in unusual landscapes.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "148",
+      "word": "exists",
+      "meaning": "存在",
+      "sentence": "The artist questioned whether a single reality exists in the mind.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "149",
+      "word": "surrealism",
+      "meaning": "超现实主义",
+      "sentence": "The lecture introduced students to the history of surrealism.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "150",
+      "word": "combination",
+      "meaning": "结合；组合",
+      "sentence": "The painting uses a combination of realistic and dreamlike images.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "151",
+      "word": "as well as",
+      "meaning": "以及；同时",
+      "sentence": "The artist used color as well as unusual shapes to create tension.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "152",
+      "word": "dreamlike",
+      "meaning": "如梦一般的",
+      "sentence": "The scene has a dreamlike quality that makes it difficult to interpret.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "153",
+      "word": "adept",
+      "meaning": "擅长的；精通的",
+      "sentence": "She was adept at creating realistic details with simple tools.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "154",
+      "word": "stages",
+      "meaning": "阶段",
+      "sentence": "The artist went through several stages while developing the final painting.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "155",
+      "word": "latter",
+      "meaning": "后者的；后面的",
+      "sentence": "Of the two techniques, the latter is more closely associated with surrealism.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "156",
+      "word": "meticulous",
+      "meaning": "细致入微的",
+      "sentence": "The artist was meticulous about every small detail.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "157",
+      "word": "precise",
+      "meaning": "精准的",
+      "sentence": "He used precise lines to create a highly controlled image.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "158",
+      "word": "initial",
+      "meaning": "最初的；起始的",
+      "sentence": "The initial sketch looked very different from the finished work.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "159",
+      "word": "appeared",
+      "meaning": "出现",
+      "sentence": "A strange figure appeared in the background of the painting.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "160",
+      "word": "automatism",
+      "meaning": "自动创作法（艺术术语）",
+      "sentence": "Surrealist artists sometimes used automatism to create unexpected images.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "161",
+      "word": "noticeable",
+      "meaning": "明显的；显著的",
+      "sentence": "There was a noticeable change in the artist's style over time.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "162",
+      "word": "fully",
+      "meaning": "完全地",
+      "sentence": "The meaning of the painting may never be fully understood.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "163",
+      "word": "Presumably",
+      "meaning": "大概；据推测",
+      "sentence": "Presumably, the artist wanted viewers to question what they saw.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "164",
+      "word": "chicks",
+      "meaning": "雏鸟；小鸭",
+      "sentence": "The photographer spent the morning watching chicks follow their mother.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "165",
+      "word": "Sort of.",
+      "meaning": "算是吧（口语）",
+      "sentence": "“Did you enjoy the exhibition?” “Sort of.”",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "166",
+      "word": "wildlife",
+      "meaning": "野生动物",
+      "sentence": "The park is known for its diverse wildlife.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "167",
+      "word": "botanical gardens",
+      "meaning": "植物园",
+      "sentence": "The class met at the botanical gardens to study tropical plants.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "168",
+      "word": "seafood",
+      "meaning": "海鲜",
+      "sentence": "The restaurant is famous for its fresh seafood.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "169",
+      "word": "waterfront",
+      "meaning": "滨水区域；水边",
+      "sentence": "The city has built a walking path along the waterfront.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "170",
+      "word": "spectacular",
+      "meaning": "壮观的；景色惊艳的",
+      "sentence": "The view from the hill was spectacular at sunset.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "171",
+      "word": "scenery",
+      "meaning": "风景",
+      "sentence": "The train route is famous for its mountain scenery.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "172",
+      "word": "packed",
+      "meaning": "挤满人的",
+      "sentence": "The waterfront was packed with visitors on the holiday.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "173",
+      "word": "reservation",
+      "meaning": "预约；预订",
+      "sentence": "We made a reservation at a popular restaurant near campus.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "174",
+      "word": "collect",
+      "meaning": "收集",
+      "sentence": "The research team will collect data from several locations.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "175",
+      "word": "familiar",
+      "meaning": "熟悉的",
+      "sentence": "The map looked familiar because she had used it before.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "176",
+      "word": "navigation",
+      "meaning": "导航",
+      "sentence": "The device provides navigation information for drivers.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "177",
+      "word": "positioning",
+      "meaning": "定位",
+      "sentence": "Satellite positioning makes it possible to track a vehicle accurately.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "178",
+      "word": "hardware",
+      "meaning": "硬件",
+      "sentence": "The new software requires more powerful computer hardware.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "179",
+      "word": "satellite",
+      "meaning": "卫星",
+      "sentence": "The system receives information from a network of satellites.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "180",
+      "word": "directions",
+      "meaning": "路线；指引",
+      "sentence": "The app gave us clear directions to the restaurant.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "181",
+      "word": "trucking company",
+      "meaning": "货运卡车公司",
+      "sentence": "The trucking company uses GPS to monitor its vehicles.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "182",
+      "word": "delivering",
+      "meaning": "运送",
+      "sentence": "The company is delivering supplies to several remote towns.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "183",
+      "word": "track",
+      "meaning": "追踪",
+      "sentence": "The system can track a truck as it moves across the country.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "184",
+      "word": "headed",
+      "meaning": "前往；去往",
+      "sentence": "The truck was headed to a distribution center near the coast.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "185",
+      "word": "traffic patterns",
+      "meaning": "交通模式",
+      "sentence": "The researchers analyzed traffic patterns during rush hour.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "186",
+      "word": "elevation",
+      "meaning": "海拔；高程",
+      "sentence": "The map shows the elevation of each point along the trail.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "187",
+      "word": "shipping routes",
+      "meaning": "货运；海运线路",
+      "sentence": "Changes in weather can affect major shipping routes.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "188",
+      "word": "interactions",
+      "meaning": "相互作用",
+      "sentence": "The study examined interactions between plants, soil, and insects.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "189",
+      "word": "fertilizer",
+      "meaning": "化肥",
+      "sentence": "Farmers use fertilizer to improve crop growth.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "190",
+      "word": "rainfall",
+      "meaning": "降雨",
+      "sentence": "The amount of rainfall varies greatly from one region to another.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "191",
+      "word": "wind up",
+      "meaning": "最终（造成某种结果）",
+      "sentence": "Poor planning can wind up causing serious delays.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "192",
+      "word": "sites",
+      "meaning": "地点；遗址",
+      "sentence": "The researchers visited several archaeological sites.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "193",
+      "word": "historic districts",
+      "meaning": "历史街区",
+      "sentence": "Tourists often visit the city's historic districts.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "194",
+      "word": "assess",
+      "meaning": "评估",
+      "sentence": "Scientists need to assess the environmental impact of the project.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "195",
+      "word": "conservation",
+      "meaning": "保护",
+      "sentence": "The project focuses on wildlife conservation and habitat restoration.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "196",
+      "word": "turns out",
+      "meaning": "结果是",
+      "sentence": "It turns out that the restaurant changes its menu every season.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "197",
+      "word": "dine",
+      "meaning": "用餐；进餐",
+      "sentence": "Many people prefer to dine outside when the weather is pleasant.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "198",
+      "word": "culinary",
+      "meaning": "烹饪的；饮食的",
+      "sentence": "The course explores the culinary traditions of different regions.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "199",
+      "word": "demonstrated",
+      "meaning": "证明；展示",
+      "sentence": "The experiment demonstrated how music can influence people's choices.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "200",
+      "word": "rapid tempo",
+      "meaning": "快节奏",
+      "sentence": "A rapid tempo can make a meal feel more energetic.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "201",
+      "word": "tunes",
+      "meaning": "曲调；乐曲",
+      "sentence": "The restaurant played familiar tunes during dinner.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "202",
+      "word": "savor",
+      "meaning": "细细品尝",
+      "sentence": "The chef encouraged guests to savor each bite.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "203",
+      "word": "perception",
+      "meaning": "感知；感受",
+      "sentence": "Music can change our perception of how food tastes.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "204",
+      "word": "high pitched",
+      "meaning": "高音调的",
+      "sentence": "High pitched sounds may make certain flavors seem stronger.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "205",
+      "word": "accentuate",
+      "meaning": "凸显；使更明显",
+      "sentence": "The background music can accentuate the freshness of the dish.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "206",
+      "word": "bitterness",
+      "meaning": "苦味",
+      "sentence": "The researchers found that certain sounds increased the perception of bitterness.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "207",
+      "word": "take note of",
+      "meaning": "留意；重视",
+      "sentence": "Diners should take note of how the music changes their experience.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "208",
+      "word": "curating",
+      "meaning": "精心挑选（歌单）",
+      "sentence": "The restaurant manager spends time curating playlists for different meals.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "209",
+      "word": "patron",
+      "meaning": "顾客；食客",
+      "sentence": "One patron said the music made the dining experience more enjoyable.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "210",
+      "word": "auditory seasoning",
+      "meaning": "听觉调味（文中术语）",
+      "sentence": "The researchers described background music as a form of auditory seasoning.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "211",
+      "word": "ambiance",
+      "meaning": "氛围；环境",
+      "sentence": "Soft music can create a relaxing ambiance in a restaurant.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "212",
+      "word": "manipulation",
+      "meaning": "操控",
+      "sentence": "The study examined the manipulation of sound to influence diners.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "213",
+      "word": "detract from",
+      "meaning": "有损于；降低",
+      "sentence": "Excessive background noise can detract from the quality of a meal.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "214",
+      "word": "authenticity",
+      "meaning": "真实性",
+      "sentence": "Some diners care deeply about the authenticity of traditional dishes.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "215",
+      "word": "diners",
+      "meaning": "用餐者",
+      "sentence": "The study observed how diners reacted to different types of music.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "216",
+      "word": "susceptible",
+      "meaning": "易受影响的",
+      "sentence": "Some people are more susceptible to environmental influences when eating.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "217",
+      "word": "overeating",
+      "meaning": "暴饮暴食",
+      "sentence": "Researchers are studying whether loud music encourages overeating.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "218",
+      "word": "misjudging",
+      "meaning": "误判",
+      "sentence": "People may end up misjudging how much they have eaten.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "219",
+      "word": "experimented",
+      "meaning": "做实验",
+      "sentence": "The researchers experimented with different playlists in the restaurant.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "220",
+      "word": "soundscapes",
+      "meaning": "声景",
+      "sentence": "The project explores how different soundscapes affect the dining environment.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "221",
+      "word": "rated",
+      "meaning": "评价；打分",
+      "sentence": "Participants rated the meals after listening to each playlist.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "222",
+      "word": "favorably",
+      "meaning": "好评地；有利地",
+      "sentence": "The new menu was rated favorably by most diners.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "223",
+      "word": "feeling as if they were right by the sea",
+      "meaning": "感觉仿佛就在海边",
+      "sentence": "The researchers created a soundscape that gave diners the feeling as if they were right by the sea.",
+      "batch": "2026-09-19"
+    },
+    {
+      "id": "224",
+      "word": "genuine",
+      "meaning": "真实的",
+      "sentence": "The restaurant tried to create a genuine sense of being on the coast.",
+      "batch": "2026-09-19"
     }
-  ]
+  ],
+  "updated_at": "2026-09-19"
 }
