@@ -79,7 +79,7 @@ main{max-width:820px;margin:auto;padding:14px 12px 48px}
 <section class="hero">
   <h1>🎧 TOEFL 听力卡</h1>
   <p>现在只保留驾驶模式：单词 → 回忆 → 原句 → 下一词。适合只听、不看屏幕的复习。</p>
-  <div class="version">v28 · 记忆练习最终修复</div>
+  <div class="version">v29 · 当日强化 + 间隔重复</div>
 </section>
 
 <section id="home">
@@ -99,7 +99,7 @@ main{max-width:820px;margin:auto;padding:14px 12px 48px}
 
   <div class="card">
     <div class="title">📅 今日记忆计划</div>
-    <div class="sub">新增词今天先学一次；之后按记忆结果自动安排下一次复习。你只需要每天完成这里的任务。当前课程中的 59 个单词会进入记忆库；新导入的单词也会自动加入。</div>
+    <div class="sub">新增词今天先学一次；“模糊”会在约 3 小时后再次强化，“不会”会在约 30 分钟后再次强化，然后再进入明天及之后的间隔复习。你也可以随时点击“强化薄弱词”。</div>
     <div class="planStats">
       <div class="planStat"><b id="newCount">0</b><span>今日新词</span></div>
       <div class="planStat"><b id="dueCount">0</b><span>今日待复习</span></div>
@@ -109,8 +109,9 @@ main{max-width:820px;margin:auto;padding:14px 12px 48px}
     <div class="sub" id="planText">正在计算今日计划…</div>
     <div class="row" style="margin-top:11px">
       <button class="btn orange" id="startTodayPlan">📅 开始今日复习</button>
-      
+      <button class="btn secondary" id="startWeakPlan">🔥 强化薄弱词</button>
     </div>
+    <div class="sub" id="reinforceText" style="margin-top:9px"></div>
   </div>
 
   <div class="card">
@@ -252,10 +253,59 @@ function ensureMemory(){
   state.updatedAt=Date.now();
   saveMemory(state);
 }
-function getDueIndices(){const state=loadMemory(),today=todayKey();return cards.map((c,i)=>({i,r:state.cards?.[c.word]})).filter(x=>x.r&&x.r.nextDate<=today).map(x=>x.i)}
-function renderPlan(){const state=loadMemory(),today=todayKey(),due=getDueIndices();let n=0;cards.forEach(c=>{const r=state.cards?.[c.word];if(r&&r.firstDate===today&&r.seenCount===0)n++});$('#newCount').textContent=n;$('#dueCount').textContent=due.length;$('#planTotal').textContent=due.length;const done=due.length===0;$('#planText').innerHTML=done?'<span class="planDone">🎉 今日复习已经完成。</span>':'今天还有 '+due.length+' 个词需要完成记忆练习。';$('#planProgressBar').style.width=done?'100%':'0%';$('#startTodayPlan').textContent=done?'✅ 今日已完成':'🧠 开始记忆练习';}
-function scheduleMemory(i,status){const state=loadMemory(),c=cards[i],today=todayKey();const r=state.cards[c.word]||{firstDate:today,stage:0,seenCount:0};r.lastReviewed=today;r.seenCount=(r.seenCount||0)+1;r.status=status;if(status==='know'){const gaps=[1,2,4,7,14,30];r.stage=Math.min((r.stage||0)+1,5);r.nextDate=addDaysKey(today,gaps[r.stage-1])}else if(status==='fuzzy'){r.nextDate=addDaysKey(today,1)}else{r.stage=0;r.nextDate=addDaysKey(today,1)}state.cards[c.word]=r;state.updatedAt=Date.now();saveMemory(state);c.ok=1;saveCards();renderPlan()}
-function startTodayPlan(){const due=getDueIndices();if(!due.length){renderPlan();alert('今天的记忆练习已经完成。');return}memory.queue=due;memory.queuePos=0;openPractice(due[0])}
+function getDueIndices(){
+  const state=loadMemory(),today=todayKey(),now=Date.now();
+  return cards.map((c,i)=>({i,r:state.cards?.[c.word]}))
+    .filter(x=>x.r&&(x.r.nextDate<=today||(x.r.reinforceAt&&x.r.reinforceAt<=now)))
+    .map(x=>x.i);
+}
+function getWeakIndices(){
+  const state=loadMemory();
+  return cards.map((c,i)=>({i,r:state.cards?.[c.word]}))
+    .filter(x=>x.r&&(x.r.status==='fuzzy'||x.r.status==='no'))
+    .map(x=>x.i);
+}
+function renderPlan(){
+  const state=loadMemory(),today=todayKey(),due=getDueIndices();let n=0;
+  cards.forEach(c=>{const r=state.cards?.[c.word];if(r&&r.firstDate===today&&r.seenCount===0)n++});
+  const weak=getWeakIndices();
+  const dueNow=cards.filter(c=>{const r=state.cards?.[c.word];return r&&r.reinforceAt&&r.reinforceAt<=Date.now()}).length;
+  $('#newCount').textContent=n;$('#dueCount').textContent=due.length;$('#planTotal').textContent=due.length;
+  const done=due.length===0;
+  $('#planText').innerHTML=done?'<span class="planDone">🎉 当前没有到点的复习任务。</span>':'今天还有 '+due.length+' 个词需要完成记忆练习。';
+  $('#planProgressBar').style.width=done?'100%':'0%';
+  $('#startTodayPlan').textContent=done?'🔁 检查今日任务':'🧠 开始记忆练习';
+  $('#startWeakPlan').disabled=!weak.length;
+  $('#reinforceText').textContent=dueNow?'🔥 现在有 '+dueNow+' 个薄弱词可以再次强化。':'薄弱词会在今天继续安排强化，不需要等到明天。';
+}
+function scheduleMemory(i,status){
+  const state=loadMemory(),c=cards[i],today=todayKey();
+  const r=state.cards[c.word]||{firstDate:today,stage:0,seenCount:0};
+  r.lastReviewed=today;r.seenCount=(r.seenCount||0)+1;r.status=status;
+  if(status==='know'){
+    const gaps=[1,2,4,7,14,30];
+    r.stage=Math.min((r.stage||0)+1,5);
+    r.nextDate=addDaysKey(today,gaps[r.stage-1]);
+    r.reinforceAt=null;
+  }else if(status==='fuzzy'){
+    r.nextDate=addDaysKey(today,1);
+    r.reinforceAt=Date.now()+3*60*60*1000;
+  }else{
+    r.stage=0;r.nextDate=addDaysKey(today,1);
+    r.reinforceAt=Date.now()+30*60*1000;
+  }
+  state.cards[c.word]=r;state.updatedAt=Date.now();saveMemory(state);c.ok=1;saveCards();renderPlan()
+}
+function startTodayPlan(){
+  const due=getDueIndices();
+  if(!due.length){renderPlan();alert('当前没有到点的记忆任务。薄弱词可以用“强化薄弱词”继续练习。');return}
+  memory.queue=due;memory.queuePos=0;openPractice(due[0])
+}
+function startWeakPlan(){
+  const weak=getWeakIndices();
+  if(!weak.length){renderPlan();alert('目前没有“模糊/不会”的薄弱词。');return}
+  memory.queue=weak;memory.queuePos=0;openPractice(weak[0],weak)
+}
 const practice={on:false,index:0,queue:[],pos:0,rated:new Set(),revealed:false,playing:false};
 function resetPracticeCard(){
   practice.revealed=practice.rated.has(practice.index);
@@ -267,8 +317,8 @@ function resetPracticeCard(){
   $('#practiceReviewNav').classList.toggle('hidden',practice.rated.size===0);
   $('#practiceComplete').classList.add('hidden');
 }
-function openPractice(startIndex){
-  const due=getDueIndices();
+function openPractice(startIndex,customQueue=null){
+  const due=customQueue||getDueIndices();
   if(!due.length){renderPlan();alert('今天没有待完成的记忆练习。');return;}
   practice.queue=due;
   practice.pos=Math.max(0,due.indexOf(startIndex));
@@ -543,6 +593,7 @@ $('#driverPrev').onclick=()=>goTo(-1,true);
 $('#driverNext').onclick=()=>goTo(1,true);
 $('#driverReplay').onclick=replayCurrent;
 $('#startTodayPlan').onclick=startTodayPlan;
+$('#startWeakPlan').onclick=startWeakPlan;
 $('#practiceExit').onclick=exitPractice;
 $('#practicePlay').onclick=practicePlay;
 $('#practiceKnow').onclick=()=>ratePractice('know');
