@@ -329,6 +329,34 @@ function ensureMemory(){
     }
   });
 
+  // v30 一次性处理“v28 已完成 59 词 → v29 被重置 → v30 只恢复出部分”的迁移场景。
+  // 该课程固定为 59 个词；如果已经出现至少 1 个 legacy 恢复词，同时其余词仍是全新的，
+  // 说明旧版完成状态被部分覆盖。按此前课程的已完成记录，将本课程其余词一并恢复为已完成。
+  const recoveredNow=Object.values(state.cards).filter(r=>r&&r.recoveredFromLegacy).length;
+  const newNow=cards.filter(c=>state.cards[c.word]&&state.cards[c.word].status==='new'&&(state.cards[c.word].seenCount||0)===0).length;
+  const migrationKey='toeflV28CompletionRecoveryDone';
+  let migrationDone=false;
+  try{migrationDone=localStorage.getItem(migrationKey)==='1'}catch(e){}
+  if(!migrationDone && cards.length===59 && recoveredNow>0 && newNow>=50){
+    cards.forEach(c=>{
+      const r=state.cards[c.word]||{};
+      state.cards[c.word]={
+        ...r,
+        firstDate:r.firstDate||today,
+        lastReviewed:r.lastReviewed||today,
+        status:'know',
+        stage:Math.max(Number(r.stage)||0,1),
+        seenCount:Math.max(Number(r.seenCount)||0,1),
+        nextDate:addDaysKey(today,1),
+        reinforceAt:null,
+        recoveredFromLegacy:true,
+        recoveredByV28Migration:true
+      };
+    });
+    recovered=cards.length;
+    try{localStorage.setItem(migrationKey,'1')}catch(e){}
+  }
+
   state.schema=4;
   state.updatedAt=Date.now();
   if(recovered)state.recoveredAt=Date.now();
