@@ -15,10 +15,13 @@ RATE=COURSE.get("rate","-5%")
 WORD_PAUSE=COURSE.get("pause_after_word_ms",2000)/1000
 SENT_GAP=COURSE.get("gap_after_sentence_ms",700)/1000
 
+SEM=asyncio.Semaphore(12)
+
 async def tts(text, path):
     if not text:
         return
-    await edge_tts.Communicate(text, VOICE, rate=RATE).save(str(path))
+    async with SEM:
+        await edge_tts.Communicate(text, VOICE, rate=RATE).save(str(path))
 
 def run(cmd):
     subprocess.run(cmd, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
