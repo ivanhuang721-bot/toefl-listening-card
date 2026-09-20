@@ -63,14 +63,12 @@ async def main():
         lesson=TMP/(c["id"]+"_lesson.mp3")
         concat=TMP/(c["id"]+"_concat.txt")
         concat.write_text(
-            f"file '{(TMP/(c['id']+'_word.mp3')).as_posix()}'
-"
-            f"file '{silence_word.as_posix()}'
-"
-            f"file '{(TMP/(c['id']+'_sentence.mp3')).as_posix()}'
-"
-            f"file '{silence_gap.as_posix()}'
-",
+            "\n".join([
+                f"file '{(TMP/(c['id']+'_word.mp3')).as_posix()}'",
+                f"file '{silence_word.as_posix()}'",
+                f"file '{(TMP/(c['id']+'_sentence.mp3')).as_posix()}'",
+                f"file '{silence_gap.as_posix()}'",
+            ]) + "\n",
             encoding="utf-8"
         )
         run(["ffmpeg","-y","-f","concat","-safe","0","-i",str(concat),
