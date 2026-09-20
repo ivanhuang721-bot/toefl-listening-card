@@ -79,7 +79,7 @@ main{max-width:820px;margin:auto;padding:14px 12px 48px}
 <section class="hero">
   <h1>🎧 TOEFL 听力卡</h1>
   <p>现在分成两种模式：今日记忆练习负责主动回忆与复习；驾驶模式负责连续听力、锁屏播放和中文释义。</p>
-  <div class="version">v31 · 记忆曲线 + 三端同步 + 分阶段音频</div>
+  <div class="version">v35 · 记忆保护 + 三端同步 + 分阶段音频</div>
 </section>
 
 <section id="home">
@@ -419,8 +419,8 @@ async function createSyncSpace(){
     if(!validSyncUrl(url))throw new Error('服务器没有返回有效同步链接');
     saveSyncUrl(url);
     $('#syncUrl').value=url;
-    status.textContent='✅ 同步空间已创建，正在上传当前记忆…';
-    await syncNow();
+    status.textContent='✅ 同步空间已创建。正在上传当前记忆…';
+    syncNow();
   }catch(e){
     status.textContent='❌ 创建失败：'+(e&&e.message?e.message:'网络请求失败');
   }
