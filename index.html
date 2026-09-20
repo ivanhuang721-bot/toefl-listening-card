@@ -270,9 +270,26 @@ function loadMemory(){
   try{return JSON.parse(localStorage.getItem('toeflMemory')||'{}')||{}}
   catch(e){return {}}
 }
+let storageError='';
 function saveMemory(state){
-  try{localStorage.setItem('toeflMemory',JSON.stringify(state))}
-  catch(e){}
+  try{
+    const text=JSON.stringify(state);
+    localStorage.setItem('toeflMemory',text);
+    const check=localStorage.getItem('toeflMemory');
+    if(check!==text)throw new Error('写入后校验失败');
+    storageError='';
+  }catch(e){
+    storageError=e&&e.message?e.message:'localStorage 不可写';
+  }
+}
+function checkStorage(){
+  try{
+    const k='__toefl_storage_test__';
+    localStorage.setItem(k,'1');
+    const ok=localStorage.getItem(k)==='1';
+    localStorage.removeItem(k);
+    return ok;
+  }catch(e){return false}
 }
 function memoryStrength(state){
   try{
@@ -299,13 +316,17 @@ function loadMemoryCandidates(){
 function chooseBestMemoryState(){
   const candidates=loadMemoryCandidates();
   if(!candidates.length)return null;
-  candidates.sort((a,b)=>{
+  const current=candidates.find(x=>x.key==='toeflMemory')?.state||null;
+  const backups=candidates.filter(x=>x.key!=='toeflMemory');
+  const cs=memoryStrength(current||{});
+  if(current&&cs.seen>0)return current;
+  backups.sort((a,b)=>{
     const aa=memoryStrength(a.state),bb=memoryStrength(b.state);
-    if(bb.score!==aa.score)return bb.score-aa.score;
     if(bb.seen!==aa.seen)return bb.seen-aa.seen;
+    if(bb.score!==aa.score)return bb.score-aa.score;
     return (Number(b.state.updatedAt)||0)-(Number(a.state.updatedAt)||0);
   });
-  return candidates[0].state;
+  return backups[0]?.state||current;
 }
 function normalizeMemoryState(state){
   if(!state||typeof state!=='object')state={schema:5,cards:{},updatedAt:Date.now()};
@@ -671,6 +692,7 @@ function getWeakIndices(){
 }
 function renderPlan(){
   const state=loadMemory(),today=todayKey(),due=getDueIndices();let n=0;
+  const storedCount=Object.values(state.cards||{}).filter(r=>r&&Number(r.seenCount)>0).length;
   cards.forEach(c=>{const r=state.cards?.[c.word];if(r&&r.firstDate===today&&r.seenCount===0)n++});
   const weak=getWeakIndices();
   const dueNow=cards.filter(c=>{const r=state.cards?.[c.word];return r&&r.reinforceAt&&r.reinforceAt<=Date.now()}).length;
@@ -681,6 +703,8 @@ function renderPlan(){
   $('#startTodayPlan').textContent=done?'🔁 检查今日任务':'🧠 开始记忆练习';
   $('#startWeakPlan').disabled=!weak.length;
   $('#reinforceText').textContent=dueNow?'🔥 现在有 '+dueNow+' 个薄弱词可以再次强化。':'薄弱词会在今天继续安排强化，不需要等到明天。';
+  if(storageError) $('#syncStatus').textContent='⚠️ 记忆写入失败：'+storageError+'。请先不要继续刷题，避免进度丢失。';
+  else if($('#syncStatus').textContent.startsWith('尚未连接')) $('#syncStatus').textContent='✅ 本机记忆存储正常 · 已记录 '+storedCount+' 个词';
 }
 function scheduleMemory(i,status){
   const state=loadMemory(),c=cards[i],today=todayKey();
@@ -1123,6 +1147,10 @@ document.addEventListener('visibilitychange',()=>{
 async function initApp(){
   await loadCards();
   ensureMemory();
+  const storageOK=checkStorage();
+  if(!storageOK){
+    $('#syncStatus').textContent='⚠️ 手机浏览器本机存储不可写，今日记忆可能在刷新后丢失。请使用普通 Safari 标签页而不是私密浏览。';
+  }
   loadSyncUrl();
   $('#courseCount').textContent=cards.length;
   $('#startDriver').disabled=true;
