@@ -245,7 +245,9 @@ const wordAudio=$('#wordAudio');
 const sentenceAudio=$('#sentenceAudio');
 const meaningAudio=$('#meaningAudio');
 try{if(navigator.audioSession)navigator.audioSession.type='playback';}catch(e){}
-const courseMeta={starts:[],duration:0,wordStarts:[],wordDuration:0,sentenceStarts:[],sentenceDuration:0,meaningStarts:[],meaningDuration:0};let audioReady=false;
+const courseMeta={starts:[],duration:0,wordStarts:[],wordDuration:0,sentenceStarts:[],sentenceDuration:0,meaningStarts:[],meaningDuration:0};
+let audioReady=false;
+let practiceAudioReady=false;
 
 async function loadCards(){
   try{
@@ -660,6 +662,10 @@ function trackEnd(starts,duration,i){
 }
 function playPracticeWord(){
   if(!practice.on)return;
+  if(!practiceAudioReady){
+    $('#pStatus').textContent='⏳ 记忆练习专用音频正在生成，请稍后刷新；你的记忆进度不会受影响。';
+    return;
+  }
   stopPracticeTracks();
   const start=courseMeta.wordStarts[practice.index];
   if(!Number.isFinite(start)){renderPractice('⚠️ 单词音频正在更新，请稍后再试');return;}
@@ -672,6 +678,10 @@ function playPracticeWord(){
 }
 function playPracticeSentence(){
   if(!practice.on)return;
+  if(!practiceAudioReady){
+    finishPracticeRating();
+    return;
+  }
   stopPracticeTracks();
   const start=courseMeta.sentenceStarts[practice.index];
   if(!Number.isFinite(start)){finishPracticeRating();return;}
@@ -841,16 +851,23 @@ async function loadCourseAudio(){
     courseMeta.sentenceDuration=Number(meta.sentence_duration||0);
     courseMeta.meaningStarts=Array.isArray(meta.meaning_starts)?meta.meaning_starts:[];
     courseMeta.meaningDuration=Number(meta.meaning_duration||0);
+    practiceAudioReady=courseMeta.wordStarts.length===cards.length &&
+      courseMeta.sentenceStarts.length===cards.length &&
+      courseMeta.meaningStarts.length===cards.length;
     audio.src='./audio/course.mp3?v=30';
-    wordAudio.src='./audio/course.words.mp3?v=30';
-    sentenceAudio.src='./audio/course.sentences.mp3?v=30';
-    meaningAudio.src='./audio/course.meanings.mp3?v=30';
-    audio.preload='auto';wordAudio.preload='auto';sentenceAudio.preload='auto';meaningAudio.preload='auto';
-    audio.load();wordAudio.load();sentenceAudio.load();meaningAudio.load();
+    if(practiceAudioReady){
+      wordAudio.src='./audio/course.words.mp3?v=30';
+      sentenceAudio.src='./audio/course.sentences.mp3?v=30';
+      meaningAudio.src='./audio/course.meanings.mp3?v=30';
+      wordAudio.preload='auto';sentenceAudio.preload='auto';meaningAudio.preload='auto';
+      wordAudio.load();sentenceAudio.load();meaningAudio.load();
+    }
+    audio.preload='auto';
+    audio.load();
     audioReady=true;
     $('#startDriver').disabled=false;
     $('#startFromBeginning').disabled=false;
-    $('#dStatus').textContent='音频已准备好';
+    $('#dStatus').textContent=practiceAudioReady?'音频已准备好':'驾驶音频已准备好，记忆练习专用音频正在更新…';
   }catch(e){
     $('#dStatus').textContent='课程音频正在更新，请稍后刷新';
   }
