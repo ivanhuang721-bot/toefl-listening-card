@@ -118,14 +118,14 @@ main{max-width:820px;margin:auto;padding:14px 12px 48px}
     <div class="title">☁️ 三端记忆同步</div>
     <div class="sub">第一次使用时，在一台设备点击“创建同步空间”，把生成的同步链接复制到手机、平板或电脑，再点击“连接同步”。之后会自动合并各设备的记忆记录，不会用空进度覆盖你今天已经完成的内容。</div>
     <div class="sub" id="syncStatus" style="margin-top:8px">尚未连接云同步</div>
-    <input class="search" id="syncUrl" placeholder="粘贴同步链接（https://superjsonblob.com/api/jsonBlob/...）" style="margin-top:9px">
+    <input class="search" id="syncUrl" placeholder="粘贴同步链接（https://jsonblob.com/api/jsonBlob/...）" style="margin-top:9px">
     <div class="row" style="margin-top:9px">
       <button class="btn orange" id="createSync">☁️ 创建同步空间</button>
       <button class="btn secondary" id="connectSync">🔗 连接同步</button>
       <button class="btn secondary" id="syncNow">↻ 立即同步</button>
       <button class="btn secondary" id="copySync">📋 复制链接</button>
     </div>
-    <div class="sub" style="margin-top:8px">同步服务使用无账号的 JSON Blob 存储；同步链接本身就是访问凭据，请不要公开分享。</div>
+    <div class="sub" style="margin-top:8px">同步服务使用无账号的 JSON Blob 存储；同步链接本身就是访问凭据，请不要公开分享。未登录的 JSON Blob 长期不访问可能会被服务回收。</div>
   </div>
 
   <div class="card">
@@ -326,29 +326,34 @@ function loadSyncUrl(){
   if($('#syncStatus')&&syncConfig.url)$('#syncStatus').textContent='☁️ 已连接同步空间';
 }
 function validSyncUrl(url){
-  return /^https:\/\/superjsonblob\.com\/api\/jsonBlob\/[A-Za-z0-9-]+$/.test(String(url||'').trim());
+  const u=String(url||'').trim();
+  return /^https:\/\/(?:jsonblob\.com|superjsonblob\.com)\/api\/jsonBlob\/[A-Za-z0-9-]+$/.test(u);
 }
 async function createSyncSpace(){
   const status=$('#syncStatus');status.textContent='⏳ 正在创建同步空间…';
   try{
     const local=normalizeMemoryState(loadMemory());
-    const res=await fetch('https://superjsonblob.com/api/jsonBlob',{
+    const res=await fetch('https://jsonblob.com/api/jsonBlob',{
       method:'POST',
       headers:{'Content-Type':'application/json','Accept':'application/json'},
       body:JSON.stringify(buildSyncPayload(local))
     });
     if(!res.ok){
       const detail=await res.text().catch(()=> '');
-      throw new Error('HTTP '+res.status+(detail?' · '+detail.slice(0,120):''));
+      throw new Error('HTTP '+res.status+(detail?' · '+detail.slice(0,180):''));
     }
-    const data=await res.json();
-    const id=data.id||'';
-    const url=id?'https://superjsonblob.com/api/jsonBlob/'+id:'';
-    if(!validSyncUrl(url))throw new Error('同步链接格式异常');
+    const location=res.headers.get('Location')||'';
+    let url=location;
+    if(url && url.startsWith('/'))url='https://jsonblob.com'+url;
+    if(!validSyncUrl(url)){
+      const data=await res.json().catch(()=>null);
+      const id=data&&data.id?String(data.id):'';
+      url=id?'https://jsonblob.com/api/jsonBlob/'+id:'';
+    }
+    if(!validSyncUrl(url))throw new Error('服务器没有返回有效的同步链接');
     saveSyncUrl(url);
     $('#syncUrl').value=url;
     status.textContent='✅ 同步空间已创建。把这个链接复制到其他设备即可连接。';
-    await syncNow();
   }catch(e){
     status.textContent='❌ 创建失败：'+e.message;
   }
@@ -356,7 +361,7 @@ async function createSyncSpace(){
 async function connectSync(){
   const url=String($('#syncUrl').value||'').trim();
   if(!validSyncUrl(url)){
-    $('#syncStatus').textContent='❌ 请粘贴完整的 JsonStorage 同步链接。';
+    $('#syncStatus').textContent='❌ 请粘贴完整的 JSON Blob 同步链接。';
     return;
   }
   if(syncConfig.busy)return;
