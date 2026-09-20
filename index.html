@@ -274,6 +274,39 @@ function saveMemory(state){
   try{localStorage.setItem('toeflMemory',JSON.stringify(state))}
   catch(e){}
 }
+function memoryStrength(state){
+  try{
+    const cards=state&&state.cards&&typeof state.cards==='object'?state.cards:{};
+    let score=0,seen=0;
+    Object.values(cards).forEach(r=>{
+      const n=Number(r&&r.seenCount)||0;
+      if(n>0){seen++;score+=n*10+(Number(r.stage)||0);}
+    });
+    return {score,seen,count:Object.keys(cards).length};
+  }catch(e){return {score:0,seen:0,count:0}}
+}
+function loadMemoryCandidates(){
+  const out=[];
+  const keys=['toeflMemory','toeflMemoryBackup','toeflMemoryBackupPrev'];
+  keys.forEach(key=>{
+    try{
+      const raw=JSON.parse(localStorage.getItem(key)||'null');
+      if(raw&&raw.cards&&typeof raw.cards==='object')out.push({key,state:raw});
+    }catch(e){}
+  });
+  return out;
+}
+function chooseBestMemoryState(){
+  const candidates=loadMemoryCandidates();
+  if(!candidates.length)return null;
+  candidates.sort((a,b)=>{
+    const aa=memoryStrength(a.state),bb=memoryStrength(b.state);
+    if(bb.score!==aa.score)return bb.score-aa.score;
+    if(bb.seen!==aa.seen)return bb.seen-aa.seen;
+    return (Number(b.state.updatedAt)||0)-(Number(a.state.updatedAt)||0);
+  });
+  return candidates[0].state;
+}
 function normalizeMemoryState(state){
   if(!state||typeof state!=='object')state={schema:5,cards:{},updatedAt:Date.now()};
   if(!state.cards||typeof state.cards!=='object')state.cards={};
@@ -291,12 +324,47 @@ function normalizeMemoryState(state){
   return state;
 }
 function buildSyncPayload(state){
-  let listening={};
-  try{listening=JSON.parse(localStorage.getItem('listeningProgress')||'{}')||{}}catch(e){}
-  return {syncVersion:1,memory:normalizeMemoryState(state),listeningProgress:listening,updatedAt:Date.now()};
+  const src=normalizeMemoryState(state||{});
+  const compact={schema:5,cards:{},updatedAt:Number(src.updatedAt)||Date.now()};
+  Object.entries(src.cards||{}).forEach(([word,r])=>{
+    compact.cards[word]={
+      f:r.firstDate||null,
+      n:r.nextDate||null,
+      l:r.lastReviewed||null,
+      s:r.status||'new',
+      g:Number(r.stage)||0,
+      c:Number(r.seenCount)||0,
+      r:r.reinforceAt?Number(r.reinforceAt):null,
+      u:Number(r.updatedAtMs)||0
+    };
+  });
+  let listening={idx:0,updatedAt:0};
+  try{const lp=JSON.parse(localStorage.getItem('listeningProgress')||'{}')||{};listening={idx:Number.isInteger(lp.idx)?lp.idx:0,updatedAt:Number(lp.updatedAt)||0}}catch(e){}
+  return {syncVersion:2,memory:compact,listeningProgress:listening,updatedAt:Date.now()};
+}
+function expandRemoteMemory(compact){
+  if(!compact||typeof compact!=='object'||!compact.cards)return null;
+  const out={schema:5,cards:{},updatedAt:Number(compact.updatedAt)||0};
+  Object.entries(compact.cards).forEach(([word,r])=>{
+    if(!r||typeof r!=='object')return;
+    out.cards[word]={
+      firstDate:r.f||null,
+      nextDate:r.n||null,
+      lastReviewed:r.l||null,
+      status:r.s||'new',
+      stage:Number(r.g)||0,
+      seenCount:Number(r.c)||0,
+      reinforceAt:r.r?Number(r.r):null,
+      updatedAtMs:Number(r.u)||0
+    };
+  });
+  return normalizeMemoryState(out);
 }
 function extractRemoteMemory(payload){
-  if(payload&&payload.memory&&payload.memory.cards)return normalizeMemoryState(payload.memory);
+  if(payload&&payload.memory&&payload.memory.cards){
+    if(payload.syncVersion===2 && payload.memory.cards && Object.values(payload.memory.cards)[0] && ('s' in Object.values(payload.memory.cards)[0] || 'u' in Object.values(payload.memory.cards)[0])) return expandRemoteMemory(payload.memory);
+    return normalizeMemoryState(payload.memory);
+  }
   if(payload&&payload.cards)return normalizeMemoryState(payload);
   return null;
 }
@@ -322,40 +390,39 @@ function saveSyncUrl(url){
 }
 function loadSyncUrl(){
   try{syncConfig.url=localStorage.getItem('toeflSyncUrl')||''}catch(e){syncConfig.url=''}
+  if(syncConfig.url && !validSyncUrl(syncConfig.url)){
+    syncConfig.url='';
+    try{localStorage.removeItem('toeflSyncUrl')}catch(e){}
+  }
   if($('#syncUrl'))$('#syncUrl').value=syncConfig.url;
   if($('#syncStatus')&&syncConfig.url)$('#syncStatus').textContent='☁️ 已连接同步空间';
 }
 function validSyncUrl(url){
   const u=String(url||'').trim();
-  return /^https:\/\/(?:jsonblob\.com|superjsonblob\.com)\/api\/jsonBlob\/[A-Za-z0-9-]+$/.test(u);
+  return /^https:\/\/api\.jsonstorage\.net\/v1\/json\/[A-Za-z0-9_\-]+\/[A-Za-z0-9_\-]+$/.test(u);
 }
 async function createSyncSpace(){
   const status=$('#syncStatus');status.textContent='⏳ 正在创建同步空间…';
   try{
-    const local=normalizeMemoryState(loadMemory());
-    const res=await fetch('https://jsonblob.com/api/jsonBlob',{
+    // 先创建一个极小的空对象，避免匿名创建接口因请求体较大直接返回 400。
+    const createRes=await fetch('https://api.jsonstorage.net/v1/json',{
       method:'POST',
       headers:{'Content-Type':'application/json','Accept':'application/json'},
-      body:JSON.stringify(buildSyncPayload(local))
+      body:'{"syncVersion":2,"memory":{"schema":5,"cards":{}}}'
     });
-    if(!res.ok){
-      const detail=await res.text().catch(()=> '');
-      throw new Error('HTTP '+res.status+(detail?' · '+detail.slice(0,180):''));
+    if(!createRes.ok){
+      const detail=await createRes.text().catch(()=> '');
+      throw new Error('创建空间失败 HTTP '+createRes.status+(detail?' · '+detail.slice(0,180):''));
     }
-    const location=res.headers.get('Location')||'';
-    let url=location;
-    if(url && url.startsWith('/'))url='https://jsonblob.com'+url;
-    if(!validSyncUrl(url)){
-      const data=await res.json().catch(()=>null);
-      const id=data&&data.id?String(data.id):'';
-      url=id?'https://jsonblob.com/api/jsonBlob/'+id:'';
-    }
-    if(!validSyncUrl(url))throw new Error('服务器没有返回有效的同步链接');
+    const data=await createRes.json().catch(()=>({}));
+    const url=String(data.uri||'').trim();
+    if(!validSyncUrl(url))throw new Error('服务器没有返回有效同步链接');
     saveSyncUrl(url);
     $('#syncUrl').value=url;
-    status.textContent='✅ 同步空间已创建。把这个链接复制到其他设备即可连接。';
+    status.textContent='✅ 同步空间已创建，正在上传当前记忆…';
+    await syncNow();
   }catch(e){
-    status.textContent='❌ 创建失败：'+e.message;
+    status.textContent='❌ 创建失败：'+(e&&e.message?e.message:'网络请求失败');
   }
 }
 async function connectSync(){
@@ -457,26 +524,46 @@ function saveCards(){
 }
 function backupMemoryState(state){
   try{
-    if(state&&state.cards&&Object.keys(state.cards).length){
-      localStorage.setItem('toeflMemoryBackup',JSON.stringify({
-        schema:state.schema||'legacy',
-        cards:state.cards,
-        updatedAt:state.updatedAt||Date.now(),
-        backedUpAt:Date.now()
-      }));
+    if(!(state&&state.cards&&Object.keys(state.cards).length))return;
+    const snapshot={schema:state.schema||'legacy',cards:state.cards,updatedAt:state.updatedAt||Date.now(),backedUpAt:Date.now()};
+    const current=localStorage.getItem('toeflMemoryBackup');
+    if(current){
+      try{
+        const cur=JSON.parse(current);
+        if(memoryStrength(cur).score>memoryStrength(snapshot).score){
+          localStorage.setItem('toeflMemoryBackupPrev',JSON.stringify(snapshot));
+          return;
+        }
+        localStorage.setItem('toeflMemoryBackupPrev',current);
+      }catch(e){
+        localStorage.setItem('toeflMemoryBackupPrev',current);
+      }
     }
+    localStorage.setItem('toeflMemoryBackup',JSON.stringify(snapshot));
   }catch(e){}
 }
 function ensureMemory(){
   const today=todayKey();
   const rawState=loadMemory();
+  const candidates=loadMemoryCandidates();
+  const bestState=chooseBestMemoryState();
+  const rawStrength=memoryStrength(rawState);
+  const bestStrength=bestState?memoryStrength(bestState):{score:0,seen:0,count:0};
+
+  // 永远优先保留已经有复习记录的状态，避免一次页面升级把已完成的记忆计划变成全新词。
+  let sourceState=rawState;
+  if(bestState && bestStrength.score>rawStrength.score){
+    sourceState=bestState;
+    try{localStorage.setItem('toeflMemory',JSON.stringify(bestState))}catch(e){}
+  }
+
   const flags=loadCardFlags();
-  const oldStateHasCards=rawState&&rawState.cards&&typeof rawState.cards==='object'&&Object.keys(rawState.cards).length>0;
+  const oldStateHasCards=sourceState&&sourceState.cards&&typeof sourceState.cards==='object'&&Object.keys(sourceState.cards).length>0;
 
   // 升级版本时绝不因为 schema 变化而清空旧状态。
   let state;
   if(oldStateHasCards){
-    state=normalizeMemoryState(rawState);
+    state=normalizeMemoryState(sourceState);
     backupMemoryState(state);
   }else{
     state={schema:5,cards:{},updatedAt:Date.now()};
