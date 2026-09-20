@@ -78,7 +78,7 @@ main{max-width:820px;margin:auto;padding:14px 12px 48px}
 <main>
 <section class="hero">
   <h1>🎧 TOEFL 听力卡</h1>
-  <p>现在只保留驾驶模式：单词 → 回忆 → 原句 → 下一词。适合只听、不看屏幕的复习。</p>
+  <p>现在分成两种模式：今日记忆练习负责主动回忆与复习；驾驶模式负责连续听力、锁屏播放和中文释义。</p>
   <div class="version">v31 · 记忆曲线 + 三端同步 + 分阶段音频</div>
 </section>
 
@@ -415,7 +415,7 @@ async function syncNow(){
 function queueSync(){
   if(!syncConfig.url)return;
   clearTimeout(syncConfig.timer);
-  syncConfig.timer=setTimeout(()=>syncNow(),1200);
+  syncConfig.timer=setTimeout(()=>syncNow(),30000);
 }
 function copySyncUrl(){
   const url=String($('#syncUrl').value||syncConfig.url||'').trim();
@@ -609,12 +609,12 @@ function startWeakPlan(){
 }
 const practice={on:false,index:0,queue:[],pos:0,rated:new Set(),revealed:false,playing:false,stage:'idle'};
 function resetPracticeCard(){
-  practice.revealed=practice.rated.has(practice.index);
-  $('#pWord').classList.toggle('hidden',!practice.revealed);
-  $('#pMeaning').classList.toggle('hidden',!practice.revealed);
-  $('#pSentence').classList.toggle('hidden',!practice.revealed);
-  $('#pAnswerHint').classList.toggle('hidden',practice.revealed);
-  $('#practiceRating').classList.toggle('hidden',!practice.revealed);
+  const visible=practice.rated.has(practice.index)||practice.revealed;
+  $('#pWord').classList.toggle('hidden',!visible);
+  $('#pMeaning').classList.toggle('hidden',!visible);
+  $('#pSentence').classList.toggle('hidden',!visible);
+  $('#pAnswerHint').classList.toggle('hidden',visible);
+  $('#practiceRating').classList.toggle('hidden',!visible);
   setPracticeRatingDisabled(practice.rated.has(practice.index));
   $('#practiceReviewNav').classList.toggle('hidden',practice.rated.size===0);
   $('#practiceComplete').classList.add('hidden');
@@ -626,6 +626,7 @@ function openPractice(startIndex,customQueue=null){
   practice.pos=Math.max(0,due.indexOf(startIndex));
   practice.index=practice.queue[practice.pos];
   practice.rated=new Set();
+  practice.revealed=false;
   practice.on=true;
   practice.playing=false;
   $('#practice').classList.remove('hidden');
@@ -703,6 +704,7 @@ function practiceMove(delta){
   practiceStopAudio();
   practice.pos=Math.max(0,Math.min(practice.queue.length-1,practice.pos+delta));
   practice.index=practice.queue[practice.pos];
+  practice.revealed=practice.rated.has(practice.index);
   renderPractice(practice.rated.has(practice.index)?'✅ 已记录':'准备开始');
 }
 function setPracticeRatingDisabled(disabled){
@@ -726,6 +728,7 @@ function finishPracticeRating(){
     if(!practice.on)return;
     practice.pos++;
     practice.index=practice.queue[practice.pos];
+    practice.revealed=false;
     renderPractice('➡️ 下一词');
   },260);
   renderPlan();
@@ -748,6 +751,7 @@ function finishPractice(){
   practice.on=false;
   $('#practice').classList.add('hidden');
   renderPlan();
+  if(syncConfig.url)syncNow();
   alert('🎉 今日复习计划完成！');
 }
 function exitPractice(){
