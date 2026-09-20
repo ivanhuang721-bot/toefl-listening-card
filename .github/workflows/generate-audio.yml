@@ -30,6 +30,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add audio/course.mp3 audio/course.meta.json audio/course.words.mp3 audio/course.sentences.mp3 audio/course.meanings.mp3
+          rm -f audio/course.words.mp3 audio/course.sentences.mp3 audio/course.meanings.mp3
+          git add audio/course.mp3 audio/course.meta.json audio/word audio/sentence audio/meaning
           git commit -m "Generate TOEFL course audio" || exit 0
           git push
