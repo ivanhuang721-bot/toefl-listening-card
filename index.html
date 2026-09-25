@@ -276,7 +276,7 @@ let practiceAudioReady=true;
 
 async function loadCards(){
   try{
-    const res=await fetch('./course.json?v=29',{cache:'no-store'});
+    const res=await fetch('./course.json?v=36',{cache:'no-store'});
     if(!res.ok)throw new Error('course.json '+res.status);
     const data=await res.json();
     cards=(data.cards||[]).map((c,i)=>({id:String(c.id||String(i+1).padStart(3,'0')),word:c.word,sentence:c.sentence||'',contextMeaning:c.meaning||'',batch:c.batch||'2026-09-15',ok:0}));
@@ -814,7 +814,7 @@ function stopPracticeTracks(){
 function practiceStopAudio(){stopPracticeTracks();}
 function practiceClipUrl(type,i){
   const c=cards[i];
-  return c&&c.id ? './audio/'+type+'/'+encodeURIComponent(c.id)+'.mp3?v=32' : '';
+  return c&&c.id ? './audio/'+type+'/'+encodeURIComponent(c.id)+'.mp3?v=36' : '';
 }
 function playPracticeWord(){
   if(!practice.on)return;
@@ -998,7 +998,7 @@ async function loadCourseAudio(){
   $('#startFromBeginning').disabled=true;
   renderResume();
   try{
-    const res=await fetch('./audio/course.meta.json?v=29',{cache:'no-store'});
+    const res=await fetch('./audio/course.meta.json?v=36',{cache:'no-store'});
     if(!res.ok)throw new Error('course.meta.json '+res.status);
     const meta=await res.json();
     if(!Array.isArray(meta.starts)||meta.starts.length!==cards.length){
@@ -1006,7 +1006,7 @@ async function loadCourseAudio(){
     }
     courseMeta.starts=meta.starts;
     courseMeta.duration=Number(meta.duration||0);
-    audio.src='./audio/course.mp3?v=32';
+    audio.src='./audio/course.mp3?v=36';
     audio.preload='auto';
     audio.load();
     wordAudio.preload='none';
