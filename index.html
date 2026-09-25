@@ -575,11 +575,11 @@ function queueSync(){
 function copySyncUrl(){
   const url=String($('#syncUrl').value||syncConfig.url||'').trim();
   if(!url)return;
+  const selectManually=()=>{$('#syncUrl').focus();$('#syncUrl').select();$('#syncStatus').textContent='请长按/复制输入框中的同步链接';};
   if(navigator.clipboard&&navigator.clipboard.writeText){
-    navigator.clipboard.writeText(url).then(()=>$('#syncStatus').textContent='📋 同步链接已复制');
+    navigator.clipboard.writeText(url).then(()=>$('#syncStatus').textContent='📋 同步链接已复制').catch(selectManually);
   }else{
-    $('#syncUrl').focus();$('#syncUrl').select();
-    $('#syncStatus').textContent='请长按/复制输入框中的同步链接';
+    selectManually();
   }
 }
 function exportProgress(){
