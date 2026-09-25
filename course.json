@@ -1,6 +1,6 @@
 {
-  "voice": "en-US-JennyNeural",
-  "rate": "-5%",
+  "voice": "en-US-AvaNeural",
+  "rate": "+0%",
   "pause_after_word_ms": 2000,
   "gap_after_sentence_ms": 700,
   "cards": [
