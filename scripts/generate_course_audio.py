@@ -49,7 +49,7 @@ async def main():
     jobs=[]
     for c in COURSE["cards"]:
         cid=c["id"]
-        jobs.append(tts(c["word"],TMP/(cid+"_word.mp3"),VOICE,RATE))
+        jobs.append(tts(c.get("audioWord",c["word"]),TMP/(cid+"_word.mp3"),VOICE,RATE))
         jobs.append(tts(c["sentence"],TMP/(cid+"_sentence.mp3"),VOICE,RATE))
         jobs.append(tts(c.get("meaning",""),TMP/(cid+"_meaning.mp3"),MEANING_VOICE,MEANING_RATE))
     await asyncio.gather(*jobs)
