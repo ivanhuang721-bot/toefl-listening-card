@@ -850,7 +850,7 @@ function resetPracticeCard(){
   $('#practiceRating').classList.toggle('hidden',!visible);
   setPracticeRatingDisabled(practice.rated.has(practice.pos));
   $('#practiceReviewNav').classList.toggle('hidden',practice.rated.size===0);
-  $('#practiceComplete').classList.add('hidden');
+  $('#practiceComplete').classList.toggle('hidden',practice.rated.size!==practice.queue.length||practice.pos!==practice.queue.length-1);
 }
 function openPractice(startIndex,customQueue=null){
   const due=customQueue||getDueIndices();
