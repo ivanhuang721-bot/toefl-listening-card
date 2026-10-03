@@ -14,13 +14,26 @@ MEANING_RATE=COURSE.get("meaning_rate","+0%")
 WORD_PAUSE=COURSE.get("pause_after_word_ms",2000)/1000
 SENT_GAP=COURSE.get("gap_after_sentence_ms",700)/1000
 
-SEM=asyncio.Semaphore(12)
+SEM=asyncio.Semaphore(3)
 
-async def tts(text, path, voice=VOICE, rate=RATE):
+async def tts(text, path, voice=VOICE, rate=RATE, existing=None):
+    if existing and existing.exists() and existing.stat().st_size > 1000:
+        shutil.copy2(existing, path)
+        return
     if not text:
         return
     async with SEM:
-        await edge_tts.Communicate(text, voice, rate=rate).save(str(path))
+        for attempt in range(5):
+            try:
+                await edge_tts.Communicate(text, voice, rate=rate).save(str(path))
+                if path.stat().st_size > 1000:
+                    return
+            except Exception as exc:
+                if attempt == 4:
+                    raise RuntimeError(f"Could not generate {path.name}: {exc}") from exc
+            path.unlink(missing_ok=True)
+            await asyncio.sleep(2 ** attempt)
+        raise RuntimeError(f"Could not generate {path.name}: no audio returned")
 
 def run(cmd):
     subprocess.run(cmd, check=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
@@ -42,16 +55,14 @@ async def main():
     sentence_dir=OUT/"sentence"
     meaning_dir=OUT/"meaning"
     for d in (word_dir,sentence_dir,meaning_dir):
-        if d.exists():
-            shutil.rmtree(d)
-        d.mkdir(parents=True)
+        d.mkdir(parents=True, exist_ok=True)
 
     jobs=[]
     for c in COURSE["cards"]:
         cid=c["id"]
-        jobs.append(tts(c.get("audioWord",c["word"]),TMP/(cid+"_word.mp3"),VOICE,RATE))
-        jobs.append(tts(c["sentence"],TMP/(cid+"_sentence.mp3"),VOICE,RATE))
-        jobs.append(tts(c.get("meaning",""),TMP/(cid+"_meaning.mp3"),MEANING_VOICE,MEANING_RATE))
+        jobs.append(tts(c.get("audioWord",c["word"]),TMP/(cid+"_word.mp3"),VOICE,RATE,word_dir/(cid+".mp3")))
+        jobs.append(tts(c["sentence"],TMP/(cid+"_sentence.mp3"),VOICE,RATE,sentence_dir/(cid+".mp3")))
+        jobs.append(tts(c.get("meaning",""),TMP/(cid+"_meaning.mp3"),MEANING_VOICE,MEANING_RATE,meaning_dir/(cid+".mp3")))
     await asyncio.gather(*jobs)
 
     # Copy each clip to an ID-addressable file.
