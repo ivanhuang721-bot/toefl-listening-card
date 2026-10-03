@@ -259,9 +259,59 @@
     1667.424,
     1672.128,
     1676.184,
-    1680.984
+    1680.984,
+    1685.232,
+    1693.248,
+    1702.344,
+    1711.44,
+    1718.28,
+    1725.12,
+    1731.336,
+    1740.504,
+    1749.672,
+    1758.84,
+    1766.352,
+    1773.864,
+    1782.168,
+    1788.84,
+    1795.512,
+    1802.208,
+    1809.336,
+    1816.464,
+    1824.384,
+    1828.176,
+    1832.544,
+    1836.336,
+    1843.728,
+    1851.12,
+    1858.512,
+    1865.904,
+    1870.992,
+    1876.08,
+    1881.384,
+    1890.744,
+    1900.104,
+    1909.464,
+    1915.176,
+    1920.888,
+    1928.928,
+    1936.968,
+    1945.008,
+    1953.048,
+    1957.2,
+    1962.72,
+    1968.144,
+    1973.544,
+    1978.008,
+    1986.312,
+    1991.424,
+    1996.488,
+    2001.6,
+    2006.904,
+    2012.088,
+    2017.176
   ],
-  "duration": 1685.232,
+  "duration": 2021.928,
   "practice_manifest": [
     {
       "id": "001",
@@ -2054,6 +2104,356 @@
       "word_file": "word/256.mp3",
       "sentence_file": "sentence/256.mp3",
       "meaning_file": "meaning/256.mp3"
+    },
+    {
+      "id": "257",
+      "word": "design",
+      "word_file": "word/257.mp3",
+      "sentence_file": "sentence/257.mp3",
+      "meaning_file": "meaning/257.mp3"
+    },
+    {
+      "id": "258",
+      "word": "annex",
+      "word_file": "word/258.mp3",
+      "sentence_file": "sentence/258.mp3",
+      "meaning_file": "meaning/258.mp3"
+    },
+    {
+      "id": "259",
+      "word": "downstairs",
+      "word_file": "word/259.mp3",
+      "sentence_file": "sentence/259.mp3",
+      "meaning_file": "meaning/259.mp3"
+    },
+    {
+      "id": "260",
+      "word": "audiovisual",
+      "word_file": "word/260.mp3",
+      "sentence_file": "sentence/260.mp3",
+      "meaning_file": "meaning/260.mp3"
+    },
+    {
+      "id": "261",
+      "word": "install",
+      "word_file": "word/261.mp3",
+      "sentence_file": "sentence/261.mp3",
+      "meaning_file": "meaning/261.mp3"
+    },
+    {
+      "id": "262",
+      "word": "note",
+      "word_file": "word/262.mp3",
+      "sentence_file": "sentence/262.mp3",
+      "meaning_file": "meaning/262.mp3"
+    },
+    {
+      "id": "263",
+      "word": "variety",
+      "word_file": "word/263.mp3",
+      "sentence_file": "sentence/263.mp3",
+      "meaning_file": "meaning/263.mp3"
+    },
+    {
+      "id": "264",
+      "word": "genre",
+      "word_file": "word/264.mp3",
+      "sentence_file": "sentence/264.mp3",
+      "meaning_file": "meaning/264.mp3"
+    },
+    {
+      "id": "265",
+      "word": "comedy",
+      "word_file": "word/265.mp3",
+      "sentence_file": "sentence/265.mp3",
+      "meaning_file": "meaning/265.mp3"
+    },
+    {
+      "id": "266",
+      "word": "several",
+      "word_file": "word/266.mp3",
+      "sentence_file": "sentence/266.mp3",
+      "meaning_file": "meaning/266.mp3"
+    },
+    {
+      "id": "267",
+      "word": "fellow",
+      "word_file": "word/267.mp3",
+      "sentence_file": "sentence/267.mp3",
+      "meaning_file": "meaning/267.mp3"
+    },
+    {
+      "id": "268",
+      "word": "screening",
+      "word_file": "word/268.mp3",
+      "sentence_file": "sentence/268.mp3",
+      "meaning_file": "meaning/268.mp3"
+    },
+    {
+      "id": "269",
+      "word": "session",
+      "word_file": "word/269.mp3",
+      "sentence_file": "sentence/269.mp3",
+      "meaning_file": "meaning/269.mp3"
+    },
+    {
+      "id": "270",
+      "word": "protocol",
+      "word_file": "word/270.mp3",
+      "sentence_file": "sentence/270.mp3",
+      "meaning_file": "meaning/270.mp3"
+    },
+    {
+      "id": "271",
+      "word": "mandatory",
+      "word_file": "word/271.mp3",
+      "sentence_file": "sentence/271.mp3",
+      "meaning_file": "meaning/271.mp3"
+    },
+    {
+      "id": "272",
+      "word": "speed",
+      "word_file": "word/272.mp3",
+      "sentence_file": "sentence/272.mp3",
+      "meaning_file": "meaning/272.mp3"
+    },
+    {
+      "id": "273",
+      "word": "measure",
+      "word_file": "word/273.mp3",
+      "sentence_file": "sentence/273.mp3",
+      "meaning_file": "meaning/273.mp3"
+    },
+    {
+      "id": "274",
+      "word": "drop",
+      "word_file": "word/274.mp3",
+      "sentence_file": "sentence/274.mp3",
+      "meaning_file": "meaning/274.mp3"
+    },
+    {
+      "id": "275",
+      "word": "off",
+      "word_file": "word/275.mp3",
+      "sentence_file": "sentence/275.mp3",
+      "meaning_file": "meaning/275.mp3"
+    },
+    {
+      "id": "276",
+      "word": "pastry",
+      "word_file": "word/276.mp3",
+      "sentence_file": "sentence/276.mp3",
+      "meaning_file": "meaning/276.mp3"
+    },
+    {
+      "id": "277",
+      "word": "differ",
+      "word_file": "word/277.mp3",
+      "sentence_file": "sentence/277.mp3",
+      "meaning_file": "meaning/277.mp3"
+    },
+    {
+      "id": "278",
+      "word": "catch",
+      "word_file": "word/278.mp3",
+      "sentence_file": "sentence/278.mp3",
+      "meaning_file": "meaning/278.mp3"
+    },
+    {
+      "id": "279",
+      "word": "episode",
+      "word_file": "word/279.mp3",
+      "sentence_file": "sentence/279.mp3",
+      "meaning_file": "meaning/279.mp3"
+    },
+    {
+      "id": "280",
+      "word": "season",
+      "word_file": "word/280.mp3",
+      "sentence_file": "sentence/280.mp3",
+      "meaning_file": "meaning/280.mp3"
+    },
+    {
+      "id": "281",
+      "word": "predictable",
+      "word_file": "word/281.mp3",
+      "sentence_file": "sentence/281.mp3",
+      "meaning_file": "meaning/281.mp3"
+    },
+    {
+      "id": "282",
+      "word": "rumor",
+      "word_file": "word/282.mp3",
+      "sentence_file": "sentence/282.mp3",
+      "meaning_file": "meaning/282.mp3"
+    },
+    {
+      "id": "283",
+      "word": "author",
+      "word_file": "word/283.mp3",
+      "sentence_file": "sentence/283.mp3",
+      "meaning_file": "meaning/283.mp3"
+    },
+    {
+      "id": "284",
+      "word": "series",
+      "word_file": "word/284.mp3",
+      "sentence_file": "sentence/284.mp3",
+      "meaning_file": "meaning/284.mp3"
+    },
+    {
+      "id": "285",
+      "word": "fitness",
+      "word_file": "word/285.mp3",
+      "sentence_file": "sentence/285.mp3",
+      "meaning_file": "meaning/285.mp3"
+    },
+    {
+      "id": "286",
+      "word": "aerobics",
+      "word_file": "word/286.mp3",
+      "sentence_file": "sentence/286.mp3",
+      "meaning_file": "meaning/286.mp3"
+    },
+    {
+      "id": "287",
+      "word": "term",
+      "word_file": "word/287.mp3",
+      "sentence_file": "sentence/287.mp3",
+      "meaning_file": "meaning/287.mp3"
+    },
+    {
+      "id": "288",
+      "word": "timing",
+      "word_file": "word/288.mp3",
+      "sentence_file": "sentence/288.mp3",
+      "meaning_file": "meaning/288.mp3"
+    },
+    {
+      "id": "289",
+      "word": "work",
+      "word_file": "word/289.mp3",
+      "sentence_file": "sentence/289.mp3",
+      "meaning_file": "meaning/289.mp3"
+    },
+    {
+      "id": "290",
+      "word": "warn",
+      "word_file": "word/290.mp3",
+      "sentence_file": "sentence/290.mp3",
+      "meaning_file": "meaning/290.mp3"
+    },
+    {
+      "id": "291",
+      "word": "strain",
+      "word_file": "word/291.mp3",
+      "sentence_file": "sentence/291.mp3",
+      "meaning_file": "meaning/291.mp3"
+    },
+    {
+      "id": "292",
+      "word": "aquatic",
+      "word_file": "word/292.mp3",
+      "sentence_file": "sentence/292.mp3",
+      "meaning_file": "meaning/292.mp3"
+    },
+    {
+      "id": "293",
+      "word": "jump",
+      "word_file": "word/293.mp3",
+      "sentence_file": "sentence/293.mp3",
+      "meaning_file": "meaning/293.mp3"
+    },
+    {
+      "id": "294",
+      "word": "lap",
+      "word_file": "word/294.mp3",
+      "sentence_file": "sentence/294.mp3",
+      "meaning_file": "meaning/294.mp3"
+    },
+    {
+      "id": "295",
+      "word": "seminar",
+      "word_file": "word/295.mp3",
+      "sentence_file": "sentence/295.mp3",
+      "meaning_file": "meaning/295.mp3"
+    },
+    {
+      "id": "296",
+      "word": "fair",
+      "word_file": "word/296.mp3",
+      "sentence_file": "sentence/296.mp3",
+      "meaning_file": "meaning/296.mp3"
+    },
+    {
+      "id": "297",
+      "word": "expo",
+      "word_file": "word/297.mp3",
+      "sentence_file": "sentence/297.mp3",
+      "meaning_file": "meaning/297.mp3"
+    },
+    {
+      "id": "298",
+      "word": "auction",
+      "word_file": "word/298.mp3",
+      "sentence_file": "sentence/298.mp3",
+      "meaning_file": "meaning/298.mp3"
+    },
+    {
+      "id": "299",
+      "word": "auditorium",
+      "word_file": "word/299.mp3",
+      "sentence_file": "sentence/299.mp3",
+      "meaning_file": "meaning/299.mp3"
+    },
+    {
+      "id": "300",
+      "word": "hall",
+      "word_file": "word/300.mp3",
+      "sentence_file": "sentence/300.mp3",
+      "meaning_file": "meaning/300.mp3"
+    },
+    {
+      "id": "301",
+      "word": "lounge",
+      "word_file": "word/301.mp3",
+      "sentence_file": "sentence/301.mp3",
+      "meaning_file": "meaning/301.mp3"
+    },
+    {
+      "id": "302",
+      "word": "proceeds",
+      "word_file": "word/302.mp3",
+      "sentence_file": "sentence/302.mp3",
+      "meaning_file": "meaning/302.mp3"
+    },
+    {
+      "id": "303",
+      "word": "recruit",
+      "word_file": "word/303.mp3",
+      "sentence_file": "sentence/303.mp3",
+      "meaning_file": "meaning/303.mp3"
+    },
+    {
+      "id": "304",
+      "word": "tech",
+      "word_file": "word/304.mp3",
+      "sentence_file": "sentence/304.mp3",
+      "meaning_file": "meaning/304.mp3"
+    },
+    {
+      "id": "305",
+      "word": "trail",
+      "word_file": "word/305.mp3",
+      "sentence_file": "sentence/305.mp3",
+      "meaning_file": "meaning/305.mp3"
+    },
+    {
+      "id": "306",
+      "word": "cumulative",
+      "word_file": "word/306.mp3",
+      "sentence_file": "sentence/306.mp3",
+      "meaning_file": "meaning/306.mp3"
     }
   ],
   "generated_at": "github-actions"
