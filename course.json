@@ -1796,8 +1796,384 @@
       "meaning": "油酥糕点",
       "sentence": "She bought a pastry at the bakery.",
       "batch": "2026-09-25"
+    },
+    {
+      "id": "257",
+      "word": "design",
+      "meaning": "语境：设计（课）；常用：设计、构思；设计方案",
+      "sentence": "Starting next week, our art and design class will be moving to a new and improved space.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "258",
+      "word": "annex",
+      "phrase": "library annex",
+      "meaning": "语境：图书馆副楼；常用：附属建筑、附楼",
+      "sentence": "We'll now be meeting in room 304 instead of the library Annex downstairs, which we've been using temporarily.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "259",
+      "word": "downstairs",
+      "meaning": "语境：在楼下；常用：在楼下、到楼下",
+      "sentence": "We'll now be meeting in room 304 instead of the library Annex downstairs, which we've been using temporarily.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "260",
+      "word": "audiovisual",
+      "phrase": "audiovisual equipment",
+      "meaning": "语境：视听设备；常用：视听的、音像的",
+      "sentence": "Thank you all for your patience while the new audio visual equipment was being installed.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "261",
+      "word": "install",
+      "phrase": "be installed",
+      "meaning": "语境：被安装；常用：安装（设备或软件）",
+      "sentence": "Thank you all for your patience while the new audio visual equipment was being installed.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "262",
+      "word": "note",
+      "phrase": "make a note of",
+      "meaning": "语境：记下教室变更；常用：笔记、便条；注意、记下",
+      "sentence": "Please make a note of the room change and continue to arrive on time.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "263",
+      "word": "variety",
+      "phrase": "a variety of",
+      "meaning": "语境：多种多样的电影；常用：种类、多样性",
+      "sentence": "This event will feature a variety of films from different genres, including documentaries, comedies, and dramas.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "264",
+      "word": "genre",
+      "phrase": "different genres",
+      "meaning": "语境：不同电影类型；常用：（艺术、音乐、电影等的）类型、流派",
+      "sentence": "This event will feature a variety of films from different genres, including documentaries, comedies, and dramas.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "265",
+      "word": "comedy",
+      "meaning": "语境：喜剧片；常用：喜剧、喜剧作品",
+      "sentence": "This event will feature a variety of films from different genres, including documentaries, comedies, and dramas.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "266",
+      "word": "several",
+      "meaning": "语境：几部（电影）；常用：几个、数个",
+      "sentence": "We'll also feature several films by local filmmakers, including one by a fellow student.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "267",
+      "word": "fellow",
+      "phrase": "a fellow student",
+      "meaning": "语境：同校的、同为学生的；常用：同伴；同类的、同事的",
+      "sentence": "We'll also feature several films by local filmmakers, including one by a fellow student.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "268",
+      "word": "screening",
+      "meaning": "语境：电影放映场次；常用：放映；筛查、甄选",
+      "sentence": "Screenings take place in the University Auditorium from Friday to Sunday, starting at noon each day.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "269",
+      "word": "session",
+      "phrase": "Q&A sessions",
+      "meaning": "语境：映后问答环节；常用：一场会议、课程或活动时段",
+      "sentence": "There will also be Q&A sessions with the filmmakers after selected screenings.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "270",
+      "word": "protocol",
+      "phrase": "safety protocols",
+      "meaning": "语境：实验室安全规程；常用：规程、操作规范；礼仪",
+      "sentence": "We've got some important updates to our lab safety protocols that you need to know about.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "271",
+      "word": "mandatory",
+      "meaning": "语境：必须参加的培训；常用：强制性的、义务性的",
+      "sentence": "Starting next week, there will be a mandatory training session for lab users.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "272",
+      "word": "speed",
+      "phrase": "be up to speed with",
+      "meaning": "语境：熟悉最新的安全措施；常用：速度、速率；词组表示了解最新情况",
+      "sentence": "This is to ensure everyone's up to speed with the new safety measures and can work safely.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "273",
+      "word": "measure",
+      "phrase": "safety measures",
+      "meaning": "语境：安全措施；常用：措施；测量、衡量",
+      "sentence": "This is to ensure everyone's up to speed with the new safety measures and can work safely.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "274",
+      "word": "drop",
+      "phrase": "drop by",
+      "meaning": "语境：顺路来办公室拜访；常用：落下、下降；一滴",
+      "sentence": "If you have any questions or need more details, please drop by my office or send me an email.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "275",
+      "word": "off",
+      "phrase": "be off to",
+      "meaning": "语境：正要前往某处；常用：离开、关闭、偏离",
+      "sentence": "Where are you off to?",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "276",
+      "word": "pastry",
+      "meaning": "语境：糕点、酥皮点心；常用：酥皮点心；制作糕点的油酥面团",
+      "sentence": "They have the most amazing pastries.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "277",
+      "word": "differ",
+      "phrase": "beg to differ",
+      "meaning": "语境：委婉表示不同意；常用：不同、有区别",
+      "sentence": "I begged to differ.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "278",
+      "word": "catch",
+      "phrase": "catch the first episode",
+      "meaning": "语境：看到第一集；常用：抓住、赶上；看到或听到（节目）",
+      "sentence": "I caught the first episode of the new season last night and all the jokes were so predictable.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "279",
+      "word": "episode",
+      "phrase": "the first episode",
+      "meaning": "语境：电视剧第一集；常用：（系列节目的）一集；一段经历",
+      "sentence": "I caught the first episode of the new season last night and all the jokes were so predictable.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "280",
+      "word": "season",
+      "phrase": "new season",
+      "meaning": "语境：新一季节目；常用：季节；（电视剧的）一季",
+      "sentence": "I caught the first episode of the new season last night and all the jokes were so predictable.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "281",
+      "word": "predictable",
+      "meaning": "语境：笑话很容易猜到；常用：可预测的、缺乏新意的",
+      "sentence": "I caught the first episode of the new season last night and all the jokes were so predictable.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "282",
+      "word": "rumor",
+      "phrase": "rumor is",
+      "meaning": "语境：据传；常用：传闻、谣言",
+      "sentence": "Rumor is all the script authors this season are new.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "283",
+      "word": "author",
+      "phrase": "script authors",
+      "meaning": "语境：编剧；常用：作者、撰写人",
+      "sentence": "Rumor is all the script authors this season are new.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "284",
+      "word": "series",
+      "meaning": "语境：系列节目；常用：系列、连续剧",
+      "sentence": "I've been looking for a good late night show series for a while.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "285",
+      "word": "fitness",
+      "meaning": "语境：体能、身体健康；常用：健康、体能；适合程度",
+      "sentence": "I need to improve my fitness, and I saw the physical education department is offering water aerobics classes next term.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "286",
+      "word": "aerobics",
+      "phrase": "water aerobics",
+      "meaning": "语境：水中有氧运动；常用：有氧健身操、有氧运动",
+      "sentence": "I need to improve my fitness, and I saw the physical education department is offering water aerobics classes next term.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "287",
+      "word": "term",
+      "meaning": "语境：下学期；常用：学期；期限；术语",
+      "sentence": "I need to improve my fitness, and I saw the physical education department is offering water aerobics classes next term.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "288",
+      "word": "timing",
+      "phrase": "the timing works out",
+      "meaning": "语境：时间安排合适；常用：时机、时间安排",
+      "sentence": "I hope the timing works out because those sound like a lot of fun.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "289",
+      "word": "work",
+      "phrase": "work out",
+      "meaning": "语境：顺利、可行（指时间安排）；常用：工作、运作；词组还可表示锻炼或解决",
+      "sentence": "I hope the timing works out because those sound like a lot of fun.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "290",
+      "word": "warn",
+      "meaning": "语境：提醒、告诫；常用：警告、提醒（某人注意风险）",
+      "sentence": "Well, just to warn you, I strained my back a little doing aquatic jumping jacks a few years ago.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "291",
+      "word": "strain",
+      "meaning": "语境：拉伤背部；常用：拉伤、使过度用力；压力、负担",
+      "sentence": "Well, just to warn you, I strained my back a little doing aquatic jumping jacks a few years ago.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "292",
+      "word": "aquatic",
+      "meaning": "语境：水中的；常用：水生的、水上或水中的",
+      "sentence": "Well, just to warn you, I strained my back a little doing aquatic jumping jacks a few years ago.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "293",
+      "word": "jump",
+      "phrase": "jumping jacks",
+      "meaning": "语境：开合跳；常用：跳跃；词组 jumping jacks 指开合跳运动",
+      "sentence": "Well, just to warn you, I strained my back a little doing aquatic jumping jacks a few years ago.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "294",
+      "word": "lap",
+      "phrase": "swim laps",
+      "meaning": "语境：来回游泳、游若干趟；常用：（跑道或泳池的）一圈、一趟；膝盖",
+      "sentence": "I swim laps to stay in shape.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "295",
+      "word": "seminar",
+      "meaning": "语境：研讨会、培训会；常用：研讨课、研讨会",
+      "sentence": "Students attended a seminar to discuss the new program.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "296",
+      "word": "fair",
+      "meaning": "语境：集市、展会；常用：集市、展览会；公平的",
+      "sentence": "The campus fair brought together local organizations.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "297",
+      "word": "expo",
+      "meaning": "语境：展览会；常用：大型博览会、展会",
+      "sentence": "The university held an expo for student projects.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "298",
+      "word": "auction",
+      "meaning": "语境：拍卖；常用：拍卖会；拍卖（动词）",
+      "sentence": "The club raised money through an auction.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "299",
+      "word": "auditorium",
+      "meaning": "语境：礼堂、会堂；常用：礼堂、报告厅",
+      "sentence": "Screenings take place in the University Auditorium from Friday to Sunday, starting at noon each day.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "300",
+      "word": "hall",
+      "phrase": "main hall",
+      "meaning": "语境：主会场、主大厅；常用：大厅、礼堂、走廊",
+      "sentence": "The opening ceremony will be held in the main hall.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "301",
+      "word": "lounge",
+      "meaning": "语境：休息室；常用：休息室、候机厅；懒洋洋地闲坐",
+      "sentence": "We can wait in the student lounge before the event.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "302",
+      "word": "proceeds",
+      "meaning": "语境：活动收益；常用：收益、所得款项（常用于募捐或销售）",
+      "sentence": "The proceeds from the event will support the student club.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "303",
+      "word": "recruit",
+      "meaning": "语境：招募（成员或志愿者）；常用：招募、招聘；新成员",
+      "sentence": "The organizers hope to recruit more volunteers.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "304",
+      "word": "tech",
+      "meaning": "语境：技术、科技；常用：technology 的口语缩写，也可指技术人员",
+      "sentence": "The tech team will set up the equipment before the event.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "305",
+      "word": "trail",
+      "phrase": "hiking trails",
+      "meaning": "语境：徒步小径；常用：小路、步道；痕迹",
+      "sentence": "The park has several hiking trails for visitors.",
+      "batch": "2026-10-03"
+    },
+    {
+      "id": "306",
+      "word": "cumulative",
+      "meaning": "语境：累计的、逐渐增加的；常用：累积的、累计的",
+      "sentence": "The cumulative total grew throughout the week.",
+      "batch": "2026-10-03"
     }
   ],
-  "updated_at": "2026-09-19",
-  "audio_revision": 4
+  "updated_at": "2026-10-03",
+  "audio_revision": 5
 }
