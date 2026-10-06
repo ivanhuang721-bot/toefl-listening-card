@@ -2214,7 +2214,8 @@
       "phrase": "solar panels",
       "meaning": "语境：太阳能电池板；常用：太阳能板",
       "sentence": "A solar panel converts sunlight into usable power.",
-      "batch": "2026-10-06"
+      "batch": "2026-10-06",
+      "audioWord": "solar panels"
     },
     {
       "id": "313",
@@ -2229,7 +2230,8 @@
       "phrase": "electric current",
       "meaning": "语境：电流；常用：流动的电荷",
       "sentence": "Sunlight causes the cells to generate an electric current.",
-      "batch": "2026-10-06"
+      "batch": "2026-10-06",
+      "audioWord": "electric current"
     },
     {
       "id": "315",
@@ -2244,7 +2246,8 @@
       "phrase": "carbon dioxide",
       "meaning": "语境：二氧化碳；常用：二氧化碳",
       "sentence": "Manufacturing the panels can produce carbon dioxide.",
-      "batch": "2026-10-06"
+      "batch": "2026-10-06",
+      "audioWord": "carbon dioxide"
     },
     {
       "id": "317",
@@ -2252,7 +2255,8 @@
       "phrase": "fossil fuels",
       "meaning": "语境：化石燃料；常用：煤、石油或天然气等燃料",
       "sentence": "Manufacturing solar panels still uses some fossil fuels.",
-      "batch": "2026-10-06"
+      "batch": "2026-10-06",
+      "audioWord": "fossil fuels"
     },
     {
       "id": "318",
@@ -2260,7 +2264,8 @@
       "phrase": "carbon footprint",
       "meaning": "语境：碳足迹、碳排放量；常用：活动产生的温室气体总量",
       "sentence": "Solar power has a lower carbon footprint than coal.",
-      "batch": "2026-10-06"
+      "batch": "2026-10-06",
+      "audioWord": "carbon footprint"
     },
     {
       "id": "319",
@@ -2268,7 +2273,8 @@
       "phrase": "natural gas",
       "meaning": "语境：天然气；常用：天然气",
       "sentence": "Natural gas still creates greenhouse gas emissions.",
-      "batch": "2026-10-06"
+      "batch": "2026-10-06",
+      "audioWord": "natural gas"
     },
     {
       "id": "320",
@@ -2465,7 +2471,8 @@
       "phrase": "look all over for",
       "meaning": "语境：到处找（look all over for）；常用：看、寻找",
       "sentence": "I've been looking all over for you.",
-      "batch": "2026-10-06"
+      "batch": "2026-10-06",
+      "audioWord": "look all over for"
     },
     {
       "id": "348",
@@ -2515,7 +2522,8 @@
       "phrase": "time difference",
       "meaning": "语境：时差；常用：时间差",
       "sentence": "The time difference made it hard for her to sleep.",
-      "batch": "2026-10-06"
+      "batch": "2026-10-06",
+      "audioWord": "time difference"
     },
     {
       "id": "355",
@@ -2530,7 +2538,8 @@
       "phrase": "jet lag",
       "meaning": "语境：时差反应；常用：跨时区旅行后的疲劳",
       "sentence": "I had bad jet lag after traveling across the globe.",
-      "batch": "2026-10-06"
+      "batch": "2026-10-06",
+      "audioWord": "jet lag"
     },
     {
       "id": "357",
@@ -2545,7 +2554,8 @@
       "phrase": "internal clock",
       "meaning": "语境：生物钟；常用：身体内部的时间节律",
       "sentence": "Sunlight can help reset your internal clock.",
-      "batch": "2026-10-06"
+      "batch": "2026-10-06",
+      "audioWord": "internal clock"
     },
     {
       "id": "359",
@@ -2553,7 +2563,8 @@
       "phrase": "sort out",
       "meaning": "语境：处理、解决（学分问题）；常用：整理、解决",
       "sentence": "She needs to sort out credit for an extra course.",
-      "batch": "2026-10-06"
+      "batch": "2026-10-06",
+      "audioWord": "sort out"
     },
     {
       "id": "360",
@@ -2575,7 +2586,8 @@
       "phrase": "wind instruments",
       "meaning": "语境：管乐器；常用：吹奏乐器",
       "sentence": "Most wind instruments changed over time.",
-      "batch": "2026-10-06"
+      "batch": "2026-10-06",
+      "audioWord": "wind instruments"
     },
     {
       "id": "363",
@@ -2695,7 +2707,8 @@
       "meaning": "语境：弯成（形状）；常用：弯曲",
       "sentence": "The wooden tube was bent into a serpent shape.",
       "batch": "2026-10-06",
-      "phrase": "bent into"
+      "phrase": "bent into",
+      "audioWord": "bent into"
     },
     {
       "id": "380",
@@ -2710,7 +2723,8 @@
       "meaning": "语境：合唱团；常用：唱诗班、合唱团",
       "sentence": "Imagine a choir singing beside the serpent.",
       "batch": "2026-10-06",
-      "phrase": "a choir of"
+      "phrase": "a choir of",
+      "audioWord": "a choir of"
     },
     {
       "id": "382",
@@ -2718,7 +2732,8 @@
       "phrase": "booming along",
       "meaning": "语境：轰隆隆地伴奏；常用：发出低沉响声伴随",
       "sentence": "The serpent was booming along behind the choir.",
-      "batch": "2026-10-06"
+      "batch": "2026-10-06",
+      "audioWord": "booming along"
     },
     {
       "id": "383",
@@ -2733,7 +2748,8 @@
       "phrase": "so long",
       "meaning": "语境：再见；常用：再见、告别",
       "sentence": "So long, serpent, and hello to the ophicleide.",
-      "batch": "2026-10-06"
+      "batch": "2026-10-06",
+      "audioWord": "so long"
     },
     {
       "id": "385",
@@ -2769,7 +2785,8 @@
       "phrase": "weather forecast",
       "meaning": "语境：天气预报；常用：对天气状况的预测",
       "sentence": "Did you check the weather forecast for tomorrow?",
-      "batch": "2026-10-06"
+      "batch": "2026-10-06",
+      "audioWord": "weather forecast"
     },
     {
       "id": "390",
@@ -2819,7 +2836,8 @@
       "phrase": "literature conference",
       "meaning": "语境：文学会议；常用：文学研讨会",
       "sentence": "Have you booked your travel to the literature conference?",
-      "batch": "2026-10-06"
+      "batch": "2026-10-06",
+      "audioWord": "literature conference"
     },
     {
       "id": "397",
@@ -2897,7 +2915,8 @@
       "phrase": "in excess",
       "meaning": "语境：超出限额；常用：超出、过量",
       "sentence": "Students will pay for pages in excess of fifty.",
-      "batch": "2026-10-06"
+      "batch": "2026-10-06",
+      "audioWord": "in excess"
     },
     {
       "id": "408",
@@ -2940,7 +2959,8 @@
       "phrase": "mess it up",
       "meaning": "语境：搞砸（试演）；常用：弄糟",
       "sentence": "I don't want to mess up my first audition.",
-      "batch": "2026-10-06"
+      "batch": "2026-10-06",
+      "audioWord": "mess it up"
     },
     {
       "id": "414",
@@ -2976,7 +2996,8 @@
       "phrase": "not necessarily",
       "meaning": "语境：未必如此；常用：不一定",
       "sentence": "Will one mistake ruin the audition? Not necessarily.",
-      "batch": "2026-10-06"
+      "batch": "2026-10-06",
+      "audioWord": "not necessarily"
     },
     {
       "id": "419",
@@ -2984,7 +3005,8 @@
       "phrase": "stumbled over",
       "meaning": "语境：说话时磕巴、读错；常用：被绊倒、结结巴巴地说",
       "sentence": "I stumbled over a few words during my audition.",
-      "batch": "2026-10-06"
+      "batch": "2026-10-06",
+      "audioWord": "stumbled over"
     },
     {
       "id": "420",
@@ -3013,7 +3035,8 @@
       "phrase": "go into",
       "meaning": "语境：详细讨论、深入阐述；常用：进入、从事",
       "sentence": "The speaker did not go into every detail.",
-      "batch": "2026-10-06"
+      "batch": "2026-10-06",
+      "audioWord": "go into"
     },
     {
       "id": "424",
@@ -3042,7 +3065,8 @@
       "phrase": "make coffee",
       "meaning": "语境：煮咖啡；常用：冲泡咖啡",
       "sentence": "I'll make coffee before the meeting starts.",
-      "batch": "2026-10-06"
+      "batch": "2026-10-06",
+      "audioWord": "make coffee"
     },
     {
       "id": "428",
@@ -3064,7 +3088,8 @@
       "phrase": "grab extra handouts",
       "meaning": "语境：多拿几份讲义；常用：grab 取、拿；handout 讲义",
       "sentence": "Please grab extra handouts for anyone who arrives late.",
-      "batch": "2026-10-06"
+      "batch": "2026-10-06",
+      "audioWord": "grab extra handouts"
     },
     {
       "id": "431",
@@ -3072,9 +3097,10 @@
       "phrase": "carve out",
       "meaning": "语境：挤出（时间）；常用：腾出时间、开辟",
       "sentence": "I'll carve out an hour to review these words.",
-      "batch": "2026-10-06"
+      "batch": "2026-10-06",
+      "audioWord": "carve out"
     }
   ],
   "updated_at": "2026-10-06",
-  "audio_revision": 6
+  "audio_revision": 7
 }

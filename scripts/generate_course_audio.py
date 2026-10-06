@@ -57,10 +57,17 @@ async def main():
     for d in (word_dir,sentence_dir,meaning_dir):
         d.mkdir(parents=True, exist_ok=True)
 
+    # Reuse a word clip only when its spoken text matches the previous build.
+    prior_meta_path = OUT/"course.meta.json"
+    prior_manifest = json.loads(prior_meta_path.read_text(encoding="utf-8")).get("practice_manifest", []) if prior_meta_path.exists() else []
+    prior_word_text = {item["id"]: item.get("audio_word", item["word"]) for item in prior_manifest}
+
     jobs=[]
     for c in COURSE["cards"]:
         cid=c["id"]
-        jobs.append(tts(c.get("audioWord",c["word"]),TMP/(cid+"_word.mp3"),VOICE,RATE,word_dir/(cid+".mp3")))
+        spoken_word = c.get("audioWord", c["word"])
+        existing_word = word_dir/(cid+".mp3") if prior_word_text.get(cid) == spoken_word else None
+        jobs.append(tts(spoken_word,TMP/(cid+"_word.mp3"),VOICE,RATE,existing_word))
         jobs.append(tts(c["sentence"],TMP/(cid+"_sentence.mp3"),VOICE,RATE,sentence_dir/(cid+".mp3")))
         jobs.append(tts(c.get("meaning",""),TMP/(cid+"_meaning.mp3"),MEANING_VOICE,MEANING_RATE,meaning_dir/(cid+".mp3")))
     await asyncio.gather(*jobs)
@@ -80,6 +87,7 @@ async def main():
         manifest.append({
             "id":cid,
             "word":c["word"],
+            "audio_word":c.get("audioWord",c["word"]),
             "word_file":f"word/{cid}.mp3",
             "sentence_file":f"sentence/{cid}.mp3",
             "meaning_file":f"meaning/{cid}.mp3"
