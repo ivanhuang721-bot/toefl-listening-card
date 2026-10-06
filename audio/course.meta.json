@@ -309,9 +309,134 @@
     2001.6,
     2006.904,
     2012.088,
-    2017.176
+    2017.176,
+    2021.928,
+    2028.384,
+    2033.184,
+    2039.088,
+    2044.032,
+    2049.456,
+    2054.808,
+    2060.064,
+    2065.848,
+    2071.704,
+    2077.152,
+    2083.104,
+    2088.528,
+    2094.288,
+    2099.664,
+    2105.76,
+    2111.976,
+    2117.232,
+    2122.608,
+    2127.984,
+    2132.736,
+    2138.232,
+    2144.496,
+    2151.6,
+    2156.304,
+    2162.808,
+    2168.232,
+    2173.296,
+    2178.264,
+    2183.784,
+    2188.824,
+    2194.008,
+    2199.576,
+    2204.376,
+    2209.848,
+    2215.2,
+    2220.72,
+    2226.096,
+    2231.448,
+    2236.752,
+    2241.384,
+    2245.416,
+    2249.664,
+    2255.16,
+    2259.936,
+    2264.088,
+    2268.432,
+    2273.52,
+    2278.416,
+    2283.456,
+    2288.928,
+    2293.344,
+    2298.168,
+    2303.112,
+    2307.672,
+    2312.256,
+    2317.08,
+    2322.336,
+    2326.608,
+    2331.192,
+    2336.328,
+    2341.2,
+    2346.216,
+    2351.4,
+    2356.752,
+    2361.24,
+    2366.712,
+    2371.752,
+    2376.816,
+    2381.616,
+    2386.56,
+    2391.816,
+    2396.28,
+    2401.176,
+    2406.24,
+    2411.304,
+    2416.248,
+    2421.12,
+    2426.544,
+    2431.92,
+    2436.888,
+    2442.24,
+    2446.488,
+    2450.856,
+    2455.128,
+    2459.76,
+    2464.944,
+    2469.816,
+    2475.528,
+    2480.568,
+    2485.272,
+    2490.6,
+    2495.16,
+    2501.856,
+    2507.16,
+    2512.44,
+    2518.104,
+    2523.264,
+    2528.52,
+    2533.896,
+    2539.32,
+    2544.552,
+    2549.976,
+    2555.448,
+    2560.848,
+    2565.264,
+    2569.8,
+    2574.072,
+    2578.68,
+    2583.048,
+    2587.896,
+    2592.456,
+    2598.096,
+    2603.088,
+    2608.512,
+    2613.744,
+    2618.976,
+    2623.776,
+    2628.528,
+    2634.312,
+    2639.328,
+    2644.032,
+    2648.928,
+    2653.32,
+    2659.032
   ],
-  "duration": 2021.928,
+  "duration": 2663.736,
   "practice_manifest": [
     {
       "id": "001",
@@ -2454,6 +2579,881 @@
       "word_file": "word/306.mp3",
       "sentence_file": "sentence/306.mp3",
       "meaning_file": "meaning/306.mp3"
+    },
+    {
+      "id": "307",
+      "word": "arguably",
+      "word_file": "word/307.mp3",
+      "sentence_file": "sentence/307.mp3",
+      "meaning_file": "meaning/307.mp3"
+    },
+    {
+      "id": "308",
+      "word": "ray",
+      "word_file": "word/308.mp3",
+      "sentence_file": "sentence/308.mp3",
+      "meaning_file": "meaning/308.mp3"
+    },
+    {
+      "id": "309",
+      "word": "convert",
+      "word_file": "word/309.mp3",
+      "sentence_file": "sentence/309.mp3",
+      "meaning_file": "meaning/309.mp3"
+    },
+    {
+      "id": "310",
+      "word": "electricity",
+      "word_file": "word/310.mp3",
+      "sentence_file": "sentence/310.mp3",
+      "meaning_file": "meaning/310.mp3"
+    },
+    {
+      "id": "311",
+      "word": "primary",
+      "word_file": "word/311.mp3",
+      "sentence_file": "sentence/311.mp3",
+      "meaning_file": "meaning/311.mp3"
+    },
+    {
+      "id": "312",
+      "word": "panel",
+      "word_file": "word/312.mp3",
+      "sentence_file": "sentence/312.mp3",
+      "meaning_file": "meaning/312.mp3"
+    },
+    {
+      "id": "313",
+      "word": "photovoltaic",
+      "word_file": "word/313.mp3",
+      "sentence_file": "sentence/313.mp3",
+      "meaning_file": "meaning/313.mp3"
+    },
+    {
+      "id": "314",
+      "word": "current",
+      "word_file": "word/314.mp3",
+      "sentence_file": "sentence/314.mp3",
+      "meaning_file": "meaning/314.mp3"
+    },
+    {
+      "id": "315",
+      "word": "endeavor",
+      "word_file": "word/315.mp3",
+      "sentence_file": "sentence/315.mp3",
+      "meaning_file": "meaning/315.mp3"
+    },
+    {
+      "id": "316",
+      "word": "carbon",
+      "word_file": "word/316.mp3",
+      "sentence_file": "sentence/316.mp3",
+      "meaning_file": "meaning/316.mp3"
+    },
+    {
+      "id": "317",
+      "word": "fuel",
+      "word_file": "word/317.mp3",
+      "sentence_file": "sentence/317.mp3",
+      "meaning_file": "meaning/317.mp3"
+    },
+    {
+      "id": "318",
+      "word": "footprint",
+      "word_file": "word/318.mp3",
+      "sentence_file": "sentence/318.mp3",
+      "meaning_file": "meaning/318.mp3"
+    },
+    {
+      "id": "319",
+      "word": "gas",
+      "word_file": "word/319.mp3",
+      "sentence_file": "sentence/319.mp3",
+      "meaning_file": "meaning/319.mp3"
+    },
+    {
+      "id": "320",
+      "word": "emission",
+      "word_file": "word/320.mp3",
+      "sentence_file": "sentence/320.mp3",
+      "meaning_file": "meaning/320.mp3"
+    },
+    {
+      "id": "321",
+      "word": "access",
+      "word_file": "word/321.mp3",
+      "sentence_file": "sentence/321.mp3",
+      "meaning_file": "meaning/321.mp3"
+    },
+    {
+      "id": "322",
+      "word": "underserved",
+      "word_file": "word/322.mp3",
+      "sentence_file": "sentence/322.mp3",
+      "meaning_file": "meaning/322.mp3"
+    },
+    {
+      "id": "323",
+      "word": "grid",
+      "word_file": "word/323.mp3",
+      "sentence_file": "sentence/323.mp3",
+      "meaning_file": "meaning/323.mp3"
+    },
+    {
+      "id": "324",
+      "word": "efficiency",
+      "word_file": "word/324.mp3",
+      "sentence_file": "sentence/324.mp3",
+      "meaning_file": "meaning/324.mp3"
+    },
+    {
+      "id": "325",
+      "word": "weather",
+      "word_file": "word/325.mp3",
+      "sentence_file": "sentence/325.mp3",
+      "meaning_file": "meaning/325.mp3"
+    },
+    {
+      "id": "326",
+      "word": "battery",
+      "word_file": "word/326.mp3",
+      "sentence_file": "sentence/326.mp3",
+      "meaning_file": "meaning/326.mp3"
+    },
+    {
+      "id": "327",
+      "word": "period",
+      "word_file": "word/327.mp3",
+      "sentence_file": "sentence/327.mp3",
+      "meaning_file": "meaning/327.mp3"
+    },
+    {
+      "id": "328",
+      "word": "lifespan",
+      "word_file": "word/328.mp3",
+      "sentence_file": "sentence/328.mp3",
+      "meaning_file": "meaning/328.mp3"
+    },
+    {
+      "id": "329",
+      "word": "paradoxically",
+      "word_file": "word/329.mp3",
+      "sentence_file": "sentence/329.mp3",
+      "meaning_file": "meaning/329.mp3"
+    },
+    {
+      "id": "330",
+      "word": "landfill",
+      "word_file": "word/330.mp3",
+      "sentence_file": "sentence/330.mp3",
+      "meaning_file": "meaning/330.mp3"
+    },
+    {
+      "id": "331",
+      "word": "figure",
+      "word_file": "word/331.mp3",
+      "sentence_file": "sentence/331.mp3",
+      "meaning_file": "meaning/331.mp3"
+    },
+    {
+      "id": "332",
+      "word": "migration",
+      "word_file": "word/332.mp3",
+      "sentence_file": "sentence/332.mp3",
+      "meaning_file": "meaning/332.mp3"
+    },
+    {
+      "id": "333",
+      "word": "caption",
+      "word_file": "word/333.mp3",
+      "sentence_file": "sentence/333.mp3",
+      "meaning_file": "meaning/333.mp3"
+    },
+    {
+      "id": "334",
+      "word": "chronicle",
+      "word_file": "word/334.mp3",
+      "sentence_file": "sentence/334.mp3",
+      "meaning_file": "meaning/334.mp3"
+    },
+    {
+      "id": "335",
+      "word": "rural",
+      "word_file": "word/335.mp3",
+      "sentence_file": "sentence/335.mp3",
+      "meaning_file": "meaning/335.mp3"
+    },
+    {
+      "id": "336",
+      "word": "bold",
+      "word_file": "word/336.mp3",
+      "sentence_file": "sentence/336.mp3",
+      "meaning_file": "meaning/336.mp3"
+    },
+    {
+      "id": "337",
+      "word": "diagonal",
+      "word_file": "word/337.mp3",
+      "sentence_file": "sentence/337.mp3",
+      "meaning_file": "meaning/337.mp3"
+    },
+    {
+      "id": "338",
+      "word": "representative",
+      "word_file": "word/338.mp3",
+      "sentence_file": "sentence/338.mp3",
+      "meaning_file": "meaning/338.mp3"
+    },
+    {
+      "id": "339",
+      "word": "critic",
+      "word_file": "word/339.mp3",
+      "sentence_file": "sentence/339.mp3",
+      "meaning_file": "meaning/339.mp3"
+    },
+    {
+      "id": "340",
+      "word": "crude",
+      "word_file": "word/340.mp3",
+      "sentence_file": "sentence/340.mp3",
+      "meaning_file": "meaning/340.mp3"
+    },
+    {
+      "id": "341",
+      "word": "polished",
+      "word_file": "word/341.mp3",
+      "sentence_file": "sentence/341.mp3",
+      "meaning_file": "meaning/341.mp3"
+    },
+    {
+      "id": "342",
+      "word": "capable",
+      "word_file": "word/342.mp3",
+      "sentence_file": "sentence/342.mp3",
+      "meaning_file": "meaning/342.mp3"
+    },
+    {
+      "id": "343",
+      "word": "satisfy",
+      "word_file": "word/343.mp3",
+      "sentence_file": "sentence/343.mp3",
+      "meaning_file": "meaning/343.mp3"
+    },
+    {
+      "id": "344",
+      "word": "snooty",
+      "word_file": "word/344.mp3",
+      "sentence_file": "sentence/344.mp3",
+      "meaning_file": "meaning/344.mp3"
+    },
+    {
+      "id": "345",
+      "word": "convincing",
+      "word_file": "word/345.mp3",
+      "sentence_file": "sentence/345.mp3",
+      "meaning_file": "meaning/345.mp3"
+    },
+    {
+      "id": "346",
+      "word": "accessory",
+      "word_file": "word/346.mp3",
+      "sentence_file": "sentence/346.mp3",
+      "meaning_file": "meaning/346.mp3"
+    },
+    {
+      "id": "347",
+      "word": "look",
+      "word_file": "word/347.mp3",
+      "sentence_file": "sentence/347.mp3",
+      "meaning_file": "meaning/347.mp3"
+    },
+    {
+      "id": "348",
+      "word": "comfort",
+      "word_file": "word/348.mp3",
+      "sentence_file": "sentence/348.mp3",
+      "meaning_file": "meaning/348.mp3"
+    },
+    {
+      "id": "349",
+      "word": "furniture",
+      "word_file": "word/349.mp3",
+      "sentence_file": "sentence/349.mp3",
+      "meaning_file": "meaning/349.mp3"
+    },
+    {
+      "id": "350",
+      "word": "sale",
+      "word_file": "word/350.mp3",
+      "sentence_file": "sentence/350.mp3",
+      "meaning_file": "meaning/350.mp3"
+    },
+    {
+      "id": "351",
+      "word": "catalogue",
+      "word_file": "word/351.mp3",
+      "sentence_file": "sentence/351.mp3",
+      "meaning_file": "meaning/351.mp3"
+    },
+    {
+      "id": "352",
+      "word": "return",
+      "word_file": "word/352.mp3",
+      "sentence_file": "sentence/352.mp3",
+      "meaning_file": "meaning/352.mp3"
+    },
+    {
+      "id": "353",
+      "word": "adjust",
+      "word_file": "word/353.mp3",
+      "sentence_file": "sentence/353.mp3",
+      "meaning_file": "meaning/353.mp3"
+    },
+    {
+      "id": "354",
+      "word": "difference",
+      "word_file": "word/354.mp3",
+      "sentence_file": "sentence/354.mp3",
+      "meaning_file": "meaning/354.mp3"
+    },
+    {
+      "id": "355",
+      "word": "relate",
+      "word_file": "word/355.mp3",
+      "sentence_file": "sentence/355.mp3",
+      "meaning_file": "meaning/355.mp3"
+    },
+    {
+      "id": "356",
+      "word": "lag",
+      "word_file": "word/356.mp3",
+      "sentence_file": "sentence/356.mp3",
+      "meaning_file": "meaning/356.mp3"
+    },
+    {
+      "id": "357",
+      "word": "nap",
+      "word_file": "word/357.mp3",
+      "sentence_file": "sentence/357.mp3",
+      "meaning_file": "meaning/357.mp3"
+    },
+    {
+      "id": "358",
+      "word": "clock",
+      "word_file": "word/358.mp3",
+      "sentence_file": "sentence/358.mp3",
+      "meaning_file": "meaning/358.mp3"
+    },
+    {
+      "id": "359",
+      "word": "sort",
+      "word_file": "word/359.mp3",
+      "sentence_file": "sentence/359.mp3",
+      "meaning_file": "meaning/359.mp3"
+    },
+    {
+      "id": "360",
+      "word": "credit",
+      "word_file": "word/360.mp3",
+      "sentence_file": "sentence/360.mp3",
+      "meaning_file": "meaning/360.mp3"
+    },
+    {
+      "id": "361",
+      "word": "extra",
+      "word_file": "word/361.mp3",
+      "sentence_file": "sentence/361.mp3",
+      "meaning_file": "meaning/361.mp3"
+    },
+    {
+      "id": "362",
+      "word": "instrument",
+      "word_file": "word/362.mp3",
+      "sentence_file": "sentence/362.mp3",
+      "meaning_file": "meaning/362.mp3"
+    },
+    {
+      "id": "363",
+      "word": "modification",
+      "word_file": "word/363.mp3",
+      "sentence_file": "sentence/363.mp3",
+      "meaning_file": "meaning/363.mp3"
+    },
+    {
+      "id": "364",
+      "word": "brass",
+      "word_file": "word/364.mp3",
+      "sentence_file": "sentence/364.mp3",
+      "meaning_file": "meaning/364.mp3"
+    },
+    {
+      "id": "365",
+      "word": "trumpet",
+      "word_file": "word/365.mp3",
+      "sentence_file": "sentence/365.mp3",
+      "meaning_file": "meaning/365.mp3"
+    },
+    {
+      "id": "366",
+      "word": "trombone",
+      "word_file": "word/366.mp3",
+      "sentence_file": "sentence/366.mp3",
+      "meaning_file": "meaning/366.mp3"
+    },
+    {
+      "id": "367",
+      "word": "undergo",
+      "word_file": "word/367.mp3",
+      "sentence_file": "sentence/367.mp3",
+      "meaning_file": "meaning/367.mp3"
+    },
+    {
+      "id": "368",
+      "word": "century",
+      "word_file": "word/368.mp3",
+      "sentence_file": "sentence/368.mp3",
+      "meaning_file": "meaning/368.mp3"
+    },
+    {
+      "id": "369",
+      "word": "refinement",
+      "word_file": "word/369.mp3",
+      "sentence_file": "sentence/369.mp3",
+      "meaning_file": "meaning/369.mp3"
+    },
+    {
+      "id": "370",
+      "word": "composer",
+      "word_file": "word/370.mp3",
+      "sentence_file": "sentence/370.mp3",
+      "meaning_file": "meaning/370.mp3"
+    },
+    {
+      "id": "371",
+      "word": "bass",
+      "word_file": "word/371.mp3",
+      "sentence_file": "sentence/371.mp3",
+      "meaning_file": "meaning/371.mp3"
+    },
+    {
+      "id": "372",
+      "word": "tinker",
+      "word_file": "word/372.mp3",
+      "sentence_file": "sentence/372.mp3",
+      "meaning_file": "meaning/372.mp3"
+    },
+    {
+      "id": "373",
+      "word": "discard",
+      "word_file": "word/373.mp3",
+      "sentence_file": "sentence/373.mp3",
+      "meaning_file": "meaning/373.mp3"
+    },
+    {
+      "id": "374",
+      "word": "tuba",
+      "word_file": "word/374.mp3",
+      "sentence_file": "sentence/374.mp3",
+      "meaning_file": "meaning/374.mp3"
+    },
+    {
+      "id": "375",
+      "word": "ancestor",
+      "word_file": "word/375.mp3",
+      "sentence_file": "sentence/375.mp3",
+      "meaning_file": "meaning/375.mp3"
+    },
+    {
+      "id": "376",
+      "word": "precursor",
+      "word_file": "word/376.mp3",
+      "sentence_file": "sentence/376.mp3",
+      "meaning_file": "meaning/376.mp3"
+    },
+    {
+      "id": "377",
+      "word": "serpent",
+      "word_file": "word/377.mp3",
+      "sentence_file": "sentence/377.mp3",
+      "meaning_file": "meaning/377.mp3"
+    },
+    {
+      "id": "378",
+      "word": "wooden",
+      "word_file": "word/378.mp3",
+      "sentence_file": "sentence/378.mp3",
+      "meaning_file": "meaning/378.mp3"
+    },
+    {
+      "id": "379",
+      "word": "bend",
+      "word_file": "word/379.mp3",
+      "sentence_file": "sentence/379.mp3",
+      "meaning_file": "meaning/379.mp3"
+    },
+    {
+      "id": "380",
+      "word": "intonation",
+      "word_file": "word/380.mp3",
+      "sentence_file": "sentence/380.mp3",
+      "meaning_file": "meaning/380.mp3"
+    },
+    {
+      "id": "381",
+      "word": "choir",
+      "word_file": "word/381.mp3",
+      "sentence_file": "sentence/381.mp3",
+      "meaning_file": "meaning/381.mp3"
+    },
+    {
+      "id": "382",
+      "word": "boom",
+      "word_file": "word/382.mp3",
+      "sentence_file": "sentence/382.mp3",
+      "meaning_file": "meaning/382.mp3"
+    },
+    {
+      "id": "383",
+      "word": "ouch",
+      "word_file": "word/383.mp3",
+      "sentence_file": "sentence/383.mp3",
+      "meaning_file": "meaning/383.mp3"
+    },
+    {
+      "id": "384",
+      "word": "long",
+      "word_file": "word/384.mp3",
+      "sentence_file": "sentence/384.mp3",
+      "meaning_file": "meaning/384.mp3"
+    },
+    {
+      "id": "385",
+      "word": "ophicleide",
+      "word_file": "word/385.mp3",
+      "sentence_file": "sentence/385.mp3",
+      "meaning_file": "meaning/385.mp3"
+    },
+    {
+      "id": "386",
+      "word": "construction",
+      "word_file": "word/386.mp3",
+      "sentence_file": "sentence/386.mp3",
+      "meaning_file": "meaning/386.mp3"
+    },
+    {
+      "id": "387",
+      "word": "Berlioz",
+      "word_file": "word/387.mp3",
+      "sentence_file": "sentence/387.mp3",
+      "meaning_file": "meaning/387.mp3"
+    },
+    {
+      "id": "388",
+      "word": "pitch",
+      "word_file": "word/388.mp3",
+      "sentence_file": "sentence/388.mp3",
+      "meaning_file": "meaning/388.mp3"
+    },
+    {
+      "id": "389",
+      "word": "forecast",
+      "word_file": "word/389.mp3",
+      "sentence_file": "sentence/389.mp3",
+      "meaning_file": "meaning/389.mp3"
+    },
+    {
+      "id": "390",
+      "word": "predict",
+      "word_file": "word/390.mp3",
+      "sentence_file": "sentence/390.mp3",
+      "meaning_file": "meaning/390.mp3"
+    },
+    {
+      "id": "391",
+      "word": "thunderstorm",
+      "word_file": "word/391.mp3",
+      "sentence_file": "sentence/391.mp3",
+      "meaning_file": "meaning/391.mp3"
+    },
+    {
+      "id": "392",
+      "word": "photography",
+      "word_file": "word/392.mp3",
+      "sentence_file": "sentence/392.mp3",
+      "meaning_file": "meaning/392.mp3"
+    },
+    {
+      "id": "393",
+      "word": "indoor",
+      "word_file": "word/393.mp3",
+      "sentence_file": "sentence/393.mp3",
+      "meaning_file": "meaning/393.mp3"
+    },
+    {
+      "id": "394",
+      "word": "alternative",
+      "word_file": "word/394.mp3",
+      "sentence_file": "sentence/394.mp3",
+      "meaning_file": "meaning/394.mp3"
+    },
+    {
+      "id": "395",
+      "word": "relevant",
+      "word_file": "word/395.mp3",
+      "sentence_file": "sentence/395.mp3",
+      "meaning_file": "meaning/395.mp3"
+    },
+    {
+      "id": "396",
+      "word": "literature",
+      "word_file": "word/396.mp3",
+      "sentence_file": "sentence/396.mp3",
+      "meaning_file": "meaning/396.mp3"
+    },
+    {
+      "id": "397",
+      "word": "immediately",
+      "word_file": "word/397.mp3",
+      "sentence_file": "sentence/397.mp3",
+      "meaning_file": "meaning/397.mp3"
+    },
+    {
+      "id": "398",
+      "word": "present",
+      "word_file": "word/398.mp3",
+      "sentence_file": "sentence/398.mp3",
+      "meaning_file": "meaning/398.mp3"
+    },
+    {
+      "id": "399",
+      "word": "beat",
+      "word_file": "word/399.mp3",
+      "sentence_file": "sentence/399.mp3",
+      "meaning_file": "meaning/399.mp3"
+    },
+    {
+      "id": "400",
+      "word": "sculpture",
+      "word_file": "word/400.mp3",
+      "sentence_file": "sentence/400.mp3",
+      "meaning_file": "meaning/400.mp3"
+    },
+    {
+      "id": "401",
+      "word": "talented",
+      "word_file": "word/401.mp3",
+      "sentence_file": "sentence/401.mp3",
+      "meaning_file": "meaning/401.mp3"
+    },
+    {
+      "id": "402",
+      "word": "accommodate",
+      "word_file": "word/402.mp3",
+      "sentence_file": "sentence/402.mp3",
+      "meaning_file": "meaning/402.mp3"
+    },
+    {
+      "id": "403",
+      "word": "gain",
+      "word_file": "word/403.mp3",
+      "sentence_file": "sentence/403.mp3",
+      "meaning_file": "meaning/403.mp3"
+    },
+    {
+      "id": "404",
+      "word": "scan",
+      "word_file": "word/404.mp3",
+      "sentence_file": "sentence/404.mp3",
+      "meaning_file": "meaning/404.mp3"
+    },
+    {
+      "id": "405",
+      "word": "printing",
+      "word_file": "word/405.mp3",
+      "sentence_file": "sentence/405.mp3",
+      "meaning_file": "meaning/405.mp3"
+    },
+    {
+      "id": "406",
+      "word": "per",
+      "word_file": "word/406.mp3",
+      "sentence_file": "sentence/406.mp3",
+      "meaning_file": "meaning/406.mp3"
+    },
+    {
+      "id": "407",
+      "word": "excess",
+      "word_file": "word/407.mp3",
+      "sentence_file": "sentence/407.mp3",
+      "meaning_file": "meaning/407.mp3"
+    },
+    {
+      "id": "408",
+      "word": "initiative",
+      "word_file": "word/408.mp3",
+      "sentence_file": "sentence/408.mp3",
+      "meaning_file": "meaning/408.mp3"
+    },
+    {
+      "id": "409",
+      "word": "contest",
+      "word_file": "word/409.mp3",
+      "sentence_file": "sentence/409.mp3",
+      "meaning_file": "meaning/409.mp3"
+    },
+    {
+      "id": "410",
+      "word": "piece",
+      "word_file": "word/410.mp3",
+      "sentence_file": "sentence/410.mp3",
+      "meaning_file": "meaning/410.mp3"
+    },
+    {
+      "id": "411",
+      "word": "suite",
+      "word_file": "word/411.mp3",
+      "sentence_file": "sentence/411.mp3",
+      "meaning_file": "meaning/411.mp3"
+    },
+    {
+      "id": "412",
+      "word": "audition",
+      "word_file": "word/412.mp3",
+      "sentence_file": "sentence/412.mp3",
+      "meaning_file": "meaning/412.mp3"
+    },
+    {
+      "id": "413",
+      "word": "mess",
+      "word_file": "word/413.mp3",
+      "sentence_file": "sentence/413.mp3",
+      "meaning_file": "meaning/413.mp3"
+    },
+    {
+      "id": "414",
+      "word": "acting",
+      "word_file": "word/414.mp3",
+      "sentence_file": "sentence/414.mp3",
+      "meaning_file": "meaning/414.mp3"
+    },
+    {
+      "id": "415",
+      "word": "director",
+      "word_file": "word/415.mp3",
+      "sentence_file": "sentence/415.mp3",
+      "meaning_file": "meaning/415.mp3"
+    },
+    {
+      "id": "416",
+      "word": "attitude",
+      "word_file": "word/416.mp3",
+      "sentence_file": "sentence/416.mp3",
+      "meaning_file": "meaning/416.mp3"
+    },
+    {
+      "id": "417",
+      "word": "ruin",
+      "word_file": "word/417.mp3",
+      "sentence_file": "sentence/417.mp3",
+      "meaning_file": "meaning/417.mp3"
+    },
+    {
+      "id": "418",
+      "word": "necessarily",
+      "word_file": "word/418.mp3",
+      "sentence_file": "sentence/418.mp3",
+      "meaning_file": "meaning/418.mp3"
+    },
+    {
+      "id": "419",
+      "word": "stumble",
+      "word_file": "word/419.mp3",
+      "sentence_file": "sentence/419.mp3",
+      "meaning_file": "meaning/419.mp3"
+    },
+    {
+      "id": "420",
+      "word": "cast",
+      "word_file": "word/420.mp3",
+      "sentence_file": "sentence/420.mp3",
+      "meaning_file": "meaning/420.mp3"
+    },
+    {
+      "id": "421",
+      "word": "fundraiser",
+      "word_file": "word/421.mp3",
+      "sentence_file": "sentence/421.mp3",
+      "meaning_file": "meaning/421.mp3"
+    },
+    {
+      "id": "422",
+      "word": "depth",
+      "word_file": "word/422.mp3",
+      "sentence_file": "sentence/422.mp3",
+      "meaning_file": "meaning/422.mp3"
+    },
+    {
+      "id": "423",
+      "word": "go",
+      "word_file": "word/423.mp3",
+      "sentence_file": "sentence/423.mp3",
+      "meaning_file": "meaning/423.mp3"
+    },
+    {
+      "id": "424",
+      "word": "confirm",
+      "word_file": "word/424.mp3",
+      "sentence_file": "sentence/424.mp3",
+      "meaning_file": "meaning/424.mp3"
+    },
+    {
+      "id": "425",
+      "word": "clarity",
+      "word_file": "word/425.mp3",
+      "sentence_file": "sentence/425.mp3",
+      "meaning_file": "meaning/425.mp3"
+    },
+    {
+      "id": "426",
+      "word": "evaluate",
+      "word_file": "word/426.mp3",
+      "sentence_file": "sentence/426.mp3",
+      "meaning_file": "meaning/426.mp3"
+    },
+    {
+      "id": "427",
+      "word": "coffee",
+      "word_file": "word/427.mp3",
+      "sentence_file": "sentence/427.mp3",
+      "meaning_file": "meaning/427.mp3"
+    },
+    {
+      "id": "428",
+      "word": "timer",
+      "word_file": "word/428.mp3",
+      "sentence_file": "sentence/428.mp3",
+      "meaning_file": "meaning/428.mp3"
+    },
+    {
+      "id": "429",
+      "word": "brewing",
+      "word_file": "word/429.mp3",
+      "sentence_file": "sentence/429.mp3",
+      "meaning_file": "meaning/429.mp3"
+    },
+    {
+      "id": "430",
+      "word": "handout",
+      "word_file": "word/430.mp3",
+      "sentence_file": "sentence/430.mp3",
+      "meaning_file": "meaning/430.mp3"
+    },
+    {
+      "id": "431",
+      "word": "carve",
+      "word_file": "word/431.mp3",
+      "sentence_file": "sentence/431.mp3",
+      "meaning_file": "meaning/431.mp3"
     }
   ],
   "generated_at": "github-actions"
