@@ -2172,8 +2172,907 @@
       "meaning": "语境：累计的、逐渐增加的；常用：累积的、累计的",
       "sentence": "The cumulative total grew throughout the week.",
       "batch": "2026-10-03"
+    },
+    {
+      "id": "307",
+      "word": "arguably",
+      "meaning": "语境：可以说，或许；常用：可论证地、按理说",
+      "sentence": "Solar power is arguably the most abundant energy resource available.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "308",
+      "word": "ray",
+      "meaning": "语境：太阳光线；常用：光线、射线",
+      "sentence": "Solar panels capture the sun's rays.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "309",
+      "word": "convert",
+      "meaning": "语境：转化成（电或热）；常用：转换、转变",
+      "sentence": "Solar power converts sunlight into electricity or heat.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "310",
+      "word": "electricity",
+      "meaning": "语境：电、电能；常用：电力",
+      "sentence": "The panels generate electricity during the day.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "311",
+      "word": "primary",
+      "meaning": "语境：主要的；常用：首要的、基本的",
+      "sentence": "Solar panels are the primary technology used here.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "312",
+      "word": "panel",
+      "phrase": "solar panels",
+      "meaning": "语境：太阳能电池板；常用：太阳能板",
+      "sentence": "A solar panel converts sunlight into usable power.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "313",
+      "word": "photovoltaic",
+      "meaning": "语境：光伏的；常用：利用光产生电的",
+      "sentence": "Photovoltaic cells produce power from sunlight.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "314",
+      "word": "current",
+      "phrase": "electric current",
+      "meaning": "语境：电流；常用：流动的电荷",
+      "sentence": "Sunlight causes the cells to generate an electric current.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "315",
+      "word": "endeavor",
+      "meaning": "语境：事业、活动；常用：努力、尝试",
+      "sentence": "Almost any industrial endeavor produces some carbon dioxide.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "316",
+      "word": "carbon",
+      "phrase": "carbon dioxide",
+      "meaning": "语境：二氧化碳；常用：二氧化碳",
+      "sentence": "Manufacturing the panels can produce carbon dioxide.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "317",
+      "word": "fuel",
+      "phrase": "fossil fuels",
+      "meaning": "语境：化石燃料；常用：煤、石油或天然气等燃料",
+      "sentence": "Manufacturing solar panels still uses some fossil fuels.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "318",
+      "word": "footprint",
+      "phrase": "carbon footprint",
+      "meaning": "语境：碳足迹、碳排放量；常用：活动产生的温室气体总量",
+      "sentence": "Solar power has a lower carbon footprint than coal.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "319",
+      "word": "gas",
+      "phrase": "natural gas",
+      "meaning": "语境：天然气；常用：天然气",
+      "sentence": "Natural gas still creates greenhouse gas emissions.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "320",
+      "word": "emission",
+      "meaning": "语境：排放物、排放量；常用：排放",
+      "sentence": "Solar power can reduce greenhouse gas emissions.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "321",
+      "word": "access",
+      "meaning": "语境：获得能源的机会；常用：使用权、获取途径",
+      "sentence": "Solar power provides energy access in remote communities.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "322",
+      "word": "underserved",
+      "meaning": "语境：服务不足的、资源匮乏的；常用：未得到充分服务的",
+      "sentence": "Solar systems can help underserved areas far from cities.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "323",
+      "word": "grid",
+      "meaning": "语境：电网；常用：网格、供电网络",
+      "sentence": "Some villages are too far from the electricity grid.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "324",
+      "word": "efficiency",
+      "meaning": "语境：效率、发电效能；常用：效率",
+      "sentence": "Cloud cover can reduce a solar panel's efficiency.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "325",
+      "word": "weather",
+      "meaning": "语境：天气状况；常用：天气",
+      "sentence": "The weather affects how much sunlight reaches the panels.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "326",
+      "word": "battery",
+      "meaning": "语境：蓄电池；常用：电池",
+      "sentence": "A battery stores energy for cloudy days.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "327",
+      "word": "period",
+      "meaning": "语境：一段时间；常用：时期、时段",
+      "sentence": "Stored power is useful during non-sunny periods.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "328",
+      "word": "lifespan",
+      "meaning": "语境：使用寿命；常用：寿命",
+      "sentence": "A solar panel can have a lifespan of 25 to 30 years.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "329",
+      "word": "paradoxically",
+      "meaning": "语境：自相矛盾的是；常用：看似矛盾地",
+      "sentence": "Paradoxically, better panels can cause older ones to be discarded sooner.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "330",
+      "word": "landfill",
+      "meaning": "语境：垃圾填埋场；常用：垃圾填埋",
+      "sentence": "Many old panels end up in landfills.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "331",
+      "word": "figure",
+      "meaning": "语境：知名人物；常用：人物、数字、身形",
+      "sentence": "Lawrence painted important figures from African American history.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "332",
+      "word": "migration",
+      "meaning": "语境：大迁徙；常用：迁移、迁徙",
+      "sentence": "The Migration Series depicts families moving north.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "333",
+      "word": "caption",
+      "meaning": "语境：画作说明文字；常用：图片标题、字幕",
+      "sentence": "Each painting has a caption explaining the scene.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "334",
+      "word": "chronicle",
+      "meaning": "语境：记录、记述；常用：按时间顺序记载",
+      "sentence": "The paintings chronicle the Great Migration.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "335",
+      "word": "rural",
+      "meaning": "语境：乡村的；常用：农村的",
+      "sentence": "Many families left the rural South for northern cities.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "336",
+      "word": "bold",
+      "meaning": "语境：鲜明而大胆的（色彩）；常用：大胆的、醒目的",
+      "sentence": "Lawrence used bold colors in the series.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "337",
+      "word": "diagonal",
+      "meaning": "语境：斜线形的、对角线的；常用：斜的",
+      "sentence": "Strong diagonal shapes create a sense of motion.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "338",
+      "word": "representative",
+      "meaning": "语境：具有代表性的；常用：代表性的、代表",
+      "sentence": "This sense of motion is representative of his paintings.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "339",
+      "word": "critic",
+      "meaning": "语境：艺术评论家；常用：批评家、评论员",
+      "sentence": "Some critics called the paintings childlike.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "340",
+      "word": "crude",
+      "meaning": "语境：粗糙的、不成熟的；常用：粗糙的、粗俗的",
+      "sentence": "Some critics mistakenly described his work as crude.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "341",
+      "word": "polished",
+      "meaning": "语境：精致成熟的（风格）；常用：打磨光滑的、娴熟的",
+      "sentence": "His earlier work showed a polished painting style.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "342",
+      "word": "capable",
+      "meaning": "语境：有能力做到的；常用：能干的、有能力的",
+      "sentence": "He was capable of painting in a more conventional style.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "343",
+      "word": "satisfy",
+      "meaning": "语境：满足（评论家的要求）；常用：满足、使满意",
+      "sentence": "He could have painted in a way that satisfied the critics.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "344",
+      "word": "snooty",
+      "meaning": "语境：高傲自大的；常用：傲慢的、目中无人的",
+      "sentence": "He did not paint simply to satisfy snooty critics.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "345",
+      "word": "convincing",
+      "meaning": "语境：有说服力的；常用：令人信服的",
+      "sentence": "He found this style more powerful and convincing.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "346",
+      "word": "accessory",
+      "meaning": "语境：车辆配件、装饰品；常用：配件、饰品",
+      "sentence": "The store sells vehicle accessories.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "347",
+      "word": "look",
+      "phrase": "look all over for",
+      "meaning": "语境：到处找（look all over for）；常用：看、寻找",
+      "sentence": "I've been looking all over for you.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "348",
+      "word": "comfort",
+      "meaning": "语境：店名中的“舒适”；常用：舒适、安慰",
+      "sentence": "Have you checked out the Comfort Furniture store?",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "349",
+      "word": "furniture",
+      "meaning": "语境：家具；常用：家具",
+      "sentence": "The furniture store has a large selection of couches.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "350",
+      "word": "sale",
+      "meaning": "语境：降价促销；常用：销售、促销",
+      "sentence": "The store is having a sale starting tomorrow.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "351",
+      "word": "catalogue",
+      "meaning": "语境：商品目录；常用：目录、产品手册",
+      "sentence": "I'll send you a link to their catalogue.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "352",
+      "word": "return",
+      "meaning": "语境：返回；常用：回来、归还",
+      "sentence": "They returned from Hong Kong last week.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "353",
+      "word": "adjust",
+      "meaning": "语境：适应（时差）；常用：调整、适应",
+      "sentence": "Alyssa is still adjusting to the time difference.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "354",
+      "word": "difference",
+      "phrase": "time difference",
+      "meaning": "语境：时差；常用：时间差",
+      "sentence": "The time difference made it hard for her to sleep.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "355",
+      "word": "relate",
+      "meaning": "语境：感同身受；常用：理解、关联",
+      "sentence": "I can relate; I had jet lag last summer.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "356",
+      "word": "lag",
+      "phrase": "jet lag",
+      "meaning": "语境：时差反应；常用：跨时区旅行后的疲劳",
+      "sentence": "I had bad jet lag after traveling across the globe.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "357",
+      "word": "nap",
+      "meaning": "语境：小睡；常用：打盹",
+      "sentence": "Long naps affected my sleep at night.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "358",
+      "word": "clock",
+      "phrase": "internal clock",
+      "meaning": "语境：生物钟；常用：身体内部的时间节律",
+      "sentence": "Sunlight can help reset your internal clock.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "359",
+      "word": "sort",
+      "phrase": "sort out",
+      "meaning": "语境：处理、解决（学分问题）；常用：整理、解决",
+      "sentence": "She needs to sort out credit for an extra course.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "360",
+      "word": "credit",
+      "meaning": "语境：课程学分；常用：信用、学分、赞誉",
+      "sentence": "She still needs to get credit for that course.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "361",
+      "word": "extra",
+      "meaning": "语境：额外的；常用：额外的、附加的",
+      "sentence": "She took an extra course while abroad.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "362",
+      "word": "instrument",
+      "phrase": "wind instruments",
+      "meaning": "语境：管乐器；常用：吹奏乐器",
+      "sentence": "Most wind instruments changed over time.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "363",
+      "word": "modification",
+      "meaning": "语境：改进、修改；常用：改动",
+      "sentence": "Early instruments underwent many modifications.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "364",
+      "word": "brass",
+      "meaning": "语境：铜管乐器；常用：黄铜、铜管乐器",
+      "sentence": "The trumpet is a brass instrument.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "365",
+      "word": "trumpet",
+      "meaning": "语境：小号；常用：小号",
+      "sentence": "The trumpet produces a bright sound.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "366",
+      "word": "trombone",
+      "meaning": "语境：长号；常用：长号",
+      "sentence": "The trombone changed over centuries of refinement.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "367",
+      "word": "undergo",
+      "meaning": "语境：经历（多次改良）；常用：经受、经历",
+      "sentence": "Brass instruments underwent many changes.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "368",
+      "word": "century",
+      "meaning": "语境：世纪；常用：一百年",
+      "sentence": "The design evolved over several centuries.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "369",
+      "word": "refinement",
+      "meaning": "语境：改良、完善；常用：提炼、精细化",
+      "sentence": "Centuries of refinement improved the instrument.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "370",
+      "word": "composer",
+      "meaning": "语境：作曲家；常用：作曲家",
+      "sentence": "Composers wanted an instrument for very low notes.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "371",
+      "word": "bass",
+      "meaning": "语境：低音的；常用：低音、低音乐器",
+      "sentence": "They wanted an ideal bass instrument.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "372",
+      "word": "tinker",
+      "meaning": "语境：小修小改、摆弄；常用：修补、摆弄",
+      "sentence": "Inventors did not merely tinker with older instruments.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "373",
+      "word": "discard",
+      "meaning": "语境：丢弃、弃用；常用：抛弃",
+      "sentence": "They would discard an instrument that failed to work.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "374",
+      "word": "tuba",
+      "meaning": "语境：大号（一种低音铜管乐器）；常用：大号",
+      "sentence": "The tuba has several unrelated precursors.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "375",
+      "word": "ancestor",
+      "meaning": "语境：前身；常用：祖先",
+      "sentence": "The tuba has no single clear ancestor.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "376",
+      "word": "precursor",
+      "meaning": "语境：先驱、前身；常用：先兆、前驱事物",
+      "sentence": "Several instruments were precursors of the tuba.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "377",
+      "word": "serpent",
+      "meaning": "语境：蛇形低音管乐器；常用：蛇",
+      "sentence": "The serpent was an early low-pitched wind instrument.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "378",
+      "word": "wooden",
+      "meaning": "语境：木制的；常用：木头制成的",
+      "sentence": "The serpent was made from a wooden tube.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "379",
+      "word": "bend",
+      "meaning": "语境：弯成（形状）；常用：弯曲",
+      "sentence": "The wooden tube was bent into a serpent shape.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "380",
+      "word": "intonation",
+      "meaning": "语境：音准；常用：语调、音准",
+      "sentence": "The wide tube caused problems with intonation.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "381",
+      "word": "choir",
+      "meaning": "语境：合唱团；常用：唱诗班、合唱团",
+      "sentence": "Imagine a choir singing beside the serpent.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "382",
+      "word": "boom",
+      "phrase": "booming along",
+      "meaning": "语境：轰隆隆地伴奏；常用：发出低沉响声伴随",
+      "sentence": "The serpent was booming along behind the choir.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "383",
+      "word": "ouch",
+      "meaning": "语境：哎哟（表示听起来糟糕）；常用：疼痛或不快的感叹词",
+      "sentence": "The serpent was out of tune. Ouch!",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "384",
+      "word": "long",
+      "phrase": "so long",
+      "meaning": "语境：再见；常用：再见、告别",
+      "sentence": "So long, serpent, and hello to the ophicleide.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "385",
+      "word": "ophicleide",
+      "meaning": "语境：奥菲克莱德号（一种早期低音铜管乐器）；常用：带键铜管乐器",
+      "sentence": "The ophicleide replaced the serpent in some orchestras.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "386",
+      "word": "construction",
+      "meaning": "语境：构造、材质；常用：建造、结构",
+      "sentence": "Its brass construction improved intonation.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "387",
+      "word": "Berlioz",
+      "meaning": "语境：柏辽兹（作曲家）；常用：法国作曲家姓氏",
+      "sentence": "Berlioz used the ophicleide in some famous pieces.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "388",
+      "word": "pitch",
+      "meaning": "语境：音高；常用：音高、投球、推销",
+      "sentence": "Its pitch range was too narrow.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "389",
+      "word": "forecast",
+      "phrase": "weather forecast",
+      "meaning": "语境：天气预报；常用：对天气状况的预测",
+      "sentence": "Did you check the weather forecast for tomorrow?",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "390",
+      "word": "predict",
+      "meaning": "语境：预报（有雨）；常用：预测、预言",
+      "sentence": "They are predicting steady rain tomorrow.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "391",
+      "word": "thunderstorm",
+      "meaning": "语境：雷暴；常用：雷雨、雷暴天气",
+      "sentence": "There may be thunderstorms throughout the day.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "392",
+      "word": "photography",
+      "meaning": "语境：摄影（活动）；常用：摄影术",
+      "sentence": "The nature photography workshop will be outdoors.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "393",
+      "word": "indoor",
+      "meaning": "语境：室内的；常用：室内活动的",
+      "sentence": "The museum offers an indoor alternative.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "394",
+      "word": "alternative",
+      "meaning": "语境：替代选择；常用：替代方案、可供选择的",
+      "sentence": "The museum exhibit is a good alternative to the outdoor trip.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "395",
+      "word": "relevant",
+      "meaning": "语境：与学生学习相关的；常用：有关的、切题的",
+      "sentence": "The exhibit is still relevant to our students.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "396",
+      "word": "literature",
+      "phrase": "literature conference",
+      "meaning": "语境：文学会议；常用：文学研讨会",
+      "sentence": "Have you booked your travel to the literature conference?",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "397",
+      "word": "immediately",
+      "meaning": "语境：紧接着；常用：立刻、马上",
+      "sentence": "The first session starts immediately after breakfast.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "398",
+      "word": "present",
+      "meaning": "语境：作报告、发表演讲；常用：呈现、介绍",
+      "sentence": "I'm presenting at the conference on Thursday.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "399",
+      "word": "beat",
+      "meaning": "语境：胜过、总比……好；常用：打败、优于",
+      "sentence": "Changing my flight is expensive, but it beats missing my presentation.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "400",
+      "word": "sculpture",
+      "meaning": "语境：雕塑作品；常用：雕塑",
+      "sentence": "The exhibition features paintings and sculptures.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "401",
+      "word": "talented",
+      "meaning": "语境：有才华的；常用：有天赋的",
+      "sentence": "The gallery features work by talented students.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "402",
+      "word": "accommodate",
+      "meaning": "语境：配合、适应（翻修日程）；常用：容纳、迁就",
+      "sentence": "The exhibition opened early to accommodate the renovation.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "403",
+      "word": "gain",
+      "meaning": "语境：获得（深入了解）；常用：获得、增加",
+      "sentence": "Visitors can gain insight into the artists' work.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "404",
+      "word": "scan",
+      "meaning": "语境：扫描（学生证）；常用：扫描、浏览",
+      "sentence": "Students must scan their ID cards before printing.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "405",
+      "word": "printing",
+      "meaning": "语境：打印文件；常用：印刷、打印",
+      "sentence": "Students must scan their cards when printing documents.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "406",
+      "word": "per",
+      "meaning": "语境：每（学期）；常用：每、按照",
+      "sentence": "Students can print fifty pages per semester for free.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "407",
+      "word": "excess",
+      "phrase": "in excess",
+      "meaning": "语境：超出限额；常用：超出、过量",
+      "sentence": "Students will pay for pages in excess of fifty.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "408",
+      "word": "initiative",
+      "meaning": "语境：环保举措；常用：倡议、新措施",
+      "sentence": "The printing policy supports environmental initiatives.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "409",
+      "word": "contest",
+      "meaning": "语境：比赛、竞赛；常用：竞赛、争夺",
+      "sentence": "The museum is sponsoring a contest for local artists.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "410",
+      "word": "piece",
+      "meaning": "语境：艺术作品；常用：一件、一块、作品",
+      "sentence": "Students can submit their best pieces to the contest.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "411",
+      "word": "suite",
+      "meaning": "语境：套间（多人宿舍）；常用：套房、成套房间",
+      "sentence": "Four students share the campus suite.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "412",
+      "word": "audition",
+      "meaning": "语境：参加试演；常用：试镜、试演",
+      "sentence": "She is auditioning for the university play.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "413",
+      "word": "mess",
+      "phrase": "mess it up",
+      "meaning": "语境：搞砸（试演）；常用：弄糟",
+      "sentence": "I don't want to mess up my first audition.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "414",
+      "word": "acting",
+      "meaning": "语境：表演的；常用：表演、代理",
+      "sentence": "Your acting ability matters at an audition.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "415",
+      "word": "director",
+      "meaning": "语境：导演；常用：导演、主管",
+      "sentence": "The directors will notice your attitude.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "416",
+      "word": "attitude",
+      "meaning": "语境：态度；常用：看法、态度",
+      "sentence": "A positive attitude can help at an audition.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "417",
+      "word": "ruin",
+      "meaning": "语境：毁掉（机会）；常用：破坏、毁灭",
+      "sentence": "One mistake will not ruin your chances.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "418",
+      "word": "necessarily",
+      "phrase": "not necessarily",
+      "meaning": "语境：未必如此；常用：不一定",
+      "sentence": "Will one mistake ruin the audition? Not necessarily.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "419",
+      "word": "stumble",
+      "phrase": "stumbled over",
+      "meaning": "语境：说话时磕巴、读错；常用：被绊倒、结结巴巴地说",
+      "sentence": "I stumbled over a few words during my audition.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "420",
+      "word": "cast",
+      "meaning": "语境：被选为演员；常用：演员阵容、选派",
+      "sentence": "I stumbled over words, but I still got cast.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "421",
+      "word": "fundraiser",
+      "meaning": "语境：筹款活动；常用：募捐人、筹款活动",
+      "sentence": "The students organized a fundraiser for the museum.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "422",
+      "word": "depth",
+      "meaning": "语境：深度、深入程度；常用：深度",
+      "sentence": "The seminar explored the topic in greater depth.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "423",
+      "word": "go",
+      "phrase": "go into",
+      "meaning": "语境：详细讨论、深入阐述；常用：进入、从事",
+      "sentence": "The speaker did not go into every detail.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "424",
+      "word": "confirm",
+      "meaning": "语境：确认；常用：证实、核实",
+      "sentence": "The organizer confirmed the seminar date.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "425",
+      "word": "clarity",
+      "meaning": "语境：清晰、明确；常用：清楚程度",
+      "sentence": "The teacher asked for greater clarity in the explanation.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "426",
+      "word": "evaluate",
+      "meaning": "语境：评估；常用：评价、估量",
+      "sentence": "We need to evaluate the results before deciding.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "427",
+      "word": "coffee",
+      "phrase": "make coffee",
+      "meaning": "语境：煮咖啡；常用：冲泡咖啡",
+      "sentence": "I'll make coffee before the meeting starts.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "428",
+      "word": "timer",
+      "meaning": "语境：计时器、定时器；常用：计时装置",
+      "sentence": "Set a timer for the coffee brewing process.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "429",
+      "word": "brewing",
+      "meaning": "语境：冲泡（咖啡、茶）；常用：酿造；酝酿",
+      "sentence": "The coffee is brewing in the kitchen.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "430",
+      "word": "handout",
+      "phrase": "grab extra handouts",
+      "meaning": "语境：多拿几份讲义；常用：grab 取、拿；handout 讲义",
+      "sentence": "Please grab extra handouts for anyone who arrives late.",
+      "batch": "2026-10-06"
+    },
+    {
+      "id": "431",
+      "word": "carve",
+      "phrase": "carve out",
+      "meaning": "语境：挤出（时间）；常用：腾出时间、开辟",
+      "sentence": "I'll carve out an hour to review these words.",
+      "batch": "2026-10-06"
     }
   ],
-  "updated_at": "2026-10-03",
-  "audio_revision": 5
+  "updated_at": "2026-10-06",
+  "audio_revision": 6
 }
