@@ -434,13 +434,14 @@
     2644.032,
     2648.928,
     2653.32,
-    2659.032
+    2659.08
   ],
-  "duration": 2663.736,
+  "duration": 2663.784,
   "practice_manifest": [
     {
       "id": "001",
       "word": "so well protected",
+      "audio_word": "so well protected",
       "word_file": "word/001.mp3",
       "sentence_file": "sentence/001.mp3",
       "meaning_file": "meaning/001.mp3"
@@ -448,6 +449,7 @@
     {
       "id": "002",
       "word": "frustrated",
+      "audio_word": "frustrated",
       "word_file": "word/002.mp3",
       "sentence_file": "sentence/002.mp3",
       "meaning_file": "meaning/002.mp3"
@@ -455,6 +457,7 @@
     {
       "id": "003",
       "word": "nocturnal",
+      "audio_word": "nocturnal",
       "word_file": "word/003.mp3",
       "sentence_file": "sentence/003.mp3",
       "meaning_file": "meaning/003.mp3"
@@ -462,6 +465,7 @@
     {
       "id": "004",
       "word": "overlapping",
+      "audio_word": "overlapping",
       "word_file": "word/004.mp3",
       "sentence_file": "sentence/004.mp3",
       "meaning_file": "meaning/004.mp3"
@@ -469,6 +473,7 @@
     {
       "id": "005",
       "word": "armor",
+      "audio_word": "armor",
       "word_file": "word/005.mp3",
       "sentence_file": "sentence/005.mp3",
       "meaning_file": "meaning/005.mp3"
@@ -476,6 +481,7 @@
     {
       "id": "006",
       "word": "keratin",
+      "audio_word": "keratin",
       "word_file": "word/006.mp3",
       "sentence_file": "sentence/006.mp3",
       "meaning_file": "meaning/006.mp3"
@@ -483,6 +489,7 @@
     {
       "id": "007",
       "word": "fingernails",
+      "audio_word": "fingernails",
       "word_file": "word/007.mp3",
       "sentence_file": "sentence/007.mp3",
       "meaning_file": "meaning/007.mp3"
@@ -490,6 +497,7 @@
     {
       "id": "008",
       "word": "enemy",
+      "audio_word": "enemy",
       "word_file": "word/008.mp3",
       "sentence_file": "sentence/008.mp3",
       "meaning_file": "meaning/008.mp3"
@@ -497,6 +505,7 @@
     {
       "id": "009",
       "word": "volvation",
+      "audio_word": "volvation",
       "word_file": "word/009.mp3",
       "sentence_file": "sentence/009.mp3",
       "meaning_file": "meaning/009.mp3"
@@ -504,6 +513,7 @@
     {
       "id": "010",
       "word": "curling",
+      "audio_word": "curling",
       "word_file": "word/010.mp3",
       "sentence_file": "sentence/010.mp3",
       "meaning_file": "meaning/010.mp3"
@@ -511,6 +521,7 @@
     {
       "id": "011",
       "word": "impenetrable",
+      "audio_word": "impenetrable",
       "word_file": "word/011.mp3",
       "sentence_file": "sentence/011.mp3",
       "meaning_file": "meaning/011.mp3"
@@ -518,6 +529,7 @@
     {
       "id": "012",
       "word": "exceptional",
+      "audio_word": "exceptional",
       "word_file": "word/012.mp3",
       "sentence_file": "sentence/012.mp3",
       "meaning_file": "meaning/012.mp3"
@@ -525,6 +537,7 @@
     {
       "id": "013",
       "word": "creatures",
+      "audio_word": "creatures",
       "word_file": "word/013.mp3",
       "sentence_file": "sentence/013.mp3",
       "meaning_file": "meaning/013.mp3"
@@ -532,6 +545,7 @@
     {
       "id": "014",
       "word": "complete protective posture",
+      "audio_word": "complete protective posture",
       "word_file": "word/014.mp3",
       "sentence_file": "sentence/014.mp3",
       "meaning_file": "meaning/014.mp3"
@@ -539,6 +553,7 @@
     {
       "id": "015",
       "word": "claws",
+      "audio_word": "claws",
       "word_file": "word/015.mp3",
       "sentence_file": "sentence/015.mp3",
       "meaning_file": "meaning/015.mp3"
@@ -546,6 +561,7 @@
     {
       "id": "016",
       "word": "sticky",
+      "audio_word": "sticky",
       "word_file": "word/016.mp3",
       "sentence_file": "sentence/016.mp3",
       "meaning_file": "meaning/016.mp3"
@@ -553,6 +569,7 @@
     {
       "id": "017",
       "word": "extend",
+      "audio_word": "extend",
       "word_file": "word/017.mp3",
       "sentence_file": "sentence/017.mp3",
       "meaning_file": "meaning/017.mp3"
@@ -560,6 +577,7 @@
     {
       "id": "018",
       "word": "capturing",
+      "audio_word": "capturing",
       "word_file": "word/018.mp3",
       "sentence_file": "sentence/018.mp3",
       "meaning_file": "meaning/018.mp3"
@@ -567,6 +585,7 @@
     {
       "id": "019",
       "word": "ants and termites",
+      "audio_word": "ants and termites",
       "word_file": "word/019.mp3",
       "sentence_file": "sentence/019.mp3",
       "meaning_file": "meaning/019.mp3"
@@ -574,6 +593,7 @@
     {
       "id": "020",
       "word": "lack teeth",
+      "audio_word": "lack teeth",
       "word_file": "word/020.mp3",
       "sentence_file": "sentence/020.mp3",
       "meaning_file": "meaning/020.mp3"
@@ -581,6 +601,7 @@
     {
       "id": "021",
       "word": "chewing",
+      "audio_word": "chewing",
       "word_file": "word/021.mp3",
       "sentence_file": "sentence/021.mp3",
       "meaning_file": "meaning/021.mp3"
@@ -588,6 +609,7 @@
     {
       "id": "022",
       "word": "grind",
+      "audio_word": "grind",
       "word_file": "word/022.mp3",
       "sentence_file": "sentence/022.mp3",
       "meaning_file": "meaning/022.mp3"
@@ -595,6 +617,7 @@
     {
       "id": "023",
       "word": "is lined",
+      "audio_word": "is lined",
       "word_file": "word/023.mp3",
       "sentence_file": "sentence/023.mp3",
       "meaning_file": "meaning/023.mp3"
@@ -602,6 +625,7 @@
     {
       "id": "024",
       "word": "contractions",
+      "audio_word": "contractions",
       "word_file": "word/024.mp3",
       "sentence_file": "sentence/024.mp3",
       "meaning_file": "meaning/024.mp3"
@@ -609,6 +633,7 @@
     {
       "id": "025",
       "word": "crush and grind",
+      "audio_word": "crush and grind",
       "word_file": "word/025.mp3",
       "sentence_file": "sentence/025.mp3",
       "meaning_file": "meaning/025.mp3"
@@ -616,6 +641,7 @@
     {
       "id": "026",
       "word": "prey",
+      "audio_word": "prey",
       "word_file": "word/026.mp3",
       "sentence_file": "sentence/026.mp3",
       "meaning_file": "meaning/026.mp3"
@@ -623,6 +649,7 @@
     {
       "id": "027",
       "word": "deters",
+      "audio_word": "deters",
       "word_file": "word/027.mp3",
       "sentence_file": "sentence/027.mp3",
       "meaning_file": "meaning/027.mp3"
@@ -630,6 +657,7 @@
     {
       "id": "028",
       "word": "predators",
+      "audio_word": "predators",
       "word_file": "word/028.mp3",
       "sentence_file": "sentence/028.mp3",
       "meaning_file": "meaning/028.mp3"
@@ -637,6 +665,7 @@
     {
       "id": "029",
       "word": "leopards",
+      "audio_word": "leopards",
       "word_file": "word/029.mp3",
       "sentence_file": "sentence/029.mp3",
       "meaning_file": "meaning/029.mp3"
@@ -644,6 +673,7 @@
     {
       "id": "030",
       "word": "hyenas",
+      "audio_word": "hyenas",
       "word_file": "word/030.mp3",
       "sentence_file": "sentence/030.mp3",
       "meaning_file": "meaning/030.mp3"
@@ -651,6 +681,7 @@
     {
       "id": "031",
       "word": "occasionally",
+      "audio_word": "occasionally",
       "word_file": "word/031.mp3",
       "sentence_file": "sentence/031.mp3",
       "meaning_file": "meaning/031.mp3"
@@ -658,6 +689,7 @@
     {
       "id": "032",
       "word": "manage to pry",
+      "audio_word": "manage to pry",
       "word_file": "word/032.mp3",
       "sentence_file": "sentence/032.mp3",
       "meaning_file": "meaning/032.mp3"
@@ -665,6 +697,7 @@
     {
       "id": "033",
       "word": "along with",
+      "audio_word": "along with",
       "word_file": "word/033.mp3",
       "sentence_file": "sentence/033.mp3",
       "meaning_file": "meaning/033.mp3"
@@ -672,6 +705,7 @@
     {
       "id": "034",
       "word": "habitat destruction",
+      "audio_word": "habitat destruction",
       "word_file": "word/034.mp3",
       "sentence_file": "sentence/034.mp3",
       "meaning_file": "meaning/034.mp3"
@@ -679,6 +713,7 @@
     {
       "id": "035",
       "word": "status",
+      "audio_word": "status",
       "word_file": "word/035.mp3",
       "sentence_file": "sentence/035.mp3",
       "meaning_file": "meaning/035.mp3"
@@ -686,6 +721,7 @@
     {
       "id": "036",
       "word": "matter",
+      "audio_word": "matter",
       "word_file": "word/036.mp3",
       "sentence_file": "sentence/036.mp3",
       "meaning_file": "meaning/036.mp3"
@@ -693,6 +729,7 @@
     {
       "id": "037",
       "word": "guardians",
+      "audio_word": "guardians",
       "word_file": "word/037.mp3",
       "sentence_file": "sentence/037.mp3",
       "meaning_file": "meaning/037.mp3"
@@ -700,6 +737,7 @@
     {
       "id": "038",
       "word": "consuming",
+      "audio_word": "consuming",
       "word_file": "word/038.mp3",
       "sentence_file": "sentence/038.mp3",
       "meaning_file": "meaning/038.mp3"
@@ -707,6 +745,7 @@
     {
       "id": "039",
       "word": "insects",
+      "audio_word": "insects",
       "word_file": "word/039.mp3",
       "sentence_file": "sentence/039.mp3",
       "meaning_file": "meaning/039.mp3"
@@ -714,6 +753,7 @@
     {
       "id": "040",
       "word": "pest outbreaks",
+      "audio_word": "pest outbreaks",
       "word_file": "word/040.mp3",
       "sentence_file": "sentence/040.mp3",
       "meaning_file": "meaning/040.mp3"
@@ -721,6 +761,7 @@
     {
       "id": "041",
       "word": "crops and forests",
+      "audio_word": "crops and forests",
       "word_file": "word/041.mp3",
       "sentence_file": "sentence/041.mp3",
       "meaning_file": "meaning/041.mp3"
@@ -728,6 +769,7 @@
     {
       "id": "042",
       "word": "disrupt",
+      "audio_word": "disrupt",
       "word_file": "word/042.mp3",
       "sentence_file": "sentence/042.mp3",
       "meaning_file": "meaning/042.mp3"
@@ -735,6 +777,7 @@
     {
       "id": "043",
       "word": "ripple effects",
+      "audio_word": "ripple effects",
       "word_file": "word/043.mp3",
       "sentence_file": "sentence/043.mp3",
       "meaning_file": "meaning/043.mp3"
@@ -742,6 +785,7 @@
     {
       "id": "044",
       "word": "regular",
+      "audio_word": "regular",
       "word_file": "word/044.mp3",
       "sentence_file": "sentence/044.mp3",
       "meaning_file": "meaning/044.mp3"
@@ -749,6 +793,7 @@
     {
       "id": "045",
       "word": "inserting",
+      "audio_word": "inserting",
       "word_file": "word/045.mp3",
       "sentence_file": "sentence/045.mp3",
       "meaning_file": "meaning/045.mp3"
@@ -756,6 +801,7 @@
     {
       "id": "046",
       "word": "screws, bolts, rubber erasers",
+      "audio_word": "screws, bolts, rubber erasers",
       "word_file": "word/046.mp3",
       "sentence_file": "sentence/046.mp3",
       "meaning_file": "meaning/046.mp3"
@@ -763,6 +809,7 @@
     {
       "id": "047",
       "word": "avant-garde",
+      "audio_word": "avant-garde",
       "word_file": "word/047.mp3",
       "sentence_file": "sentence/047.mp3",
       "meaning_file": "meaning/047.mp3"
@@ -770,6 +817,7 @@
     {
       "id": "048",
       "word": "percussion",
+      "audio_word": "percussion",
       "word_file": "word/048.mp3",
       "sentence_file": "sentence/048.mp3",
       "meaning_file": "meaning/048.mp3"
@@ -777,6 +825,7 @@
     {
       "id": "049",
       "word": "drums",
+      "audio_word": "drums",
       "word_file": "word/049.mp3",
       "sentence_file": "sentence/049.mp3",
       "meaning_file": "meaning/049.mp3"
@@ -784,6 +833,7 @@
     {
       "id": "050",
       "word": "improvisation",
+      "audio_word": "improvisation",
       "word_file": "word/050.mp3",
       "sentence_file": "sentence/050.mp3",
       "meaning_file": "meaning/050.mp3"
@@ -791,6 +841,7 @@
     {
       "id": "051",
       "word": "seashells",
+      "audio_word": "seashells",
       "word_file": "word/051.mp3",
       "sentence_file": "sentence/051.mp3",
       "meaning_file": "meaning/051.mp3"
@@ -798,6 +849,7 @@
     {
       "id": "052",
       "word": "ended up",
+      "audio_word": "ended up",
       "word_file": "word/052.mp3",
       "sentence_file": "sentence/052.mp3",
       "meaning_file": "meaning/052.mp3"
@@ -805,6 +857,7 @@
     {
       "id": "053",
       "word": "ancient Hindu theory",
+      "audio_word": "ancient Hindu theory",
       "word_file": "word/053.mp3",
       "sentence_file": "sentence/053.mp3",
       "meaning_file": "meaning/053.mp3"
@@ -812,6 +865,7 @@
     {
       "id": "054",
       "word": "philosophy",
+      "audio_word": "philosophy",
       "word_file": "word/054.mp3",
       "sentence_file": "sentence/054.mp3",
       "meaning_file": "meaning/054.mp3"
@@ -819,6 +873,7 @@
     {
       "id": "055",
       "word": "would be familiar to",
+      "audio_word": "would be familiar to",
       "word_file": "word/055.mp3",
       "sentence_file": "sentence/055.mp3",
       "meaning_file": "meaning/055.mp3"
@@ -826,6 +881,7 @@
     {
       "id": "056",
       "word": "western audience",
+      "audio_word": "western audience",
       "word_file": "word/056.mp3",
       "sentence_file": "sentence/056.mp3",
       "meaning_file": "meaning/056.mp3"
@@ -833,6 +889,7 @@
     {
       "id": "057",
       "word": "reminiscent of",
+      "audio_word": "reminiscent of",
       "word_file": "word/057.mp3",
       "sentence_file": "sentence/057.mp3",
       "meaning_file": "meaning/057.mp3"
@@ -840,6 +897,7 @@
     {
       "id": "058",
       "word": "Indonesian gamelan",
+      "audio_word": "Indonesian gamelan",
       "word_file": "word/058.mp3",
       "sentence_file": "sentence/058.mp3",
       "meaning_file": "meaning/058.mp3"
@@ -847,6 +905,7 @@
     {
       "id": "059",
       "word": "profile",
+      "audio_word": "profile",
       "word_file": "word/059.mp3",
       "sentence_file": "sentence/059.mp3",
       "meaning_file": "meaning/059.mp3"
@@ -854,6 +913,7 @@
     {
       "id": "060",
       "word": "forensic science",
+      "audio_word": "forensic science",
       "word_file": "word/060.mp3",
       "sentence_file": "sentence/060.mp3",
       "meaning_file": "meaning/060.mp3"
@@ -861,6 +921,7 @@
     {
       "id": "061",
       "word": "enthusiastic",
+      "audio_word": "enthusiastic",
       "word_file": "word/061.mp3",
       "sentence_file": "sentence/061.mp3",
       "meaning_file": "meaning/061.mp3"
@@ -868,6 +929,7 @@
     {
       "id": "062",
       "word": "accommodations",
+      "audio_word": "accommodations",
       "word_file": "word/062.mp3",
       "sentence_file": "sentence/062.mp3",
       "meaning_file": "meaning/062.mp3"
@@ -875,6 +937,7 @@
     {
       "id": "063",
       "word": "restrictions",
+      "audio_word": "restrictions",
       "word_file": "word/063.mp3",
       "sentence_file": "sentence/063.mp3",
       "meaning_file": "meaning/063.mp3"
@@ -882,6 +945,7 @@
     {
       "id": "064",
       "word": "seminar",
+      "audio_word": "seminar",
       "word_file": "word/064.mp3",
       "sentence_file": "sentence/064.mp3",
       "meaning_file": "meaning/064.mp3"
@@ -889,6 +953,7 @@
     {
       "id": "065",
       "word": "extra credit",
+      "audio_word": "extra credit",
       "word_file": "word/065.mp3",
       "sentence_file": "sentence/065.mp3",
       "meaning_file": "meaning/065.mp3"
@@ -896,6 +961,7 @@
     {
       "id": "066",
       "word": "sport complex",
+      "audio_word": "sport complex",
       "word_file": "word/066.mp3",
       "sentence_file": "sentence/066.mp3",
       "meaning_file": "meaning/066.mp3"
@@ -903,6 +969,7 @@
     {
       "id": "067",
       "word": "conference",
+      "audio_word": "conference",
       "word_file": "word/067.mp3",
       "sentence_file": "sentence/067.mp3",
       "meaning_file": "meaning/067.mp3"
@@ -910,6 +977,7 @@
     {
       "id": "068",
       "word": "actionable",
+      "audio_word": "actionable",
       "word_file": "word/068.mp3",
       "sentence_file": "sentence/068.mp3",
       "meaning_file": "meaning/068.mp3"
@@ -917,6 +985,7 @@
     {
       "id": "069",
       "word": "rehearsal",
+      "audio_word": "rehearsal",
       "word_file": "word/069.mp3",
       "sentence_file": "sentence/069.mp3",
       "meaning_file": "meaning/069.mp3"
@@ -924,6 +993,7 @@
     {
       "id": "070",
       "word": "absent from",
+      "audio_word": "absent from",
       "word_file": "word/070.mp3",
       "sentence_file": "sentence/070.mp3",
       "meaning_file": "meaning/070.mp3"
@@ -931,6 +1001,7 @@
     {
       "id": "071",
       "word": "frees up",
+      "audio_word": "frees up",
       "word_file": "word/071.mp3",
       "sentence_file": "sentence/071.mp3",
       "meaning_file": "meaning/071.mp3"
@@ -938,6 +1009,7 @@
     {
       "id": "072",
       "word": "concession stand",
+      "audio_word": "concession stand",
       "word_file": "word/072.mp3",
       "sentence_file": "sentence/072.mp3",
       "meaning_file": "meaning/072.mp3"
@@ -945,6 +1017,7 @@
     {
       "id": "073",
       "word": "run out of sth",
+      "audio_word": "run out of sth",
       "word_file": "word/073.mp3",
       "sentence_file": "sentence/073.mp3",
       "meaning_file": "meaning/073.mp3"
@@ -952,6 +1025,7 @@
     {
       "id": "074",
       "word": "quick peek",
+      "audio_word": "quick peek",
       "word_file": "word/074.mp3",
       "sentence_file": "sentence/074.mp3",
       "meaning_file": "meaning/074.mp3"
@@ -959,6 +1033,7 @@
     {
       "id": "075",
       "word": "kitchenware",
+      "audio_word": "kitchenware",
       "word_file": "word/075.mp3",
       "sentence_file": "sentence/075.mp3",
       "meaning_file": "meaning/075.mp3"
@@ -966,6 +1041,7 @@
     {
       "id": "076",
       "word": "informative",
+      "audio_word": "informative",
       "word_file": "word/076.mp3",
       "sentence_file": "sentence/076.mp3",
       "meaning_file": "meaning/076.mp3"
@@ -973,6 +1049,7 @@
     {
       "id": "077",
       "word": "pushed back",
+      "audio_word": "pushed back",
       "word_file": "word/077.mp3",
       "sentence_file": "sentence/077.mp3",
       "meaning_file": "meaning/077.mp3"
@@ -980,6 +1057,7 @@
     {
       "id": "078",
       "word": "guest speaker",
+      "audio_word": "guest speaker",
       "word_file": "word/078.mp3",
       "sentence_file": "sentence/078.mp3",
       "meaning_file": "meaning/078.mp3"
@@ -987,6 +1065,7 @@
     {
       "id": "079",
       "word": "how come",
+      "audio_word": "how come",
       "word_file": "word/079.mp3",
       "sentence_file": "sentence/079.mp3",
       "meaning_file": "meaning/079.mp3"
@@ -994,6 +1073,7 @@
     {
       "id": "080",
       "word": "amusement",
+      "audio_word": "amusement",
       "word_file": "word/080.mp3",
       "sentence_file": "sentence/080.mp3",
       "meaning_file": "meaning/080.mp3"
@@ -1001,6 +1081,7 @@
     {
       "id": "081",
       "word": "rides",
+      "audio_word": "rides",
       "word_file": "word/081.mp3",
       "sentence_file": "sentence/081.mp3",
       "meaning_file": "meaning/081.mp3"
@@ -1008,6 +1089,7 @@
     {
       "id": "082",
       "word": "run out of",
+      "audio_word": "run out of",
       "word_file": "word/082.mp3",
       "sentence_file": "sentence/082.mp3",
       "meaning_file": "meaning/082.mp3"
@@ -1015,6 +1097,7 @@
     {
       "id": "083",
       "word": "hired",
+      "audio_word": "hired",
       "word_file": "word/083.mp3",
       "sentence_file": "sentence/083.mp3",
       "meaning_file": "meaning/083.mp3"
@@ -1022,6 +1105,7 @@
     {
       "id": "084",
       "word": "vendor",
+      "audio_word": "vendor",
       "word_file": "word/084.mp3",
       "sentence_file": "sentence/084.mp3",
       "meaning_file": "meaning/084.mp3"
@@ -1029,6 +1113,7 @@
     {
       "id": "085",
       "word": "concessions",
+      "audio_word": "concessions",
       "word_file": "word/085.mp3",
       "sentence_file": "sentence/085.mp3",
       "meaning_file": "meaning/085.mp3"
@@ -1036,6 +1121,7 @@
     {
       "id": "086",
       "word": "under new management",
+      "audio_word": "under new management",
       "word_file": "word/086.mp3",
       "sentence_file": "sentence/086.mp3",
       "meaning_file": "meaning/086.mp3"
@@ -1043,6 +1129,7 @@
     {
       "id": "087",
       "word": "get settled in",
+      "audio_word": "get settled in",
       "word_file": "word/087.mp3",
       "sentence_file": "sentence/087.mp3",
       "meaning_file": "meaning/087.mp3"
@@ -1050,6 +1137,7 @@
     {
       "id": "088",
       "word": "off to lunch",
+      "audio_word": "off to lunch",
       "word_file": "word/088.mp3",
       "sentence_file": "sentence/088.mp3",
       "meaning_file": "meaning/088.mp3"
@@ -1057,6 +1145,7 @@
     {
       "id": "089",
       "word": "tasty",
+      "audio_word": "tasty",
       "word_file": "word/089.mp3",
       "sentence_file": "sentence/089.mp3",
       "meaning_file": "meaning/089.mp3"
@@ -1064,6 +1153,7 @@
     {
       "id": "090",
       "word": "left a lot to be desired",
+      "audio_word": "left a lot to be desired",
       "word_file": "word/090.mp3",
       "sentence_file": "sentence/090.mp3",
       "meaning_file": "meaning/090.mp3"
@@ -1071,6 +1161,7 @@
     {
       "id": "091",
       "word": "award",
+      "audio_word": "award",
       "word_file": "word/091.mp3",
       "sentence_file": "sentence/091.mp3",
       "meaning_file": "meaning/091.mp3"
@@ -1078,6 +1169,7 @@
     {
       "id": "092",
       "word": "auditorium",
+      "audio_word": "auditorium",
       "word_file": "word/092.mp3",
       "sentence_file": "sentence/092.mp3",
       "meaning_file": "meaning/092.mp3"
@@ -1085,6 +1177,7 @@
     {
       "id": "093",
       "word": "honoring recipients",
+      "audio_word": "honoring recipients",
       "word_file": "word/093.mp3",
       "sentence_file": "sentence/093.mp3",
       "meaning_file": "meaning/093.mp3"
@@ -1092,6 +1185,7 @@
     {
       "id": "094",
       "word": "excellence",
+      "audio_word": "excellence",
       "word_file": "word/094.mp3",
       "sentence_file": "sentence/094.mp3",
       "meaning_file": "meaning/094.mp3"
@@ -1099,6 +1193,7 @@
     {
       "id": "095",
       "word": "fellowship",
+      "audio_word": "fellowship",
       "word_file": "word/095.mp3",
       "sentence_file": "sentence/095.mp3",
       "meaning_file": "meaning/095.mp3"
@@ -1106,6 +1201,7 @@
     {
       "id": "096",
       "word": "reception",
+      "audio_word": "reception",
       "word_file": "word/096.mp3",
       "sentence_file": "sentence/096.mp3",
       "meaning_file": "meaning/096.mp3"
@@ -1113,6 +1209,7 @@
     {
       "id": "097",
       "word": "afterward",
+      "audio_word": "afterward",
       "word_file": "word/097.mp3",
       "sentence_file": "sentence/097.mp3",
       "meaning_file": "meaning/097.mp3"
@@ -1120,6 +1217,7 @@
     {
       "id": "098",
       "word": "refreshments",
+      "audio_word": "refreshments",
       "word_file": "word/098.mp3",
       "sentence_file": "sentence/098.mp3",
       "meaning_file": "meaning/098.mp3"
@@ -1127,6 +1225,7 @@
     {
       "id": "099",
       "word": "field trip",
+      "audio_word": "field trip",
       "word_file": "word/099.mp3",
       "sentence_file": "sentence/099.mp3",
       "meaning_file": "meaning/099.mp3"
@@ -1134,6 +1233,7 @@
     {
       "id": "100",
       "word": "Nature Reserve",
+      "audio_word": "Nature Reserve",
       "word_file": "word/100.mp3",
       "sentence_file": "sentence/100.mp3",
       "meaning_file": "meaning/100.mp3"
@@ -1141,6 +1241,7 @@
     {
       "id": "101",
       "word": "experts",
+      "audio_word": "experts",
       "word_file": "word/101.mp3",
       "sentence_file": "sentence/101.mp3",
       "meaning_file": "meaning/101.mp3"
@@ -1148,6 +1249,7 @@
     {
       "id": "102",
       "word": "ornithologist",
+      "audio_word": "ornithologist",
       "word_file": "word/102.mp3",
       "sentence_file": "sentence/102.mp3",
       "meaning_file": "meaning/102.mp3"
@@ -1155,6 +1257,7 @@
     {
       "id": "103",
       "word": "botanist",
+      "audio_word": "botanist",
       "word_file": "word/103.mp3",
       "sentence_file": "sentence/103.mp3",
       "meaning_file": "meaning/103.mp3"
@@ -1162,6 +1265,7 @@
     {
       "id": "104",
       "word": "trails",
+      "audio_word": "trails",
       "word_file": "word/104.mp3",
       "sentence_file": "sentence/104.mp3",
       "meaning_file": "meaning/104.mp3"
@@ -1169,6 +1273,7 @@
     {
       "id": "105",
       "word": "climbers",
+      "audio_word": "climbers",
       "word_file": "word/105.mp3",
       "sentence_file": "sentence/105.mp3",
       "meaning_file": "meaning/105.mp3"
@@ -1176,6 +1281,7 @@
     {
       "id": "106",
       "word": "tide pool",
+      "audio_word": "tide pool",
       "word_file": "word/106.mp3",
       "sentence_file": "sentence/106.mp3",
       "meaning_file": "meaning/106.mp3"
@@ -1183,6 +1289,7 @@
     {
       "id": "107",
       "word": "first ever",
+      "audio_word": "first ever",
       "word_file": "word/107.mp3",
       "sentence_file": "sentence/107.mp3",
       "meaning_file": "meaning/107.mp3"
@@ -1190,6 +1297,7 @@
     {
       "id": "108",
       "word": "bowling tournament",
+      "audio_word": "bowling tournament",
       "word_file": "word/108.mp3",
       "sentence_file": "sentence/108.mp3",
       "meaning_file": "meaning/108.mp3"
@@ -1197,6 +1305,7 @@
     {
       "id": "109",
       "word": "a pair",
+      "audio_word": "a pair",
       "word_file": "word/109.mp3",
       "sentence_file": "sentence/109.mp3",
       "meaning_file": "meaning/109.mp3"
@@ -1204,6 +1313,7 @@
     {
       "id": "110",
       "word": "rent",
+      "audio_word": "rent",
       "word_file": "word/110.mp3",
       "sentence_file": "sentence/110.mp3",
       "meaning_file": "meaning/110.mp3"
@@ -1211,6 +1321,7 @@
     {
       "id": "111",
       "word": "front desk",
+      "audio_word": "front desk",
       "word_file": "word/111.mp3",
       "sentence_file": "sentence/111.mp3",
       "meaning_file": "meaning/111.mp3"
@@ -1218,6 +1329,7 @@
     {
       "id": "112",
       "word": "waive",
+      "audio_word": "waive",
       "word_file": "word/112.mp3",
       "sentence_file": "sentence/112.mp3",
       "meaning_file": "meaning/112.mp3"
@@ -1225,6 +1337,7 @@
     {
       "id": "113",
       "word": "tricky",
+      "audio_word": "tricky",
       "word_file": "word/113.mp3",
       "sentence_file": "sentence/113.mp3",
       "meaning_file": "meaning/113.mp3"
@@ -1232,6 +1345,7 @@
     {
       "id": "114",
       "word": "enter data",
+      "audio_word": "enter data",
       "word_file": "word/114.mp3",
       "sentence_file": "sentence/114.mp3",
       "meaning_file": "meaning/114.mp3"
@@ -1239,6 +1353,7 @@
     {
       "id": "115",
       "word": "press",
+      "audio_word": "press",
       "word_file": "word/115.mp3",
       "sentence_file": "sentence/115.mp3",
       "meaning_file": "meaning/115.mp3"
@@ -1246,6 +1361,7 @@
     {
       "id": "116",
       "word": "button",
+      "audio_word": "button",
       "word_file": "word/116.mp3",
       "sentence_file": "sentence/116.mp3",
       "meaning_file": "meaning/116.mp3"
@@ -1253,6 +1369,7 @@
     {
       "id": "117",
       "word": "assist",
+      "audio_word": "assist",
       "word_file": "word/117.mp3",
       "sentence_file": "sentence/117.mp3",
       "meaning_file": "meaning/117.mp3"
@@ -1260,6 +1377,7 @@
     {
       "id": "118",
       "word": "revelation",
+      "audio_word": "revelation",
       "word_file": "word/118.mp3",
       "sentence_file": "sentence/118.mp3",
       "meaning_file": "meaning/118.mp3"
@@ -1267,6 +1385,7 @@
     {
       "id": "119",
       "word": "decline",
+      "audio_word": "decline",
       "word_file": "word/119.mp3",
       "sentence_file": "sentence/119.mp3",
       "meaning_file": "meaning/119.mp3"
@@ -1274,6 +1393,7 @@
     {
       "id": "120",
       "word": "impressive",
+      "audio_word": "impressive",
       "word_file": "word/120.mp3",
       "sentence_file": "sentence/120.mp3",
       "meaning_file": "meaning/120.mp3"
@@ -1281,6 +1401,7 @@
     {
       "id": "121",
       "word": "flourishing",
+      "audio_word": "flourishing",
       "word_file": "word/121.mp3",
       "sentence_file": "sentence/121.mp3",
       "meaning_file": "meaning/121.mp3"
@@ -1288,6 +1409,7 @@
     {
       "id": "122",
       "word": "crumbled",
+      "audio_word": "crumbled",
       "word_file": "word/122.mp3",
       "sentence_file": "sentence/122.mp3",
       "meaning_file": "meaning/122.mp3"
@@ -1295,6 +1417,7 @@
     {
       "id": "123",
       "word": "scholars",
+      "audio_word": "scholars",
       "word_file": "word/123.mp3",
       "sentence_file": "sentence/123.mp3",
       "meaning_file": "meaning/123.mp3"
@@ -1302,6 +1425,7 @@
     {
       "id": "124",
       "word": "debated",
+      "audio_word": "debated",
       "word_file": "word/124.mp3",
       "sentence_file": "sentence/124.mp3",
       "meaning_file": "meaning/124.mp3"
@@ -1309,6 +1433,7 @@
     {
       "id": "125",
       "word": "brought ... into the spotlight",
+      "audio_word": "brought ... into the spotlight",
       "word_file": "word/125.mp3",
       "sentence_file": "sentence/125.mp3",
       "meaning_file": "meaning/125.mp3"
@@ -1316,6 +1441,7 @@
     {
       "id": "126",
       "word": "stalagmites",
+      "audio_word": "stalagmites",
       "word_file": "word/126.mp3",
       "sentence_file": "sentence/126.mp3",
       "meaning_file": "meaning/126.mp3"
@@ -1323,6 +1449,7 @@
     {
       "id": "127",
       "word": "geological",
+      "audio_word": "geological",
       "word_file": "word/127.mp3",
       "sentence_file": "sentence/127.mp3",
       "meaning_file": "meaning/127.mp3"
@@ -1330,6 +1457,7 @@
     {
       "id": "128",
       "word": "precipitation",
+      "audio_word": "precipitation",
       "word_file": "word/128.mp3",
       "sentence_file": "sentence/128.mp3",
       "meaning_file": "meaning/128.mp3"
@@ -1337,6 +1465,7 @@
     {
       "id": "129",
       "word": "former",
+      "audio_word": "former",
       "word_file": "word/129.mp3",
       "sentence_file": "sentence/129.mp3",
       "meaning_file": "meaning/129.mp3"
@@ -1344,6 +1473,7 @@
     {
       "id": "130",
       "word": "heartlands",
+      "audio_word": "heartlands",
       "word_file": "word/130.mp3",
       "sentence_file": "sentence/130.mp3",
       "meaning_file": "meaning/130.mp3"
@@ -1351,6 +1481,7 @@
     {
       "id": "131",
       "word": "revealed",
+      "audio_word": "revealed",
       "word_file": "word/131.mp3",
       "sentence_file": "sentence/131.mp3",
       "meaning_file": "meaning/131.mp3"
@@ -1358,6 +1489,7 @@
     {
       "id": "132",
       "word": "prolonged",
+      "audio_word": "prolonged",
       "word_file": "word/132.mp3",
       "sentence_file": "sentence/132.mp3",
       "meaning_file": "meaning/132.mp3"
@@ -1365,6 +1497,7 @@
     {
       "id": "133",
       "word": "droughts",
+      "audio_word": "droughts",
       "word_file": "word/133.mp3",
       "sentence_file": "sentence/133.mp3",
       "meaning_file": "meaning/133.mp3"
@@ -1372,6 +1505,7 @@
     {
       "id": "134",
       "word": "coincided with",
+      "audio_word": "coincided with",
       "word_file": "word/134.mp3",
       "sentence_file": "sentence/134.mp3",
       "meaning_file": "meaning/134.mp3"
@@ -1379,6 +1513,7 @@
     {
       "id": "135",
       "word": "heavily dependent on",
+      "audio_word": "heavily dependent on",
       "word_file": "word/135.mp3",
       "sentence_file": "sentence/135.mp3",
       "meaning_file": "meaning/135.mp3"
@@ -1386,6 +1521,7 @@
     {
       "id": "136",
       "word": "agriculture",
+      "audio_word": "agriculture",
       "word_file": "word/136.mp3",
       "sentence_file": "sentence/136.mp3",
       "meaning_file": "meaning/136.mp3"
@@ -1393,6 +1529,7 @@
     {
       "id": "137",
       "word": "scarcity",
+      "audio_word": "scarcity",
       "word_file": "word/137.mp3",
       "sentence_file": "sentence/137.mp3",
       "meaning_file": "meaning/137.mp3"
@@ -1400,6 +1537,7 @@
     {
       "id": "138",
       "word": "immense",
+      "audio_word": "immense",
       "word_file": "word/138.mp3",
       "sentence_file": "sentence/138.mp3",
       "meaning_file": "meaning/138.mp3"
@@ -1407,6 +1545,7 @@
     {
       "id": "139",
       "word": "societal",
+      "audio_word": "societal",
       "word_file": "word/139.mp3",
       "sentence_file": "sentence/139.mp3",
       "meaning_file": "meaning/139.mp3"
@@ -1414,6 +1553,7 @@
     {
       "id": "140",
       "word": "struggling",
+      "audio_word": "struggling",
       "word_file": "word/140.mp3",
       "sentence_file": "sentence/140.mp3",
       "meaning_file": "meaning/140.mp3"
@@ -1421,6 +1561,7 @@
     {
       "id": "141",
       "word": "social unrest",
+      "audio_word": "social unrest",
       "word_file": "word/141.mp3",
       "sentence_file": "sentence/141.mp3",
       "meaning_file": "meaning/141.mp3"
@@ -1428,6 +1569,7 @@
     {
       "id": "142",
       "word": "sole",
+      "audio_word": "sole",
       "word_file": "word/142.mp3",
       "sentence_file": "sentence/142.mp3",
       "meaning_file": "meaning/142.mp3"
@@ -1435,6 +1577,7 @@
     {
       "id": "143",
       "word": "warfare",
+      "audio_word": "warfare",
       "word_file": "word/143.mp3",
       "sentence_file": "sentence/143.mp3",
       "meaning_file": "meaning/143.mp3"
@@ -1442,6 +1585,7 @@
     {
       "id": "144",
       "word": "politics",
+      "audio_word": "politics",
       "word_file": "word/144.mp3",
       "sentence_file": "sentence/144.mp3",
       "meaning_file": "meaning/144.mp3"
@@ -1449,6 +1593,7 @@
     {
       "id": "145",
       "word": "sheds light on",
+      "audio_word": "sheds light on",
       "word_file": "word/145.mp3",
       "sentence_file": "sentence/145.mp3",
       "meaning_file": "meaning/145.mp3"
@@ -1456,6 +1601,7 @@
     {
       "id": "146",
       "word": "vulnerability",
+      "audio_word": "vulnerability",
       "word_file": "word/146.mp3",
       "sentence_file": "sentence/146.mp3",
       "meaning_file": "meaning/146.mp3"
@@ -1463,6 +1609,7 @@
     {
       "id": "147",
       "word": "depict",
+      "audio_word": "depict",
       "word_file": "word/147.mp3",
       "sentence_file": "sentence/147.mp3",
       "meaning_file": "meaning/147.mp3"
@@ -1470,6 +1617,7 @@
     {
       "id": "148",
       "word": "exists",
+      "audio_word": "exists",
       "word_file": "word/148.mp3",
       "sentence_file": "sentence/148.mp3",
       "meaning_file": "meaning/148.mp3"
@@ -1477,6 +1625,7 @@
     {
       "id": "149",
       "word": "surrealism",
+      "audio_word": "surrealism",
       "word_file": "word/149.mp3",
       "sentence_file": "sentence/149.mp3",
       "meaning_file": "meaning/149.mp3"
@@ -1484,6 +1633,7 @@
     {
       "id": "150",
       "word": "combination",
+      "audio_word": "combination",
       "word_file": "word/150.mp3",
       "sentence_file": "sentence/150.mp3",
       "meaning_file": "meaning/150.mp3"
@@ -1491,6 +1641,7 @@
     {
       "id": "151",
       "word": "as well as",
+      "audio_word": "as well as",
       "word_file": "word/151.mp3",
       "sentence_file": "sentence/151.mp3",
       "meaning_file": "meaning/151.mp3"
@@ -1498,6 +1649,7 @@
     {
       "id": "152",
       "word": "dreamlike",
+      "audio_word": "dreamlike",
       "word_file": "word/152.mp3",
       "sentence_file": "sentence/152.mp3",
       "meaning_file": "meaning/152.mp3"
@@ -1505,6 +1657,7 @@
     {
       "id": "153",
       "word": "adept",
+      "audio_word": "adept",
       "word_file": "word/153.mp3",
       "sentence_file": "sentence/153.mp3",
       "meaning_file": "meaning/153.mp3"
@@ -1512,6 +1665,7 @@
     {
       "id": "154",
       "word": "stages",
+      "audio_word": "stages",
       "word_file": "word/154.mp3",
       "sentence_file": "sentence/154.mp3",
       "meaning_file": "meaning/154.mp3"
@@ -1519,6 +1673,7 @@
     {
       "id": "155",
       "word": "latter",
+      "audio_word": "latter",
       "word_file": "word/155.mp3",
       "sentence_file": "sentence/155.mp3",
       "meaning_file": "meaning/155.mp3"
@@ -1526,6 +1681,7 @@
     {
       "id": "156",
       "word": "meticulous",
+      "audio_word": "meticulous",
       "word_file": "word/156.mp3",
       "sentence_file": "sentence/156.mp3",
       "meaning_file": "meaning/156.mp3"
@@ -1533,6 +1689,7 @@
     {
       "id": "157",
       "word": "precise",
+      "audio_word": "precise",
       "word_file": "word/157.mp3",
       "sentence_file": "sentence/157.mp3",
       "meaning_file": "meaning/157.mp3"
@@ -1540,6 +1697,7 @@
     {
       "id": "158",
       "word": "initial",
+      "audio_word": "initial",
       "word_file": "word/158.mp3",
       "sentence_file": "sentence/158.mp3",
       "meaning_file": "meaning/158.mp3"
@@ -1547,6 +1705,7 @@
     {
       "id": "159",
       "word": "appeared",
+      "audio_word": "appeared",
       "word_file": "word/159.mp3",
       "sentence_file": "sentence/159.mp3",
       "meaning_file": "meaning/159.mp3"
@@ -1554,6 +1713,7 @@
     {
       "id": "160",
       "word": "automatism",
+      "audio_word": "automatism",
       "word_file": "word/160.mp3",
       "sentence_file": "sentence/160.mp3",
       "meaning_file": "meaning/160.mp3"
@@ -1561,6 +1721,7 @@
     {
       "id": "161",
       "word": "noticeable",
+      "audio_word": "noticeable",
       "word_file": "word/161.mp3",
       "sentence_file": "sentence/161.mp3",
       "meaning_file": "meaning/161.mp3"
@@ -1568,6 +1729,7 @@
     {
       "id": "162",
       "word": "fully",
+      "audio_word": "fully",
       "word_file": "word/162.mp3",
       "sentence_file": "sentence/162.mp3",
       "meaning_file": "meaning/162.mp3"
@@ -1575,6 +1737,7 @@
     {
       "id": "163",
       "word": "Presumably",
+      "audio_word": "Presumably",
       "word_file": "word/163.mp3",
       "sentence_file": "sentence/163.mp3",
       "meaning_file": "meaning/163.mp3"
@@ -1582,6 +1745,7 @@
     {
       "id": "164",
       "word": "chicks",
+      "audio_word": "chicks",
       "word_file": "word/164.mp3",
       "sentence_file": "sentence/164.mp3",
       "meaning_file": "meaning/164.mp3"
@@ -1589,6 +1753,7 @@
     {
       "id": "165",
       "word": "Sort of.",
+      "audio_word": "Sort of.",
       "word_file": "word/165.mp3",
       "sentence_file": "sentence/165.mp3",
       "meaning_file": "meaning/165.mp3"
@@ -1596,6 +1761,7 @@
     {
       "id": "166",
       "word": "wildlife",
+      "audio_word": "wildlife",
       "word_file": "word/166.mp3",
       "sentence_file": "sentence/166.mp3",
       "meaning_file": "meaning/166.mp3"
@@ -1603,6 +1769,7 @@
     {
       "id": "167",
       "word": "botanical gardens",
+      "audio_word": "botanical gardens",
       "word_file": "word/167.mp3",
       "sentence_file": "sentence/167.mp3",
       "meaning_file": "meaning/167.mp3"
@@ -1610,6 +1777,7 @@
     {
       "id": "168",
       "word": "seafood",
+      "audio_word": "seafood",
       "word_file": "word/168.mp3",
       "sentence_file": "sentence/168.mp3",
       "meaning_file": "meaning/168.mp3"
@@ -1617,6 +1785,7 @@
     {
       "id": "169",
       "word": "waterfront",
+      "audio_word": "waterfront",
       "word_file": "word/169.mp3",
       "sentence_file": "sentence/169.mp3",
       "meaning_file": "meaning/169.mp3"
@@ -1624,6 +1793,7 @@
     {
       "id": "170",
       "word": "spectacular",
+      "audio_word": "spectacular",
       "word_file": "word/170.mp3",
       "sentence_file": "sentence/170.mp3",
       "meaning_file": "meaning/170.mp3"
@@ -1631,6 +1801,7 @@
     {
       "id": "171",
       "word": "scenery",
+      "audio_word": "scenery",
       "word_file": "word/171.mp3",
       "sentence_file": "sentence/171.mp3",
       "meaning_file": "meaning/171.mp3"
@@ -1638,6 +1809,7 @@
     {
       "id": "172",
       "word": "packed",
+      "audio_word": "packed",
       "word_file": "word/172.mp3",
       "sentence_file": "sentence/172.mp3",
       "meaning_file": "meaning/172.mp3"
@@ -1645,6 +1817,7 @@
     {
       "id": "173",
       "word": "reservation",
+      "audio_word": "reservation",
       "word_file": "word/173.mp3",
       "sentence_file": "sentence/173.mp3",
       "meaning_file": "meaning/173.mp3"
@@ -1652,6 +1825,7 @@
     {
       "id": "174",
       "word": "collect",
+      "audio_word": "collect",
       "word_file": "word/174.mp3",
       "sentence_file": "sentence/174.mp3",
       "meaning_file": "meaning/174.mp3"
@@ -1659,6 +1833,7 @@
     {
       "id": "175",
       "word": "familiar",
+      "audio_word": "familiar",
       "word_file": "word/175.mp3",
       "sentence_file": "sentence/175.mp3",
       "meaning_file": "meaning/175.mp3"
@@ -1666,6 +1841,7 @@
     {
       "id": "176",
       "word": "navigation",
+      "audio_word": "navigation",
       "word_file": "word/176.mp3",
       "sentence_file": "sentence/176.mp3",
       "meaning_file": "meaning/176.mp3"
@@ -1673,6 +1849,7 @@
     {
       "id": "177",
       "word": "positioning",
+      "audio_word": "positioning",
       "word_file": "word/177.mp3",
       "sentence_file": "sentence/177.mp3",
       "meaning_file": "meaning/177.mp3"
@@ -1680,6 +1857,7 @@
     {
       "id": "178",
       "word": "hardware",
+      "audio_word": "hardware",
       "word_file": "word/178.mp3",
       "sentence_file": "sentence/178.mp3",
       "meaning_file": "meaning/178.mp3"
@@ -1687,6 +1865,7 @@
     {
       "id": "179",
       "word": "satellite",
+      "audio_word": "satellite",
       "word_file": "word/179.mp3",
       "sentence_file": "sentence/179.mp3",
       "meaning_file": "meaning/179.mp3"
@@ -1694,6 +1873,7 @@
     {
       "id": "180",
       "word": "directions",
+      "audio_word": "directions",
       "word_file": "word/180.mp3",
       "sentence_file": "sentence/180.mp3",
       "meaning_file": "meaning/180.mp3"
@@ -1701,6 +1881,7 @@
     {
       "id": "181",
       "word": "trucking company",
+      "audio_word": "trucking company",
       "word_file": "word/181.mp3",
       "sentence_file": "sentence/181.mp3",
       "meaning_file": "meaning/181.mp3"
@@ -1708,6 +1889,7 @@
     {
       "id": "182",
       "word": "delivering",
+      "audio_word": "delivering",
       "word_file": "word/182.mp3",
       "sentence_file": "sentence/182.mp3",
       "meaning_file": "meaning/182.mp3"
@@ -1715,6 +1897,7 @@
     {
       "id": "183",
       "word": "track",
+      "audio_word": "track",
       "word_file": "word/183.mp3",
       "sentence_file": "sentence/183.mp3",
       "meaning_file": "meaning/183.mp3"
@@ -1722,6 +1905,7 @@
     {
       "id": "184",
       "word": "headed",
+      "audio_word": "headed",
       "word_file": "word/184.mp3",
       "sentence_file": "sentence/184.mp3",
       "meaning_file": "meaning/184.mp3"
@@ -1729,6 +1913,7 @@
     {
       "id": "185",
       "word": "traffic patterns",
+      "audio_word": "traffic patterns",
       "word_file": "word/185.mp3",
       "sentence_file": "sentence/185.mp3",
       "meaning_file": "meaning/185.mp3"
@@ -1736,6 +1921,7 @@
     {
       "id": "186",
       "word": "elevation",
+      "audio_word": "elevation",
       "word_file": "word/186.mp3",
       "sentence_file": "sentence/186.mp3",
       "meaning_file": "meaning/186.mp3"
@@ -1743,6 +1929,7 @@
     {
       "id": "187",
       "word": "shipping routes",
+      "audio_word": "shipping routes",
       "word_file": "word/187.mp3",
       "sentence_file": "sentence/187.mp3",
       "meaning_file": "meaning/187.mp3"
@@ -1750,6 +1937,7 @@
     {
       "id": "188",
       "word": "interactions",
+      "audio_word": "interactions",
       "word_file": "word/188.mp3",
       "sentence_file": "sentence/188.mp3",
       "meaning_file": "meaning/188.mp3"
@@ -1757,6 +1945,7 @@
     {
       "id": "189",
       "word": "fertilizer",
+      "audio_word": "fertilizer",
       "word_file": "word/189.mp3",
       "sentence_file": "sentence/189.mp3",
       "meaning_file": "meaning/189.mp3"
@@ -1764,6 +1953,7 @@
     {
       "id": "190",
       "word": "rainfall",
+      "audio_word": "rainfall",
       "word_file": "word/190.mp3",
       "sentence_file": "sentence/190.mp3",
       "meaning_file": "meaning/190.mp3"
@@ -1771,6 +1961,7 @@
     {
       "id": "191",
       "word": "wind up",
+      "audio_word": "wind up",
       "word_file": "word/191.mp3",
       "sentence_file": "sentence/191.mp3",
       "meaning_file": "meaning/191.mp3"
@@ -1778,6 +1969,7 @@
     {
       "id": "192",
       "word": "sites",
+      "audio_word": "sites",
       "word_file": "word/192.mp3",
       "sentence_file": "sentence/192.mp3",
       "meaning_file": "meaning/192.mp3"
@@ -1785,6 +1977,7 @@
     {
       "id": "193",
       "word": "historic districts",
+      "audio_word": "historic districts",
       "word_file": "word/193.mp3",
       "sentence_file": "sentence/193.mp3",
       "meaning_file": "meaning/193.mp3"
@@ -1792,6 +1985,7 @@
     {
       "id": "194",
       "word": "assess",
+      "audio_word": "assess",
       "word_file": "word/194.mp3",
       "sentence_file": "sentence/194.mp3",
       "meaning_file": "meaning/194.mp3"
@@ -1799,6 +1993,7 @@
     {
       "id": "195",
       "word": "conservation",
+      "audio_word": "conservation",
       "word_file": "word/195.mp3",
       "sentence_file": "sentence/195.mp3",
       "meaning_file": "meaning/195.mp3"
@@ -1806,6 +2001,7 @@
     {
       "id": "196",
       "word": "turns out",
+      "audio_word": "turns out",
       "word_file": "word/196.mp3",
       "sentence_file": "sentence/196.mp3",
       "meaning_file": "meaning/196.mp3"
@@ -1813,6 +2009,7 @@
     {
       "id": "197",
       "word": "dine",
+      "audio_word": "dine",
       "word_file": "word/197.mp3",
       "sentence_file": "sentence/197.mp3",
       "meaning_file": "meaning/197.mp3"
@@ -1820,6 +2017,7 @@
     {
       "id": "198",
       "word": "culinary",
+      "audio_word": "culinary",
       "word_file": "word/198.mp3",
       "sentence_file": "sentence/198.mp3",
       "meaning_file": "meaning/198.mp3"
@@ -1827,6 +2025,7 @@
     {
       "id": "199",
       "word": "demonstrated",
+      "audio_word": "demonstrated",
       "word_file": "word/199.mp3",
       "sentence_file": "sentence/199.mp3",
       "meaning_file": "meaning/199.mp3"
@@ -1834,6 +2033,7 @@
     {
       "id": "200",
       "word": "rapid tempo",
+      "audio_word": "rapid tempo",
       "word_file": "word/200.mp3",
       "sentence_file": "sentence/200.mp3",
       "meaning_file": "meaning/200.mp3"
@@ -1841,6 +2041,7 @@
     {
       "id": "201",
       "word": "tunes",
+      "audio_word": "tunes",
       "word_file": "word/201.mp3",
       "sentence_file": "sentence/201.mp3",
       "meaning_file": "meaning/201.mp3"
@@ -1848,6 +2049,7 @@
     {
       "id": "202",
       "word": "savor",
+      "audio_word": "savor",
       "word_file": "word/202.mp3",
       "sentence_file": "sentence/202.mp3",
       "meaning_file": "meaning/202.mp3"
@@ -1855,6 +2057,7 @@
     {
       "id": "203",
       "word": "perception",
+      "audio_word": "perception",
       "word_file": "word/203.mp3",
       "sentence_file": "sentence/203.mp3",
       "meaning_file": "meaning/203.mp3"
@@ -1862,6 +2065,7 @@
     {
       "id": "204",
       "word": "high pitched",
+      "audio_word": "high pitched",
       "word_file": "word/204.mp3",
       "sentence_file": "sentence/204.mp3",
       "meaning_file": "meaning/204.mp3"
@@ -1869,6 +2073,7 @@
     {
       "id": "205",
       "word": "accentuate",
+      "audio_word": "accentuate",
       "word_file": "word/205.mp3",
       "sentence_file": "sentence/205.mp3",
       "meaning_file": "meaning/205.mp3"
@@ -1876,6 +2081,7 @@
     {
       "id": "206",
       "word": "bitterness",
+      "audio_word": "bitterness",
       "word_file": "word/206.mp3",
       "sentence_file": "sentence/206.mp3",
       "meaning_file": "meaning/206.mp3"
@@ -1883,6 +2089,7 @@
     {
       "id": "207",
       "word": "take note of",
+      "audio_word": "take note of",
       "word_file": "word/207.mp3",
       "sentence_file": "sentence/207.mp3",
       "meaning_file": "meaning/207.mp3"
@@ -1890,6 +2097,7 @@
     {
       "id": "208",
       "word": "curating",
+      "audio_word": "curating",
       "word_file": "word/208.mp3",
       "sentence_file": "sentence/208.mp3",
       "meaning_file": "meaning/208.mp3"
@@ -1897,6 +2105,7 @@
     {
       "id": "209",
       "word": "patron",
+      "audio_word": "patron",
       "word_file": "word/209.mp3",
       "sentence_file": "sentence/209.mp3",
       "meaning_file": "meaning/209.mp3"
@@ -1904,6 +2113,7 @@
     {
       "id": "210",
       "word": "auditory seasoning",
+      "audio_word": "auditory seasoning",
       "word_file": "word/210.mp3",
       "sentence_file": "sentence/210.mp3",
       "meaning_file": "meaning/210.mp3"
@@ -1911,6 +2121,7 @@
     {
       "id": "211",
       "word": "ambiance",
+      "audio_word": "ambiance",
       "word_file": "word/211.mp3",
       "sentence_file": "sentence/211.mp3",
       "meaning_file": "meaning/211.mp3"
@@ -1918,6 +2129,7 @@
     {
       "id": "212",
       "word": "manipulation",
+      "audio_word": "manipulation",
       "word_file": "word/212.mp3",
       "sentence_file": "sentence/212.mp3",
       "meaning_file": "meaning/212.mp3"
@@ -1925,6 +2137,7 @@
     {
       "id": "213",
       "word": "detract from",
+      "audio_word": "detract from",
       "word_file": "word/213.mp3",
       "sentence_file": "sentence/213.mp3",
       "meaning_file": "meaning/213.mp3"
@@ -1932,6 +2145,7 @@
     {
       "id": "214",
       "word": "authenticity",
+      "audio_word": "authenticity",
       "word_file": "word/214.mp3",
       "sentence_file": "sentence/214.mp3",
       "meaning_file": "meaning/214.mp3"
@@ -1939,6 +2153,7 @@
     {
       "id": "215",
       "word": "diners",
+      "audio_word": "diners",
       "word_file": "word/215.mp3",
       "sentence_file": "sentence/215.mp3",
       "meaning_file": "meaning/215.mp3"
@@ -1946,6 +2161,7 @@
     {
       "id": "216",
       "word": "susceptible",
+      "audio_word": "susceptible",
       "word_file": "word/216.mp3",
       "sentence_file": "sentence/216.mp3",
       "meaning_file": "meaning/216.mp3"
@@ -1953,6 +2169,7 @@
     {
       "id": "217",
       "word": "overeating",
+      "audio_word": "overeating",
       "word_file": "word/217.mp3",
       "sentence_file": "sentence/217.mp3",
       "meaning_file": "meaning/217.mp3"
@@ -1960,6 +2177,7 @@
     {
       "id": "218",
       "word": "misjudging",
+      "audio_word": "misjudging",
       "word_file": "word/218.mp3",
       "sentence_file": "sentence/218.mp3",
       "meaning_file": "meaning/218.mp3"
@@ -1967,6 +2185,7 @@
     {
       "id": "219",
       "word": "experimented",
+      "audio_word": "experimented",
       "word_file": "word/219.mp3",
       "sentence_file": "sentence/219.mp3",
       "meaning_file": "meaning/219.mp3"
@@ -1974,6 +2193,7 @@
     {
       "id": "220",
       "word": "soundscapes",
+      "audio_word": "soundscapes",
       "word_file": "word/220.mp3",
       "sentence_file": "sentence/220.mp3",
       "meaning_file": "meaning/220.mp3"
@@ -1981,6 +2201,7 @@
     {
       "id": "221",
       "word": "rated",
+      "audio_word": "rated",
       "word_file": "word/221.mp3",
       "sentence_file": "sentence/221.mp3",
       "meaning_file": "meaning/221.mp3"
@@ -1988,6 +2209,7 @@
     {
       "id": "222",
       "word": "favorably",
+      "audio_word": "favorably",
       "word_file": "word/222.mp3",
       "sentence_file": "sentence/222.mp3",
       "meaning_file": "meaning/222.mp3"
@@ -1995,6 +2217,7 @@
     {
       "id": "223",
       "word": "feeling as if they were right by the sea",
+      "audio_word": "feeling as if they were right by the sea",
       "word_file": "word/223.mp3",
       "sentence_file": "sentence/223.mp3",
       "meaning_file": "meaning/223.mp3"
@@ -2002,6 +2225,7 @@
     {
       "id": "224",
       "word": "genuine",
+      "audio_word": "genuine",
       "word_file": "word/224.mp3",
       "sentence_file": "sentence/224.mp3",
       "meaning_file": "meaning/224.mp3"
@@ -2009,6 +2233,7 @@
     {
       "id": "225",
       "word": "air-conditioning",
+      "audio_word": "air-conditioning",
       "word_file": "word/225.mp3",
       "sentence_file": "sentence/225.mp3",
       "meaning_file": "meaning/225.mp3"
@@ -2016,6 +2241,7 @@
     {
       "id": "226",
       "word": "tablet",
+      "audio_word": "tablet",
       "word_file": "word/226.mp3",
       "sentence_file": "sentence/226.mp3",
       "meaning_file": "meaning/226.mp3"
@@ -2023,6 +2249,7 @@
     {
       "id": "227",
       "word": "act up",
+      "audio_word": "act up",
       "word_file": "word/227.mp3",
       "sentence_file": "sentence/227.mp3",
       "meaning_file": "meaning/227.mp3"
@@ -2030,6 +2257,7 @@
     {
       "id": "228",
       "word": "collaborate",
+      "audio_word": "collaborate",
       "word_file": "word/228.mp3",
       "sentence_file": "sentence/228.mp3",
       "meaning_file": "meaning/228.mp3"
@@ -2037,6 +2265,7 @@
     {
       "id": "229",
       "word": "stock up (on/with sth)",
+      "audio_word": "stock up on",
       "word_file": "word/229.mp3",
       "sentence_file": "sentence/229.mp3",
       "meaning_file": "meaning/229.mp3"
@@ -2044,6 +2273,7 @@
     {
       "id": "230",
       "word": "virus scan",
+      "audio_word": "virus scan",
       "word_file": "word/230.mp3",
       "sentence_file": "sentence/230.mp3",
       "meaning_file": "meaning/230.mp3"
@@ -2051,6 +2281,7 @@
     {
       "id": "231",
       "word": "fare",
+      "audio_word": "fare",
       "word_file": "word/231.mp3",
       "sentence_file": "sentence/231.mp3",
       "meaning_file": "meaning/231.mp3"
@@ -2058,6 +2289,7 @@
     {
       "id": "232",
       "word": "slog",
+      "audio_word": "slog",
       "word_file": "word/232.mp3",
       "sentence_file": "sentence/232.mp3",
       "meaning_file": "meaning/232.mp3"
@@ -2065,6 +2297,7 @@
     {
       "id": "233",
       "word": "come along",
+      "audio_word": "come along",
       "word_file": "word/233.mp3",
       "sentence_file": "sentence/233.mp3",
       "meaning_file": "meaning/233.mp3"
@@ -2072,6 +2305,7 @@
     {
       "id": "234",
       "word": "narrow down",
+      "audio_word": "narrow down",
       "word_file": "word/234.mp3",
       "sentence_file": "sentence/234.mp3",
       "meaning_file": "meaning/234.mp3"
@@ -2079,6 +2313,7 @@
     {
       "id": "235",
       "word": "budget-friendly",
+      "audio_word": "budget-friendly",
       "word_file": "word/235.mp3",
       "sentence_file": "sentence/235.mp3",
       "meaning_file": "meaning/235.mp3"
@@ -2086,6 +2321,7 @@
     {
       "id": "236",
       "word": "come by",
+      "audio_word": "come by",
       "word_file": "word/236.mp3",
       "sentence_file": "sentence/236.mp3",
       "meaning_file": "meaning/236.mp3"
@@ -2093,6 +2329,7 @@
     {
       "id": "237",
       "word": "resort",
+      "audio_word": "resort",
       "word_file": "word/237.mp3",
       "sentence_file": "sentence/237.mp3",
       "meaning_file": "meaning/237.mp3"
@@ -2100,6 +2337,7 @@
     {
       "id": "238",
       "word": "off the top of your head",
+      "audio_word": "off the top of your head",
       "word_file": "word/238.mp3",
       "sentence_file": "sentence/238.mp3",
       "meaning_file": "meaning/238.mp3"
@@ -2107,6 +2345,7 @@
     {
       "id": "239",
       "word": "get into shape",
+      "audio_word": "get into shape",
       "word_file": "word/239.mp3",
       "sentence_file": "sentence/239.mp3",
       "meaning_file": "meaning/239.mp3"
@@ -2114,6 +2353,7 @@
     {
       "id": "240",
       "word": "lease",
+      "audio_word": "lease",
       "word_file": "word/240.mp3",
       "sentence_file": "sentence/240.mp3",
       "meaning_file": "meaning/240.mp3"
@@ -2121,6 +2361,7 @@
     {
       "id": "241",
       "word": "sidetrack",
+      "audio_word": "sidetrack",
       "word_file": "word/241.mp3",
       "sentence_file": "sentence/241.mp3",
       "meaning_file": "meaning/241.mp3"
@@ -2128,6 +2369,7 @@
     {
       "id": "242",
       "word": "vegetarian",
+      "audio_word": "vegetarian",
       "word_file": "word/242.mp3",
       "sentence_file": "sentence/242.mp3",
       "meaning_file": "meaning/242.mp3"
@@ -2135,6 +2377,7 @@
     {
       "id": "243",
       "word": "head",
+      "audio_word": "head",
       "word_file": "word/243.mp3",
       "sentence_file": "sentence/243.mp3",
       "meaning_file": "meaning/243.mp3"
@@ -2142,6 +2385,7 @@
     {
       "id": "244",
       "word": "vendor",
+      "audio_word": "vendor",
       "word_file": "word/244.mp3",
       "sentence_file": "sentence/244.mp3",
       "meaning_file": "meaning/244.mp3"
@@ -2149,6 +2393,7 @@
     {
       "id": "245",
       "word": "rave review",
+      "audio_word": "rave review",
       "word_file": "word/245.mp3",
       "sentence_file": "sentence/245.mp3",
       "meaning_file": "meaning/245.mp3"
@@ -2156,6 +2401,7 @@
     {
       "id": "246",
       "word": "cardio",
+      "audio_word": "cardio",
       "word_file": "word/246.mp3",
       "sentence_file": "sentence/246.mp3",
       "meaning_file": "meaning/246.mp3"
@@ -2163,6 +2409,7 @@
     {
       "id": "247",
       "word": "hit the gym",
+      "audio_word": "hit the gym",
       "word_file": "word/247.mp3",
       "sentence_file": "sentence/247.mp3",
       "meaning_file": "meaning/247.mp3"
@@ -2170,6 +2417,7 @@
     {
       "id": "248",
       "word": "wrap up",
+      "audio_word": "wrap up",
       "word_file": "word/248.mp3",
       "sentence_file": "sentence/248.mp3",
       "meaning_file": "meaning/248.mp3"
@@ -2177,6 +2425,7 @@
     {
       "id": "249",
       "word": "launch",
+      "audio_word": "launch",
       "word_file": "word/249.mp3",
       "sentence_file": "sentence/249.mp3",
       "meaning_file": "meaning/249.mp3"
@@ -2184,6 +2433,7 @@
     {
       "id": "250",
       "word": "renovation",
+      "audio_word": "renovation",
       "word_file": "word/250.mp3",
       "sentence_file": "sentence/250.mp3",
       "meaning_file": "meaning/250.mp3"
@@ -2191,6 +2441,7 @@
     {
       "id": "251",
       "word": "kick off",
+      "audio_word": "kick off",
       "word_file": "word/251.mp3",
       "sentence_file": "sentence/251.mp3",
       "meaning_file": "meaning/251.mp3"
@@ -2198,6 +2449,7 @@
     {
       "id": "252",
       "word": "burn out",
+      "audio_word": "burn out",
       "word_file": "word/252.mp3",
       "sentence_file": "sentence/252.mp3",
       "meaning_file": "meaning/252.mp3"
@@ -2205,6 +2457,7 @@
     {
       "id": "253",
       "word": "backfire",
+      "audio_word": "backfire",
       "word_file": "word/253.mp3",
       "sentence_file": "sentence/253.mp3",
       "meaning_file": "meaning/253.mp3"
@@ -2212,6 +2465,7 @@
     {
       "id": "254",
       "word": "napkin",
+      "audio_word": "napkin",
       "word_file": "word/254.mp3",
       "sentence_file": "sentence/254.mp3",
       "meaning_file": "meaning/254.mp3"
@@ -2219,6 +2473,7 @@
     {
       "id": "255",
       "word": "pavilion",
+      "audio_word": "pavilion",
       "word_file": "word/255.mp3",
       "sentence_file": "sentence/255.mp3",
       "meaning_file": "meaning/255.mp3"
@@ -2226,6 +2481,7 @@
     {
       "id": "256",
       "word": "pastry",
+      "audio_word": "pastry",
       "word_file": "word/256.mp3",
       "sentence_file": "sentence/256.mp3",
       "meaning_file": "meaning/256.mp3"
@@ -2233,6 +2489,7 @@
     {
       "id": "257",
       "word": "design",
+      "audio_word": "design",
       "word_file": "word/257.mp3",
       "sentence_file": "sentence/257.mp3",
       "meaning_file": "meaning/257.mp3"
@@ -2240,6 +2497,7 @@
     {
       "id": "258",
       "word": "annex",
+      "audio_word": "annex",
       "word_file": "word/258.mp3",
       "sentence_file": "sentence/258.mp3",
       "meaning_file": "meaning/258.mp3"
@@ -2247,6 +2505,7 @@
     {
       "id": "259",
       "word": "downstairs",
+      "audio_word": "downstairs",
       "word_file": "word/259.mp3",
       "sentence_file": "sentence/259.mp3",
       "meaning_file": "meaning/259.mp3"
@@ -2254,6 +2513,7 @@
     {
       "id": "260",
       "word": "audiovisual",
+      "audio_word": "audiovisual",
       "word_file": "word/260.mp3",
       "sentence_file": "sentence/260.mp3",
       "meaning_file": "meaning/260.mp3"
@@ -2261,6 +2521,7 @@
     {
       "id": "261",
       "word": "install",
+      "audio_word": "install",
       "word_file": "word/261.mp3",
       "sentence_file": "sentence/261.mp3",
       "meaning_file": "meaning/261.mp3"
@@ -2268,6 +2529,7 @@
     {
       "id": "262",
       "word": "note",
+      "audio_word": "note",
       "word_file": "word/262.mp3",
       "sentence_file": "sentence/262.mp3",
       "meaning_file": "meaning/262.mp3"
@@ -2275,6 +2537,7 @@
     {
       "id": "263",
       "word": "variety",
+      "audio_word": "variety",
       "word_file": "word/263.mp3",
       "sentence_file": "sentence/263.mp3",
       "meaning_file": "meaning/263.mp3"
@@ -2282,6 +2545,7 @@
     {
       "id": "264",
       "word": "genre",
+      "audio_word": "genre",
       "word_file": "word/264.mp3",
       "sentence_file": "sentence/264.mp3",
       "meaning_file": "meaning/264.mp3"
@@ -2289,6 +2553,7 @@
     {
       "id": "265",
       "word": "comedy",
+      "audio_word": "comedy",
       "word_file": "word/265.mp3",
       "sentence_file": "sentence/265.mp3",
       "meaning_file": "meaning/265.mp3"
@@ -2296,6 +2561,7 @@
     {
       "id": "266",
       "word": "several",
+      "audio_word": "several",
       "word_file": "word/266.mp3",
       "sentence_file": "sentence/266.mp3",
       "meaning_file": "meaning/266.mp3"
@@ -2303,6 +2569,7 @@
     {
       "id": "267",
       "word": "fellow",
+      "audio_word": "fellow",
       "word_file": "word/267.mp3",
       "sentence_file": "sentence/267.mp3",
       "meaning_file": "meaning/267.mp3"
@@ -2310,6 +2577,7 @@
     {
       "id": "268",
       "word": "screening",
+      "audio_word": "screening",
       "word_file": "word/268.mp3",
       "sentence_file": "sentence/268.mp3",
       "meaning_file": "meaning/268.mp3"
@@ -2317,6 +2585,7 @@
     {
       "id": "269",
       "word": "session",
+      "audio_word": "session",
       "word_file": "word/269.mp3",
       "sentence_file": "sentence/269.mp3",
       "meaning_file": "meaning/269.mp3"
@@ -2324,6 +2593,7 @@
     {
       "id": "270",
       "word": "protocol",
+      "audio_word": "protocol",
       "word_file": "word/270.mp3",
       "sentence_file": "sentence/270.mp3",
       "meaning_file": "meaning/270.mp3"
@@ -2331,6 +2601,7 @@
     {
       "id": "271",
       "word": "mandatory",
+      "audio_word": "mandatory",
       "word_file": "word/271.mp3",
       "sentence_file": "sentence/271.mp3",
       "meaning_file": "meaning/271.mp3"
@@ -2338,6 +2609,7 @@
     {
       "id": "272",
       "word": "speed",
+      "audio_word": "speed",
       "word_file": "word/272.mp3",
       "sentence_file": "sentence/272.mp3",
       "meaning_file": "meaning/272.mp3"
@@ -2345,6 +2617,7 @@
     {
       "id": "273",
       "word": "measure",
+      "audio_word": "measure",
       "word_file": "word/273.mp3",
       "sentence_file": "sentence/273.mp3",
       "meaning_file": "meaning/273.mp3"
@@ -2352,6 +2625,7 @@
     {
       "id": "274",
       "word": "drop",
+      "audio_word": "drop",
       "word_file": "word/274.mp3",
       "sentence_file": "sentence/274.mp3",
       "meaning_file": "meaning/274.mp3"
@@ -2359,6 +2633,7 @@
     {
       "id": "275",
       "word": "off",
+      "audio_word": "off",
       "word_file": "word/275.mp3",
       "sentence_file": "sentence/275.mp3",
       "meaning_file": "meaning/275.mp3"
@@ -2366,6 +2641,7 @@
     {
       "id": "276",
       "word": "pastry",
+      "audio_word": "pastry",
       "word_file": "word/276.mp3",
       "sentence_file": "sentence/276.mp3",
       "meaning_file": "meaning/276.mp3"
@@ -2373,6 +2649,7 @@
     {
       "id": "277",
       "word": "differ",
+      "audio_word": "differ",
       "word_file": "word/277.mp3",
       "sentence_file": "sentence/277.mp3",
       "meaning_file": "meaning/277.mp3"
@@ -2380,6 +2657,7 @@
     {
       "id": "278",
       "word": "catch",
+      "audio_word": "catch",
       "word_file": "word/278.mp3",
       "sentence_file": "sentence/278.mp3",
       "meaning_file": "meaning/278.mp3"
@@ -2387,6 +2665,7 @@
     {
       "id": "279",
       "word": "episode",
+      "audio_word": "episode",
       "word_file": "word/279.mp3",
       "sentence_file": "sentence/279.mp3",
       "meaning_file": "meaning/279.mp3"
@@ -2394,6 +2673,7 @@
     {
       "id": "280",
       "word": "season",
+      "audio_word": "season",
       "word_file": "word/280.mp3",
       "sentence_file": "sentence/280.mp3",
       "meaning_file": "meaning/280.mp3"
@@ -2401,6 +2681,7 @@
     {
       "id": "281",
       "word": "predictable",
+      "audio_word": "predictable",
       "word_file": "word/281.mp3",
       "sentence_file": "sentence/281.mp3",
       "meaning_file": "meaning/281.mp3"
@@ -2408,6 +2689,7 @@
     {
       "id": "282",
       "word": "rumor",
+      "audio_word": "rumor",
       "word_file": "word/282.mp3",
       "sentence_file": "sentence/282.mp3",
       "meaning_file": "meaning/282.mp3"
@@ -2415,6 +2697,7 @@
     {
       "id": "283",
       "word": "author",
+      "audio_word": "author",
       "word_file": "word/283.mp3",
       "sentence_file": "sentence/283.mp3",
       "meaning_file": "meaning/283.mp3"
@@ -2422,6 +2705,7 @@
     {
       "id": "284",
       "word": "series",
+      "audio_word": "series",
       "word_file": "word/284.mp3",
       "sentence_file": "sentence/284.mp3",
       "meaning_file": "meaning/284.mp3"
@@ -2429,6 +2713,7 @@
     {
       "id": "285",
       "word": "fitness",
+      "audio_word": "fitness",
       "word_file": "word/285.mp3",
       "sentence_file": "sentence/285.mp3",
       "meaning_file": "meaning/285.mp3"
@@ -2436,6 +2721,7 @@
     {
       "id": "286",
       "word": "aerobics",
+      "audio_word": "aerobics",
       "word_file": "word/286.mp3",
       "sentence_file": "sentence/286.mp3",
       "meaning_file": "meaning/286.mp3"
@@ -2443,6 +2729,7 @@
     {
       "id": "287",
       "word": "term",
+      "audio_word": "term",
       "word_file": "word/287.mp3",
       "sentence_file": "sentence/287.mp3",
       "meaning_file": "meaning/287.mp3"
@@ -2450,6 +2737,7 @@
     {
       "id": "288",
       "word": "timing",
+      "audio_word": "timing",
       "word_file": "word/288.mp3",
       "sentence_file": "sentence/288.mp3",
       "meaning_file": "meaning/288.mp3"
@@ -2457,6 +2745,7 @@
     {
       "id": "289",
       "word": "work",
+      "audio_word": "work",
       "word_file": "word/289.mp3",
       "sentence_file": "sentence/289.mp3",
       "meaning_file": "meaning/289.mp3"
@@ -2464,6 +2753,7 @@
     {
       "id": "290",
       "word": "warn",
+      "audio_word": "warn",
       "word_file": "word/290.mp3",
       "sentence_file": "sentence/290.mp3",
       "meaning_file": "meaning/290.mp3"
@@ -2471,6 +2761,7 @@
     {
       "id": "291",
       "word": "strain",
+      "audio_word": "strain",
       "word_file": "word/291.mp3",
       "sentence_file": "sentence/291.mp3",
       "meaning_file": "meaning/291.mp3"
@@ -2478,6 +2769,7 @@
     {
       "id": "292",
       "word": "aquatic",
+      "audio_word": "aquatic",
       "word_file": "word/292.mp3",
       "sentence_file": "sentence/292.mp3",
       "meaning_file": "meaning/292.mp3"
@@ -2485,6 +2777,7 @@
     {
       "id": "293",
       "word": "jump",
+      "audio_word": "jump",
       "word_file": "word/293.mp3",
       "sentence_file": "sentence/293.mp3",
       "meaning_file": "meaning/293.mp3"
@@ -2492,6 +2785,7 @@
     {
       "id": "294",
       "word": "lap",
+      "audio_word": "lap",
       "word_file": "word/294.mp3",
       "sentence_file": "sentence/294.mp3",
       "meaning_file": "meaning/294.mp3"
@@ -2499,6 +2793,7 @@
     {
       "id": "295",
       "word": "seminar",
+      "audio_word": "seminar",
       "word_file": "word/295.mp3",
       "sentence_file": "sentence/295.mp3",
       "meaning_file": "meaning/295.mp3"
@@ -2506,6 +2801,7 @@
     {
       "id": "296",
       "word": "fair",
+      "audio_word": "fair",
       "word_file": "word/296.mp3",
       "sentence_file": "sentence/296.mp3",
       "meaning_file": "meaning/296.mp3"
@@ -2513,6 +2809,7 @@
     {
       "id": "297",
       "word": "expo",
+      "audio_word": "expo",
       "word_file": "word/297.mp3",
       "sentence_file": "sentence/297.mp3",
       "meaning_file": "meaning/297.mp3"
@@ -2520,6 +2817,7 @@
     {
       "id": "298",
       "word": "auction",
+      "audio_word": "auction",
       "word_file": "word/298.mp3",
       "sentence_file": "sentence/298.mp3",
       "meaning_file": "meaning/298.mp3"
@@ -2527,6 +2825,7 @@
     {
       "id": "299",
       "word": "auditorium",
+      "audio_word": "auditorium",
       "word_file": "word/299.mp3",
       "sentence_file": "sentence/299.mp3",
       "meaning_file": "meaning/299.mp3"
@@ -2534,6 +2833,7 @@
     {
       "id": "300",
       "word": "hall",
+      "audio_word": "hall",
       "word_file": "word/300.mp3",
       "sentence_file": "sentence/300.mp3",
       "meaning_file": "meaning/300.mp3"
@@ -2541,6 +2841,7 @@
     {
       "id": "301",
       "word": "lounge",
+      "audio_word": "lounge",
       "word_file": "word/301.mp3",
       "sentence_file": "sentence/301.mp3",
       "meaning_file": "meaning/301.mp3"
@@ -2548,6 +2849,7 @@
     {
       "id": "302",
       "word": "proceeds",
+      "audio_word": "proceeds",
       "word_file": "word/302.mp3",
       "sentence_file": "sentence/302.mp3",
       "meaning_file": "meaning/302.mp3"
@@ -2555,6 +2857,7 @@
     {
       "id": "303",
       "word": "recruit",
+      "audio_word": "recruit",
       "word_file": "word/303.mp3",
       "sentence_file": "sentence/303.mp3",
       "meaning_file": "meaning/303.mp3"
@@ -2562,6 +2865,7 @@
     {
       "id": "304",
       "word": "tech",
+      "audio_word": "tech",
       "word_file": "word/304.mp3",
       "sentence_file": "sentence/304.mp3",
       "meaning_file": "meaning/304.mp3"
@@ -2569,6 +2873,7 @@
     {
       "id": "305",
       "word": "trail",
+      "audio_word": "trail",
       "word_file": "word/305.mp3",
       "sentence_file": "sentence/305.mp3",
       "meaning_file": "meaning/305.mp3"
@@ -2576,6 +2881,7 @@
     {
       "id": "306",
       "word": "cumulative",
+      "audio_word": "cumulative",
       "word_file": "word/306.mp3",
       "sentence_file": "sentence/306.mp3",
       "meaning_file": "meaning/306.mp3"
@@ -2583,6 +2889,7 @@
     {
       "id": "307",
       "word": "arguably",
+      "audio_word": "arguably",
       "word_file": "word/307.mp3",
       "sentence_file": "sentence/307.mp3",
       "meaning_file": "meaning/307.mp3"
@@ -2590,6 +2897,7 @@
     {
       "id": "308",
       "word": "ray",
+      "audio_word": "ray",
       "word_file": "word/308.mp3",
       "sentence_file": "sentence/308.mp3",
       "meaning_file": "meaning/308.mp3"
@@ -2597,6 +2905,7 @@
     {
       "id": "309",
       "word": "convert",
+      "audio_word": "convert",
       "word_file": "word/309.mp3",
       "sentence_file": "sentence/309.mp3",
       "meaning_file": "meaning/309.mp3"
@@ -2604,6 +2913,7 @@
     {
       "id": "310",
       "word": "electricity",
+      "audio_word": "electricity",
       "word_file": "word/310.mp3",
       "sentence_file": "sentence/310.mp3",
       "meaning_file": "meaning/310.mp3"
@@ -2611,6 +2921,7 @@
     {
       "id": "311",
       "word": "primary",
+      "audio_word": "primary",
       "word_file": "word/311.mp3",
       "sentence_file": "sentence/311.mp3",
       "meaning_file": "meaning/311.mp3"
@@ -2618,6 +2929,7 @@
     {
       "id": "312",
       "word": "panel",
+      "audio_word": "solar panels",
       "word_file": "word/312.mp3",
       "sentence_file": "sentence/312.mp3",
       "meaning_file": "meaning/312.mp3"
@@ -2625,6 +2937,7 @@
     {
       "id": "313",
       "word": "photovoltaic",
+      "audio_word": "photovoltaic",
       "word_file": "word/313.mp3",
       "sentence_file": "sentence/313.mp3",
       "meaning_file": "meaning/313.mp3"
@@ -2632,6 +2945,7 @@
     {
       "id": "314",
       "word": "current",
+      "audio_word": "electric current",
       "word_file": "word/314.mp3",
       "sentence_file": "sentence/314.mp3",
       "meaning_file": "meaning/314.mp3"
@@ -2639,6 +2953,7 @@
     {
       "id": "315",
       "word": "endeavor",
+      "audio_word": "endeavor",
       "word_file": "word/315.mp3",
       "sentence_file": "sentence/315.mp3",
       "meaning_file": "meaning/315.mp3"
@@ -2646,6 +2961,7 @@
     {
       "id": "316",
       "word": "carbon",
+      "audio_word": "carbon dioxide",
       "word_file": "word/316.mp3",
       "sentence_file": "sentence/316.mp3",
       "meaning_file": "meaning/316.mp3"
@@ -2653,6 +2969,7 @@
     {
       "id": "317",
       "word": "fuel",
+      "audio_word": "fossil fuels",
       "word_file": "word/317.mp3",
       "sentence_file": "sentence/317.mp3",
       "meaning_file": "meaning/317.mp3"
@@ -2660,6 +2977,7 @@
     {
       "id": "318",
       "word": "footprint",
+      "audio_word": "carbon footprint",
       "word_file": "word/318.mp3",
       "sentence_file": "sentence/318.mp3",
       "meaning_file": "meaning/318.mp3"
@@ -2667,6 +2985,7 @@
     {
       "id": "319",
       "word": "gas",
+      "audio_word": "natural gas",
       "word_file": "word/319.mp3",
       "sentence_file": "sentence/319.mp3",
       "meaning_file": "meaning/319.mp3"
@@ -2674,6 +2993,7 @@
     {
       "id": "320",
       "word": "emission",
+      "audio_word": "emission",
       "word_file": "word/320.mp3",
       "sentence_file": "sentence/320.mp3",
       "meaning_file": "meaning/320.mp3"
@@ -2681,6 +3001,7 @@
     {
       "id": "321",
       "word": "access",
+      "audio_word": "access",
       "word_file": "word/321.mp3",
       "sentence_file": "sentence/321.mp3",
       "meaning_file": "meaning/321.mp3"
@@ -2688,6 +3009,7 @@
     {
       "id": "322",
       "word": "underserved",
+      "audio_word": "underserved",
       "word_file": "word/322.mp3",
       "sentence_file": "sentence/322.mp3",
       "meaning_file": "meaning/322.mp3"
@@ -2695,6 +3017,7 @@
     {
       "id": "323",
       "word": "grid",
+      "audio_word": "grid",
       "word_file": "word/323.mp3",
       "sentence_file": "sentence/323.mp3",
       "meaning_file": "meaning/323.mp3"
@@ -2702,6 +3025,7 @@
     {
       "id": "324",
       "word": "efficiency",
+      "audio_word": "efficiency",
       "word_file": "word/324.mp3",
       "sentence_file": "sentence/324.mp3",
       "meaning_file": "meaning/324.mp3"
@@ -2709,6 +3033,7 @@
     {
       "id": "325",
       "word": "weather",
+      "audio_word": "weather",
       "word_file": "word/325.mp3",
       "sentence_file": "sentence/325.mp3",
       "meaning_file": "meaning/325.mp3"
@@ -2716,6 +3041,7 @@
     {
       "id": "326",
       "word": "battery",
+      "audio_word": "battery",
       "word_file": "word/326.mp3",
       "sentence_file": "sentence/326.mp3",
       "meaning_file": "meaning/326.mp3"
@@ -2723,6 +3049,7 @@
     {
       "id": "327",
       "word": "period",
+      "audio_word": "period",
       "word_file": "word/327.mp3",
       "sentence_file": "sentence/327.mp3",
       "meaning_file": "meaning/327.mp3"
@@ -2730,6 +3057,7 @@
     {
       "id": "328",
       "word": "lifespan",
+      "audio_word": "lifespan",
       "word_file": "word/328.mp3",
       "sentence_file": "sentence/328.mp3",
       "meaning_file": "meaning/328.mp3"
@@ -2737,6 +3065,7 @@
     {
       "id": "329",
       "word": "paradoxically",
+      "audio_word": "paradoxically",
       "word_file": "word/329.mp3",
       "sentence_file": "sentence/329.mp3",
       "meaning_file": "meaning/329.mp3"
@@ -2744,6 +3073,7 @@
     {
       "id": "330",
       "word": "landfill",
+      "audio_word": "landfill",
       "word_file": "word/330.mp3",
       "sentence_file": "sentence/330.mp3",
       "meaning_file": "meaning/330.mp3"
@@ -2751,6 +3081,7 @@
     {
       "id": "331",
       "word": "figure",
+      "audio_word": "figure",
       "word_file": "word/331.mp3",
       "sentence_file": "sentence/331.mp3",
       "meaning_file": "meaning/331.mp3"
@@ -2758,6 +3089,7 @@
     {
       "id": "332",
       "word": "migration",
+      "audio_word": "migration",
       "word_file": "word/332.mp3",
       "sentence_file": "sentence/332.mp3",
       "meaning_file": "meaning/332.mp3"
@@ -2765,6 +3097,7 @@
     {
       "id": "333",
       "word": "caption",
+      "audio_word": "caption",
       "word_file": "word/333.mp3",
       "sentence_file": "sentence/333.mp3",
       "meaning_file": "meaning/333.mp3"
@@ -2772,6 +3105,7 @@
     {
       "id": "334",
       "word": "chronicle",
+      "audio_word": "chronicle",
       "word_file": "word/334.mp3",
       "sentence_file": "sentence/334.mp3",
       "meaning_file": "meaning/334.mp3"
@@ -2779,6 +3113,7 @@
     {
       "id": "335",
       "word": "rural",
+      "audio_word": "rural",
       "word_file": "word/335.mp3",
       "sentence_file": "sentence/335.mp3",
       "meaning_file": "meaning/335.mp3"
@@ -2786,6 +3121,7 @@
     {
       "id": "336",
       "word": "bold",
+      "audio_word": "bold",
       "word_file": "word/336.mp3",
       "sentence_file": "sentence/336.mp3",
       "meaning_file": "meaning/336.mp3"
@@ -2793,6 +3129,7 @@
     {
       "id": "337",
       "word": "diagonal",
+      "audio_word": "diagonal",
       "word_file": "word/337.mp3",
       "sentence_file": "sentence/337.mp3",
       "meaning_file": "meaning/337.mp3"
@@ -2800,6 +3137,7 @@
     {
       "id": "338",
       "word": "representative",
+      "audio_word": "representative",
       "word_file": "word/338.mp3",
       "sentence_file": "sentence/338.mp3",
       "meaning_file": "meaning/338.mp3"
@@ -2807,6 +3145,7 @@
     {
       "id": "339",
       "word": "critic",
+      "audio_word": "critic",
       "word_file": "word/339.mp3",
       "sentence_file": "sentence/339.mp3",
       "meaning_file": "meaning/339.mp3"
@@ -2814,6 +3153,7 @@
     {
       "id": "340",
       "word": "crude",
+      "audio_word": "crude",
       "word_file": "word/340.mp3",
       "sentence_file": "sentence/340.mp3",
       "meaning_file": "meaning/340.mp3"
@@ -2821,6 +3161,7 @@
     {
       "id": "341",
       "word": "polished",
+      "audio_word": "polished",
       "word_file": "word/341.mp3",
       "sentence_file": "sentence/341.mp3",
       "meaning_file": "meaning/341.mp3"
@@ -2828,6 +3169,7 @@
     {
       "id": "342",
       "word": "capable",
+      "audio_word": "capable",
       "word_file": "word/342.mp3",
       "sentence_file": "sentence/342.mp3",
       "meaning_file": "meaning/342.mp3"
@@ -2835,6 +3177,7 @@
     {
       "id": "343",
       "word": "satisfy",
+      "audio_word": "satisfy",
       "word_file": "word/343.mp3",
       "sentence_file": "sentence/343.mp3",
       "meaning_file": "meaning/343.mp3"
@@ -2842,6 +3185,7 @@
     {
       "id": "344",
       "word": "snooty",
+      "audio_word": "snooty",
       "word_file": "word/344.mp3",
       "sentence_file": "sentence/344.mp3",
       "meaning_file": "meaning/344.mp3"
@@ -2849,6 +3193,7 @@
     {
       "id": "345",
       "word": "convincing",
+      "audio_word": "convincing",
       "word_file": "word/345.mp3",
       "sentence_file": "sentence/345.mp3",
       "meaning_file": "meaning/345.mp3"
@@ -2856,6 +3201,7 @@
     {
       "id": "346",
       "word": "accessory",
+      "audio_word": "accessory",
       "word_file": "word/346.mp3",
       "sentence_file": "sentence/346.mp3",
       "meaning_file": "meaning/346.mp3"
@@ -2863,6 +3209,7 @@
     {
       "id": "347",
       "word": "look",
+      "audio_word": "look all over for",
       "word_file": "word/347.mp3",
       "sentence_file": "sentence/347.mp3",
       "meaning_file": "meaning/347.mp3"
@@ -2870,6 +3217,7 @@
     {
       "id": "348",
       "word": "comfort",
+      "audio_word": "comfort",
       "word_file": "word/348.mp3",
       "sentence_file": "sentence/348.mp3",
       "meaning_file": "meaning/348.mp3"
@@ -2877,6 +3225,7 @@
     {
       "id": "349",
       "word": "furniture",
+      "audio_word": "furniture",
       "word_file": "word/349.mp3",
       "sentence_file": "sentence/349.mp3",
       "meaning_file": "meaning/349.mp3"
@@ -2884,6 +3233,7 @@
     {
       "id": "350",
       "word": "sale",
+      "audio_word": "sale",
       "word_file": "word/350.mp3",
       "sentence_file": "sentence/350.mp3",
       "meaning_file": "meaning/350.mp3"
@@ -2891,6 +3241,7 @@
     {
       "id": "351",
       "word": "catalogue",
+      "audio_word": "catalogue",
       "word_file": "word/351.mp3",
       "sentence_file": "sentence/351.mp3",
       "meaning_file": "meaning/351.mp3"
@@ -2898,6 +3249,7 @@
     {
       "id": "352",
       "word": "return",
+      "audio_word": "return",
       "word_file": "word/352.mp3",
       "sentence_file": "sentence/352.mp3",
       "meaning_file": "meaning/352.mp3"
@@ -2905,6 +3257,7 @@
     {
       "id": "353",
       "word": "adjust",
+      "audio_word": "adjust",
       "word_file": "word/353.mp3",
       "sentence_file": "sentence/353.mp3",
       "meaning_file": "meaning/353.mp3"
@@ -2912,6 +3265,7 @@
     {
       "id": "354",
       "word": "difference",
+      "audio_word": "time difference",
       "word_file": "word/354.mp3",
       "sentence_file": "sentence/354.mp3",
       "meaning_file": "meaning/354.mp3"
@@ -2919,6 +3273,7 @@
     {
       "id": "355",
       "word": "relate",
+      "audio_word": "relate",
       "word_file": "word/355.mp3",
       "sentence_file": "sentence/355.mp3",
       "meaning_file": "meaning/355.mp3"
@@ -2926,6 +3281,7 @@
     {
       "id": "356",
       "word": "lag",
+      "audio_word": "jet lag",
       "word_file": "word/356.mp3",
       "sentence_file": "sentence/356.mp3",
       "meaning_file": "meaning/356.mp3"
@@ -2933,6 +3289,7 @@
     {
       "id": "357",
       "word": "nap",
+      "audio_word": "nap",
       "word_file": "word/357.mp3",
       "sentence_file": "sentence/357.mp3",
       "meaning_file": "meaning/357.mp3"
@@ -2940,6 +3297,7 @@
     {
       "id": "358",
       "word": "clock",
+      "audio_word": "internal clock",
       "word_file": "word/358.mp3",
       "sentence_file": "sentence/358.mp3",
       "meaning_file": "meaning/358.mp3"
@@ -2947,6 +3305,7 @@
     {
       "id": "359",
       "word": "sort",
+      "audio_word": "sort out",
       "word_file": "word/359.mp3",
       "sentence_file": "sentence/359.mp3",
       "meaning_file": "meaning/359.mp3"
@@ -2954,6 +3313,7 @@
     {
       "id": "360",
       "word": "credit",
+      "audio_word": "credit",
       "word_file": "word/360.mp3",
       "sentence_file": "sentence/360.mp3",
       "meaning_file": "meaning/360.mp3"
@@ -2961,6 +3321,7 @@
     {
       "id": "361",
       "word": "extra",
+      "audio_word": "extra",
       "word_file": "word/361.mp3",
       "sentence_file": "sentence/361.mp3",
       "meaning_file": "meaning/361.mp3"
@@ -2968,6 +3329,7 @@
     {
       "id": "362",
       "word": "instrument",
+      "audio_word": "wind instruments",
       "word_file": "word/362.mp3",
       "sentence_file": "sentence/362.mp3",
       "meaning_file": "meaning/362.mp3"
@@ -2975,6 +3337,7 @@
     {
       "id": "363",
       "word": "modification",
+      "audio_word": "modification",
       "word_file": "word/363.mp3",
       "sentence_file": "sentence/363.mp3",
       "meaning_file": "meaning/363.mp3"
@@ -2982,6 +3345,7 @@
     {
       "id": "364",
       "word": "brass",
+      "audio_word": "brass",
       "word_file": "word/364.mp3",
       "sentence_file": "sentence/364.mp3",
       "meaning_file": "meaning/364.mp3"
@@ -2989,6 +3353,7 @@
     {
       "id": "365",
       "word": "trumpet",
+      "audio_word": "trumpet",
       "word_file": "word/365.mp3",
       "sentence_file": "sentence/365.mp3",
       "meaning_file": "meaning/365.mp3"
@@ -2996,6 +3361,7 @@
     {
       "id": "366",
       "word": "trombone",
+      "audio_word": "trombone",
       "word_file": "word/366.mp3",
       "sentence_file": "sentence/366.mp3",
       "meaning_file": "meaning/366.mp3"
@@ -3003,6 +3369,7 @@
     {
       "id": "367",
       "word": "undergo",
+      "audio_word": "undergo",
       "word_file": "word/367.mp3",
       "sentence_file": "sentence/367.mp3",
       "meaning_file": "meaning/367.mp3"
@@ -3010,6 +3377,7 @@
     {
       "id": "368",
       "word": "century",
+      "audio_word": "century",
       "word_file": "word/368.mp3",
       "sentence_file": "sentence/368.mp3",
       "meaning_file": "meaning/368.mp3"
@@ -3017,6 +3385,7 @@
     {
       "id": "369",
       "word": "refinement",
+      "audio_word": "refinement",
       "word_file": "word/369.mp3",
       "sentence_file": "sentence/369.mp3",
       "meaning_file": "meaning/369.mp3"
@@ -3024,6 +3393,7 @@
     {
       "id": "370",
       "word": "composer",
+      "audio_word": "composer",
       "word_file": "word/370.mp3",
       "sentence_file": "sentence/370.mp3",
       "meaning_file": "meaning/370.mp3"
@@ -3031,6 +3401,7 @@
     {
       "id": "371",
       "word": "bass",
+      "audio_word": "bass",
       "word_file": "word/371.mp3",
       "sentence_file": "sentence/371.mp3",
       "meaning_file": "meaning/371.mp3"
@@ -3038,6 +3409,7 @@
     {
       "id": "372",
       "word": "tinker",
+      "audio_word": "tinker",
       "word_file": "word/372.mp3",
       "sentence_file": "sentence/372.mp3",
       "meaning_file": "meaning/372.mp3"
@@ -3045,6 +3417,7 @@
     {
       "id": "373",
       "word": "discard",
+      "audio_word": "discard",
       "word_file": "word/373.mp3",
       "sentence_file": "sentence/373.mp3",
       "meaning_file": "meaning/373.mp3"
@@ -3052,6 +3425,7 @@
     {
       "id": "374",
       "word": "tuba",
+      "audio_word": "tuba",
       "word_file": "word/374.mp3",
       "sentence_file": "sentence/374.mp3",
       "meaning_file": "meaning/374.mp3"
@@ -3059,6 +3433,7 @@
     {
       "id": "375",
       "word": "ancestor",
+      "audio_word": "ancestor",
       "word_file": "word/375.mp3",
       "sentence_file": "sentence/375.mp3",
       "meaning_file": "meaning/375.mp3"
@@ -3066,6 +3441,7 @@
     {
       "id": "376",
       "word": "precursor",
+      "audio_word": "precursor",
       "word_file": "word/376.mp3",
       "sentence_file": "sentence/376.mp3",
       "meaning_file": "meaning/376.mp3"
@@ -3073,6 +3449,7 @@
     {
       "id": "377",
       "word": "serpent",
+      "audio_word": "serpent",
       "word_file": "word/377.mp3",
       "sentence_file": "sentence/377.mp3",
       "meaning_file": "meaning/377.mp3"
@@ -3080,6 +3457,7 @@
     {
       "id": "378",
       "word": "wooden",
+      "audio_word": "wooden",
       "word_file": "word/378.mp3",
       "sentence_file": "sentence/378.mp3",
       "meaning_file": "meaning/378.mp3"
@@ -3087,6 +3465,7 @@
     {
       "id": "379",
       "word": "bend",
+      "audio_word": "bent into",
       "word_file": "word/379.mp3",
       "sentence_file": "sentence/379.mp3",
       "meaning_file": "meaning/379.mp3"
@@ -3094,6 +3473,7 @@
     {
       "id": "380",
       "word": "intonation",
+      "audio_word": "intonation",
       "word_file": "word/380.mp3",
       "sentence_file": "sentence/380.mp3",
       "meaning_file": "meaning/380.mp3"
@@ -3101,6 +3481,7 @@
     {
       "id": "381",
       "word": "choir",
+      "audio_word": "a choir of",
       "word_file": "word/381.mp3",
       "sentence_file": "sentence/381.mp3",
       "meaning_file": "meaning/381.mp3"
@@ -3108,6 +3489,7 @@
     {
       "id": "382",
       "word": "boom",
+      "audio_word": "booming along",
       "word_file": "word/382.mp3",
       "sentence_file": "sentence/382.mp3",
       "meaning_file": "meaning/382.mp3"
@@ -3115,6 +3497,7 @@
     {
       "id": "383",
       "word": "ouch",
+      "audio_word": "ouch",
       "word_file": "word/383.mp3",
       "sentence_file": "sentence/383.mp3",
       "meaning_file": "meaning/383.mp3"
@@ -3122,6 +3505,7 @@
     {
       "id": "384",
       "word": "long",
+      "audio_word": "so long",
       "word_file": "word/384.mp3",
       "sentence_file": "sentence/384.mp3",
       "meaning_file": "meaning/384.mp3"
@@ -3129,6 +3513,7 @@
     {
       "id": "385",
       "word": "ophicleide",
+      "audio_word": "ophicleide",
       "word_file": "word/385.mp3",
       "sentence_file": "sentence/385.mp3",
       "meaning_file": "meaning/385.mp3"
@@ -3136,6 +3521,7 @@
     {
       "id": "386",
       "word": "construction",
+      "audio_word": "construction",
       "word_file": "word/386.mp3",
       "sentence_file": "sentence/386.mp3",
       "meaning_file": "meaning/386.mp3"
@@ -3143,6 +3529,7 @@
     {
       "id": "387",
       "word": "Berlioz",
+      "audio_word": "Berlioz",
       "word_file": "word/387.mp3",
       "sentence_file": "sentence/387.mp3",
       "meaning_file": "meaning/387.mp3"
@@ -3150,6 +3537,7 @@
     {
       "id": "388",
       "word": "pitch",
+      "audio_word": "pitch",
       "word_file": "word/388.mp3",
       "sentence_file": "sentence/388.mp3",
       "meaning_file": "meaning/388.mp3"
@@ -3157,6 +3545,7 @@
     {
       "id": "389",
       "word": "forecast",
+      "audio_word": "weather forecast",
       "word_file": "word/389.mp3",
       "sentence_file": "sentence/389.mp3",
       "meaning_file": "meaning/389.mp3"
@@ -3164,6 +3553,7 @@
     {
       "id": "390",
       "word": "predict",
+      "audio_word": "predict",
       "word_file": "word/390.mp3",
       "sentence_file": "sentence/390.mp3",
       "meaning_file": "meaning/390.mp3"
@@ -3171,6 +3561,7 @@
     {
       "id": "391",
       "word": "thunderstorm",
+      "audio_word": "thunderstorm",
       "word_file": "word/391.mp3",
       "sentence_file": "sentence/391.mp3",
       "meaning_file": "meaning/391.mp3"
@@ -3178,6 +3569,7 @@
     {
       "id": "392",
       "word": "photography",
+      "audio_word": "photography",
       "word_file": "word/392.mp3",
       "sentence_file": "sentence/392.mp3",
       "meaning_file": "meaning/392.mp3"
@@ -3185,6 +3577,7 @@
     {
       "id": "393",
       "word": "indoor",
+      "audio_word": "indoor",
       "word_file": "word/393.mp3",
       "sentence_file": "sentence/393.mp3",
       "meaning_file": "meaning/393.mp3"
@@ -3192,6 +3585,7 @@
     {
       "id": "394",
       "word": "alternative",
+      "audio_word": "alternative",
       "word_file": "word/394.mp3",
       "sentence_file": "sentence/394.mp3",
       "meaning_file": "meaning/394.mp3"
@@ -3199,6 +3593,7 @@
     {
       "id": "395",
       "word": "relevant",
+      "audio_word": "relevant",
       "word_file": "word/395.mp3",
       "sentence_file": "sentence/395.mp3",
       "meaning_file": "meaning/395.mp3"
@@ -3206,6 +3601,7 @@
     {
       "id": "396",
       "word": "literature",
+      "audio_word": "literature conference",
       "word_file": "word/396.mp3",
       "sentence_file": "sentence/396.mp3",
       "meaning_file": "meaning/396.mp3"
@@ -3213,6 +3609,7 @@
     {
       "id": "397",
       "word": "immediately",
+      "audio_word": "immediately",
       "word_file": "word/397.mp3",
       "sentence_file": "sentence/397.mp3",
       "meaning_file": "meaning/397.mp3"
@@ -3220,6 +3617,7 @@
     {
       "id": "398",
       "word": "present",
+      "audio_word": "present",
       "word_file": "word/398.mp3",
       "sentence_file": "sentence/398.mp3",
       "meaning_file": "meaning/398.mp3"
@@ -3227,6 +3625,7 @@
     {
       "id": "399",
       "word": "beat",
+      "audio_word": "beat",
       "word_file": "word/399.mp3",
       "sentence_file": "sentence/399.mp3",
       "meaning_file": "meaning/399.mp3"
@@ -3234,6 +3633,7 @@
     {
       "id": "400",
       "word": "sculpture",
+      "audio_word": "sculpture",
       "word_file": "word/400.mp3",
       "sentence_file": "sentence/400.mp3",
       "meaning_file": "meaning/400.mp3"
@@ -3241,6 +3641,7 @@
     {
       "id": "401",
       "word": "talented",
+      "audio_word": "talented",
       "word_file": "word/401.mp3",
       "sentence_file": "sentence/401.mp3",
       "meaning_file": "meaning/401.mp3"
@@ -3248,6 +3649,7 @@
     {
       "id": "402",
       "word": "accommodate",
+      "audio_word": "accommodate",
       "word_file": "word/402.mp3",
       "sentence_file": "sentence/402.mp3",
       "meaning_file": "meaning/402.mp3"
@@ -3255,6 +3657,7 @@
     {
       "id": "403",
       "word": "gain",
+      "audio_word": "gain",
       "word_file": "word/403.mp3",
       "sentence_file": "sentence/403.mp3",
       "meaning_file": "meaning/403.mp3"
@@ -3262,6 +3665,7 @@
     {
       "id": "404",
       "word": "scan",
+      "audio_word": "scan",
       "word_file": "word/404.mp3",
       "sentence_file": "sentence/404.mp3",
       "meaning_file": "meaning/404.mp3"
@@ -3269,6 +3673,7 @@
     {
       "id": "405",
       "word": "printing",
+      "audio_word": "printing",
       "word_file": "word/405.mp3",
       "sentence_file": "sentence/405.mp3",
       "meaning_file": "meaning/405.mp3"
@@ -3276,6 +3681,7 @@
     {
       "id": "406",
       "word": "per",
+      "audio_word": "per",
       "word_file": "word/406.mp3",
       "sentence_file": "sentence/406.mp3",
       "meaning_file": "meaning/406.mp3"
@@ -3283,6 +3689,7 @@
     {
       "id": "407",
       "word": "excess",
+      "audio_word": "in excess",
       "word_file": "word/407.mp3",
       "sentence_file": "sentence/407.mp3",
       "meaning_file": "meaning/407.mp3"
@@ -3290,6 +3697,7 @@
     {
       "id": "408",
       "word": "initiative",
+      "audio_word": "initiative",
       "word_file": "word/408.mp3",
       "sentence_file": "sentence/408.mp3",
       "meaning_file": "meaning/408.mp3"
@@ -3297,6 +3705,7 @@
     {
       "id": "409",
       "word": "contest",
+      "audio_word": "contest",
       "word_file": "word/409.mp3",
       "sentence_file": "sentence/409.mp3",
       "meaning_file": "meaning/409.mp3"
@@ -3304,6 +3713,7 @@
     {
       "id": "410",
       "word": "piece",
+      "audio_word": "piece",
       "word_file": "word/410.mp3",
       "sentence_file": "sentence/410.mp3",
       "meaning_file": "meaning/410.mp3"
@@ -3311,6 +3721,7 @@
     {
       "id": "411",
       "word": "suite",
+      "audio_word": "suite",
       "word_file": "word/411.mp3",
       "sentence_file": "sentence/411.mp3",
       "meaning_file": "meaning/411.mp3"
@@ -3318,6 +3729,7 @@
     {
       "id": "412",
       "word": "audition",
+      "audio_word": "audition",
       "word_file": "word/412.mp3",
       "sentence_file": "sentence/412.mp3",
       "meaning_file": "meaning/412.mp3"
@@ -3325,6 +3737,7 @@
     {
       "id": "413",
       "word": "mess",
+      "audio_word": "mess it up",
       "word_file": "word/413.mp3",
       "sentence_file": "sentence/413.mp3",
       "meaning_file": "meaning/413.mp3"
@@ -3332,6 +3745,7 @@
     {
       "id": "414",
       "word": "acting",
+      "audio_word": "acting",
       "word_file": "word/414.mp3",
       "sentence_file": "sentence/414.mp3",
       "meaning_file": "meaning/414.mp3"
@@ -3339,6 +3753,7 @@
     {
       "id": "415",
       "word": "director",
+      "audio_word": "director",
       "word_file": "word/415.mp3",
       "sentence_file": "sentence/415.mp3",
       "meaning_file": "meaning/415.mp3"
@@ -3346,6 +3761,7 @@
     {
       "id": "416",
       "word": "attitude",
+      "audio_word": "attitude",
       "word_file": "word/416.mp3",
       "sentence_file": "sentence/416.mp3",
       "meaning_file": "meaning/416.mp3"
@@ -3353,6 +3769,7 @@
     {
       "id": "417",
       "word": "ruin",
+      "audio_word": "ruin",
       "word_file": "word/417.mp3",
       "sentence_file": "sentence/417.mp3",
       "meaning_file": "meaning/417.mp3"
@@ -3360,6 +3777,7 @@
     {
       "id": "418",
       "word": "necessarily",
+      "audio_word": "not necessarily",
       "word_file": "word/418.mp3",
       "sentence_file": "sentence/418.mp3",
       "meaning_file": "meaning/418.mp3"
@@ -3367,6 +3785,7 @@
     {
       "id": "419",
       "word": "stumble",
+      "audio_word": "stumbled over",
       "word_file": "word/419.mp3",
       "sentence_file": "sentence/419.mp3",
       "meaning_file": "meaning/419.mp3"
@@ -3374,6 +3793,7 @@
     {
       "id": "420",
       "word": "cast",
+      "audio_word": "cast",
       "word_file": "word/420.mp3",
       "sentence_file": "sentence/420.mp3",
       "meaning_file": "meaning/420.mp3"
@@ -3381,6 +3801,7 @@
     {
       "id": "421",
       "word": "fundraiser",
+      "audio_word": "fundraiser",
       "word_file": "word/421.mp3",
       "sentence_file": "sentence/421.mp3",
       "meaning_file": "meaning/421.mp3"
@@ -3388,6 +3809,7 @@
     {
       "id": "422",
       "word": "depth",
+      "audio_word": "depth",
       "word_file": "word/422.mp3",
       "sentence_file": "sentence/422.mp3",
       "meaning_file": "meaning/422.mp3"
@@ -3395,6 +3817,7 @@
     {
       "id": "423",
       "word": "go",
+      "audio_word": "go into",
       "word_file": "word/423.mp3",
       "sentence_file": "sentence/423.mp3",
       "meaning_file": "meaning/423.mp3"
@@ -3402,6 +3825,7 @@
     {
       "id": "424",
       "word": "confirm",
+      "audio_word": "confirm",
       "word_file": "word/424.mp3",
       "sentence_file": "sentence/424.mp3",
       "meaning_file": "meaning/424.mp3"
@@ -3409,6 +3833,7 @@
     {
       "id": "425",
       "word": "clarity",
+      "audio_word": "clarity",
       "word_file": "word/425.mp3",
       "sentence_file": "sentence/425.mp3",
       "meaning_file": "meaning/425.mp3"
@@ -3416,6 +3841,7 @@
     {
       "id": "426",
       "word": "evaluate",
+      "audio_word": "evaluate",
       "word_file": "word/426.mp3",
       "sentence_file": "sentence/426.mp3",
       "meaning_file": "meaning/426.mp3"
@@ -3423,6 +3849,7 @@
     {
       "id": "427",
       "word": "coffee",
+      "audio_word": "make coffee",
       "word_file": "word/427.mp3",
       "sentence_file": "sentence/427.mp3",
       "meaning_file": "meaning/427.mp3"
@@ -3430,6 +3857,7 @@
     {
       "id": "428",
       "word": "timer",
+      "audio_word": "timer",
       "word_file": "word/428.mp3",
       "sentence_file": "sentence/428.mp3",
       "meaning_file": "meaning/428.mp3"
@@ -3437,6 +3865,7 @@
     {
       "id": "429",
       "word": "brewing",
+      "audio_word": "brewing",
       "word_file": "word/429.mp3",
       "sentence_file": "sentence/429.mp3",
       "meaning_file": "meaning/429.mp3"
@@ -3444,6 +3873,7 @@
     {
       "id": "430",
       "word": "handout",
+      "audio_word": "grab extra handouts",
       "word_file": "word/430.mp3",
       "sentence_file": "sentence/430.mp3",
       "meaning_file": "meaning/430.mp3"
@@ -3451,6 +3881,7 @@
     {
       "id": "431",
       "word": "carve",
+      "audio_word": "carve out",
       "word_file": "word/431.mp3",
       "sentence_file": "sentence/431.mp3",
       "meaning_file": "meaning/431.mp3"
