@@ -3099,8 +3099,1239 @@
       "sentence": "I'll carve out an hour to review these words.",
       "batch": "2026-10-06",
       "audioWord": "carve out"
+    },
+    {
+      "id": "432",
+      "word": "forum",
+      "meaning": "语境：论坛、讨论会（词表未附完整句）；常见义：公开讨论会、交流平台",
+      "sentence": "The university is hosting a forum on campus life.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "433",
+      "word": "hall",
+      "phrase": "dining hall",
+      "audioWord": "dining hall",
+      "meaning": "语境：食堂、餐厅；常见义：hall 大厅、礼堂；dining hall 集体用餐的餐厅",
+      "sentence": "Students can meet in the dining hall after class.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "434",
+      "word": "row",
+      "phrase": "rowing",
+      "audioWord": "rowing",
+      "meaning": "语境：划船、参加赛艇运动；常见义：用桨划船；row 还可指一排",
+      "sentence": "She enjoys rowing with the university team at the lake.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "435",
+      "word": "varsity",
+      "meaning": "语境：大学校队的；常见义：学校代表队，尤指大学或高中最高水平的校队",
+      "sentence": "She rows on the varsity crew team.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "436",
+      "word": "crew",
+      "phrase": "crew team",
+      "audioWord": "crew team",
+      "meaning": "语境：赛艇队；常见义：全体船员、机组人员、工作团队；crew 也指赛艇运动",
+      "sentence": "The crew team practices at Leon Lake.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "437",
+      "word": "method",
+      "meaning": "语境：研究交通趋势的方法；常见义：方法、方式、研究方法",
+      "sentence": "What method do you use to study traffic trends?",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "438",
+      "word": "trend",
+      "phrase": "traffic trends",
+      "audioWord": "traffic trends",
+      "meaning": "语境：交通流量或出行模式的变化趋势；常见义：趋势、倾向",
+      "sentence": "Researchers use traffic trends to improve transportation.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "439",
+      "word": "camper",
+      "meaning": "语境：露营者（原图写 campers）；常见义：露营者、野营车",
+      "sentence": "When is the campers' photography contest?",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "440",
+      "word": "admission",
+      "meaning": "语境：入园门票费；常见义：入场费、准许进入、录取、承认",
+      "sentence": "I'm trying to find a day when admission is free.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "441",
+      "word": "entry",
+      "phrase": "free entry",
+      "audioWord": "free entry",
+      "meaning": "语境：免费入场；常见义：进入、入口、参赛作品、词条",
+      "sentence": "They offer free entry on the first Saturday of each month.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "442",
+      "word": "reach",
+      "phrase": "reach out to others",
+      "audioWord": "reach out to others",
+      "meaning": "语境：主动联系其他同学；常见义：reach out to 主动联系、寻求帮助或提供支持",
+      "sentence": "Why don't you reach out to others in our art class?",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "443",
+      "word": "merge",
+      "phrase": "merge with",
+      "audioWord": "merge with",
+      "meaning": "语境：与另一所大学合并；常见义：合并、融合、汇入",
+      "sentence": "Our university is merging with Clark University.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "444",
+      "word": "degree",
+      "meaning": "语境：学位；常见义：学位、程度、度数",
+      "sentence": "The merger may create new degree programs.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "445",
+      "word": "eliminate",
+      "meaning": "语境：取消学生人数少的专业；常见义：消除、排除、淘汰",
+      "sentence": "They may eliminate majors with very few students.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "446",
+      "word": "aware",
+      "meaning": "语境：知道、了解到；常见义：意识到的、知晓的",
+      "sentence": "I wasn't aware of the proposed changes.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "447",
+      "word": "rid",
+      "phrase": "get rid of",
+      "audioWord": "get rid of",
+      "meaning": "语境：取消、撤掉某个专业；常见义：摆脱、除去、丢弃",
+      "sentence": "Hopefully, they won't get rid of your major.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "448",
+      "word": "transfer",
+      "phrase": "transfer elsewhere",
+      "audioWord": "transfer elsewhere",
+      "meaning": "语境：转学到别处；常见义：转移、调动、转学、转账",
+      "sentence": "I may have to transfer elsewhere to finish my degree.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "449",
+      "word": "chip",
+      "phrase": "potato chips",
+      "audioWord": "potato chips",
+      "meaning": "语境：薯片；常见义：chip 碎片、芯片；potato chips 薯片",
+      "sentence": "He works at a potato chip factory.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "450",
+      "word": "factory",
+      "meaning": "语境：工厂；常见义：工厂、制造厂",
+      "sentence": "The factory packages bags of potato chips.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "451",
+      "word": "a lot",
+      "phrase": "it'll be a lot",
+      "audioWord": "it'll be a lot",
+      "meaning": "语境：这会很吃力、负担很重；常见义：a lot 很多、大量、很大程度",
+      "sentence": "It'll be a lot to balance the job with my classes.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "452",
+      "word": "box",
+      "phrase": "shipping boxes",
+      "audioWord": "shipping boxes",
+      "meaning": "语境：运输纸箱、发货包装箱；常见义：box 箱子、盒子",
+      "sentence": "My job was to put the bags into shipping boxes.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "453",
+      "word": "haywire",
+      "phrase": "go haywire",
+      "audioWord": "go haywire",
+      "meaning": "语境：机器突然失控、出故障；常见义：出乱子、运转失常",
+      "sentence": "The machine that filled the bags went haywire.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "454",
+      "word": "quad",
+      "meaning": "语境：大学校园的中央广场或方形草坪；常见义：quadrangle 的简称，四周有建筑的院落",
+      "sentence": "The music festival will take place on the main quad.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "455",
+      "word": "performance",
+      "phrase": "guest performance",
+      "audioWord": "guest performance",
+      "meaning": "语境：特邀嘉宾演出；常见义：表演、表现、性能",
+      "sentence": "The festival will include a guest performance by an acting troupe.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "456",
+      "word": "troupe",
+      "meaning": "语境：表演剧团；常见义：演员、舞蹈演员等组成的演出团体",
+      "sentence": "An acting troupe from the city will perform.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "457",
+      "word": "complement",
+      "meaning": "语境：为演出增色、与演出相配；常见义：补充、使完善；注意区别 compliment 赞美",
+      "sentence": "Food and drinks will complement the performances.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "458",
+      "word": "truck",
+      "phrase": "food trucks",
+      "audioWord": "food trucks",
+      "meaning": "语境：流动餐车；常见义：truck 卡车；food truck 售卖食物的餐车",
+      "sentence": "A variety of food trucks will be available.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "459",
+      "word": "beverage",
+      "phrase": "beverage stands",
+      "audioWord": "beverage stands",
+      "meaning": "语境：饮品摊位；常见义：beverage 饮料；stand 摊位、售货亭",
+      "sentence": "Beverage stands will sell drinks throughout the day.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "460",
+      "word": "smoothie",
+      "meaning": "语境：水果奶昔、果昔；常见义：将水果等搅打成的浓稠饮品",
+      "sentence": "The stands will offer tacos and smoothies.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "461",
+      "word": "wall",
+      "phrase": "art wall",
+      "audioWord": "art wall",
+      "meaning": "语境：供大家作画留言的公共创作墙；常见义：墙、围墙；文中另一处 walls 指垂直花园的墙面",
+      "sentence": "Students can add drawings to the community art wall.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "462",
+      "word": "originally",
+      "meaning": "语境：原先、最初；常见义：起初、原本",
+      "sentence": "The deadline was originally scheduled for March fifteenth.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "463",
+      "word": "accept",
+      "meaning": "语境：接受参赛作品；常见义：接受、认可、录取",
+      "sentence": "Submissions will be accepted in print or digital format.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "464",
+      "word": "format",
+      "phrase": "digital format",
+      "audioWord": "digital format",
+      "meaning": "语境：电子格式、数字形式；常见义：格式、形式、版式",
+      "sentence": "You may submit your photographs in digital format.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "465",
+      "word": "award",
+      "phrase": "be awarded",
+      "audioWord": "be awarded",
+      "meaning": "语境：被颁发奖项或奖品；常见义：颁发、授予；名词为奖项、奖品",
+      "sentence": "Several prizes will be awarded to the winners.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "466",
+      "word": "spirit",
+      "phrase": "community spirit",
+      "audioWord": "community spirit",
+      "meaning": "语境：社区精神、集体认同与团结；常见义：精神、情绪、态度",
+      "sentence": "The photographs should reflect community spirit on campus.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "467",
+      "word": "violation",
+      "meaning": "语境：违反停车规定的行为；常见义：违反、违背、侵犯",
+      "sentence": "Parking violations will result in fines.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "468",
+      "word": "result",
+      "phrase": "result in",
+      "audioWord": "result in",
+      "meaning": "语境：导致罚款；常见义：result in 导致；result from 由……造成",
+      "sentence": "Breaking the parking rules may result in a fine.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "469",
+      "word": "possibly",
+      "meaning": "语境：可能会；常见义：可能、也许",
+      "sentence": "Vehicles may be fined and possibly towed.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "470",
+      "word": "tow",
+      "phrase": "towing of vehicles",
+      "audioWord": "towing of vehicles",
+      "meaning": "语境：拖走违规停放的车辆；常见义：拖、牵引车辆或船只",
+      "sentence": "Parking violations may lead to the towing of vehicles.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "471",
+      "word": "fair",
+      "meaning": "语境：公平的（停车位使用）；常见义：公正的、合理的；名词还可指展会",
+      "sentence": "The policy ensures fair use of parking spaces.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "472",
+      "word": "orderly",
+      "meaning": "语境：有秩序的；常见义：整齐的、井然有序的",
+      "sentence": "The rules encourage orderly use of parking spaces.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "473",
+      "word": "reserve",
+      "meaning": "语境：预订校园户外场地；常见义：预订、保留；储备、保护区",
+      "sentence": "Student clubs can reserve outdoor campus spaces.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "474",
+      "word": "gathering",
+      "phrase": "informal gatherings",
+      "audioWord": "informal gatherings",
+      "meaning": "语境：非正式聚会；常见义：聚会、集会；gather 收集、聚集",
+      "sentence": "The spaces can be used for informal gatherings.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "475",
+      "word": "student-led",
+      "meaning": "语境：由学生主导的；常见义：由学生组织或领导的",
+      "sentence": "The policy encourages student-led activities.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "476",
+      "word": "utilization",
+      "meaning": "语境：对开放空间的利用；常见义：利用、使用",
+      "sentence": "The university wants better utilization of open areas.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "477",
+      "word": "tundra",
+      "phrase": "Arctic tundra",
+      "audioWord": "Arctic tundra",
+      "meaning": "语境：北极苔原；常见义：tundra 苔原，寒冷地区的无林地带",
+      "sentence": "Permafrost lies beneath much of the Arctic tundra.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "478",
+      "word": "permafrost",
+      "meaning": "语境：永久冻土；常见义：连续至少两年保持冻结的土壤或岩层",
+      "sentence": "The permafrost has remained frozen for thousands of years.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "479",
+      "word": "stability",
+      "meaning": "语境：冻土维持冻结状态的稳定性；常见义：稳定性、稳固性",
+      "sentence": "Rising temperatures threaten the stability of permafrost.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "480",
+      "word": "compromise",
+      "meaning": "语境：削弱、损害稳定性；常见义：损害、危及；妥协、折中",
+      "sentence": "The stability of permafrost is compromised by warming.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "481",
+      "word": "play",
+      "phrase": "bring something into play",
+      "audioWord": "bring something into play",
+      "meaning": "语境：使原本休眠的微生物开始发挥作用；常见义：使某因素起作用、将其纳入考虑",
+      "sentence": "Thawing brings microbial activity into play.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "482",
+      "word": "microbe",
+      "meaning": "语境：土壤中的微生物；常见义：微生物、微菌",
+      "sentence": "Dormant microbes become active as the soil thaws.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "483",
+      "word": "tiny",
+      "meaning": "语境：微小的（生物）；常见义：极小的、微量的",
+      "sentence": "These tiny organisms can affect the climate.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "484",
+      "word": "thaw",
+      "phrase": "further thawing",
+      "audioWord": "further thawing",
+      "meaning": "语境：冻土进一步解冻；常见义：融化、解冻；关系缓和",
+      "sentence": "Warming causes further thawing of the permafrost.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "485",
+      "word": "dormant",
+      "meaning": "语境：休眠的、暂不活跃的；常见义：休眠的、潜伏的",
+      "sentence": "Dormant microbes activate when permafrost thaws.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "486",
+      "word": "decompose",
+      "meaning": "语境：分解有机物；常见义：分解、腐烂",
+      "sentence": "Microbes decompose organic material in the soil.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "487",
+      "word": "methane",
+      "meaning": "语境：甲烷（一种温室气体）；常见义：甲烷",
+      "sentence": "Microbial activity can release methane into the atmosphere.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "488",
+      "word": "initiate",
+      "meaning": "语境：启动反馈过程；常见义：开始、发起、启动",
+      "sentence": "The release of greenhouse gases initiates a feedback loop.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "489",
+      "word": "loop",
+      "phrase": "feedback loop",
+      "audioWord": "feedback loop",
+      "meaning": "语境：反馈循环；常见义：环、循环；反馈循环指结果反过来影响起因",
+      "sentence": "The feedback loop causes even more warming.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "490",
+      "word": "accelerate",
+      "meaning": "语境：加速气候变暖；常见义：加速、促进",
+      "sentence": "Greenhouse gas emissions accelerate warming.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "491",
+      "word": "relatively",
+      "meaning": "语境：相对而言、比较；常见义：相对地、比较地",
+      "sentence": "This feedback cycle is a relatively recent discovery.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "492",
+      "word": "previously",
+      "meaning": "语境：先前、以前；常见义：此前、原先",
+      "sentence": "The cycle is more influential than researchers previously thought.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "493",
+      "word": "assume",
+      "meaning": "语境：认为、假定；常见义：假设、认为；承担（责任）",
+      "sentence": "Scientists once assumed the effect was small.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "494",
+      "word": "perspective",
+      "phrase": "put it into perspective",
+      "audioWord": "put it into perspective",
+      "meaning": "语境：通过比较帮助理解规模；常见义：正确看待、放到整体背景中理解；perspective 视角",
+      "sentence": "To put it into perspective, permafrost stores enormous amounts of carbon.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "495",
+      "word": "forecast",
+      "meaning": "语境：预测未来气候趋势；常见义：预测、预报；名词为预测结果",
+      "sentence": "Microbial activity matters when we forecast climate trends.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "496",
+      "word": "sophisticated",
+      "meaning": "语境：复杂精密的（模型）；常见义：精密的、先进的、老练的",
+      "sentence": "Researchers use sophisticated models to study permafrost.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "497",
+      "word": "element",
+      "meaning": "语境：模型中分析的因素；常见义：要素、组成部分、化学元素",
+      "sentence": "The models analyze several elements of microbial activity.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "498",
+      "word": "intensify",
+      "meaning": "语境：加剧全球变暖；常见义：增强、加剧、强化",
+      "sentence": "More greenhouse gases can intensify global warming.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "499",
+      "word": "scientist",
+      "meaning": "语境：研究冻土的科学家；常见义：科学家、科研人员",
+      "sentence": "Scientists emphasize the need to monitor permafrost.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "500",
+      "word": "necessity",
+      "meaning": "语境：必要性；常见义：必需、必要性、必需品",
+      "sentence": "The study highlights the necessity of regular monitoring.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "501",
+      "word": "monitor",
+      "meaning": "语境：持续监测冻土区域；常见义：监测、监督；显示器",
+      "sentence": "Researchers monitor changes in permafrost regions.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "502",
+      "word": "come",
+      "phrase": "come up with",
+      "audioWord": "come up with",
+      "meaning": "语境：想出、提出应对策略；常见义：提出想法、找到办法",
+      "sentence": "Scientists are coming up with strategies to reduce these effects.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "503",
+      "word": "mitigate",
+      "meaning": "语境：减轻气候变化影响；常见义：缓和、减轻不良后果",
+      "sentence": "New strategies may help mitigate the effects of warming.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "504",
+      "word": "cap",
+      "phrase": "ice caps",
+      "audioWord": "ice caps",
+      "meaning": "语境：冰盖；常见义：cap 帽子、盖、上限；ice cap 覆盖地表的大片冰层",
+      "sentence": "Climate change involves more than melting ice caps.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "505",
+      "word": "invisible",
+      "meaning": "语境：肉眼看不见的地下过程；常见义：看不见的、无形的",
+      "sentence": "Invisible processes underground can affect the climate.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "506",
+      "word": "potential",
+      "meaning": "语境：潜在能力、可能性；常见义：潜力、可能性；潜在的",
+      "sentence": "Microbial processes have the potential to change the climate.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "507",
+      "word": "tip",
+      "phrase": "tip the scales",
+      "audioWord": "tip the scales",
+      "meaning": "语境：打破原有平衡、使局势向某方向倾斜；常见义：使天平倾斜、成为决定性因素",
+      "sentence": "These processes could tip the scales toward greater warming.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "508",
+      "word": "advance",
+      "meaning": "语境：技术不断进步；常见义：前进、发展、推进；预先的",
+      "sentence": "Technology was advancing rapidly in the early twentieth century.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "509",
+      "word": "electrophone",
+      "meaning": "语境：电鸣乐器、电发声乐器；学科义：以电力产生或放大声音的乐器类别",
+      "sentence": "Electrophones changed how musicians produced sound.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "510",
+      "word": "forefront",
+      "phrase": "at the forefront of",
+      "audioWord": "at the forefront of",
+      "meaning": "语境：处于音乐变革的前沿；常见义：最前列、领先地位",
+      "sentence": "Electrophones were at the forefront of musical innovation.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "511",
+      "word": "predecessor",
+      "meaning": "语境：现代合成器的前身；常见义：前任、前身、先行者",
+      "sentence": "Early electrophones were predecessors of modern synthesizers.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "512",
+      "word": "synthesizer",
+      "meaning": "语境：电子合成器；学科义：产生、组合并改变声音的电子设备",
+      "sentence": "Synthesizers can create a wide range of sounds.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "513",
+      "word": "established",
+      "meaning": "语境：既有的、公认的音乐惯例；常见义：已确立的、成熟的、公认的",
+      "sentence": "The instruments challenged established musical conventions.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "514",
+      "word": "electronic",
+      "meaning": "语境：电子的（发声方式）；常见义：电子的、电子设备的",
+      "sentence": "The instruments create sound through electronic means.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "515",
+      "word": "groundbreaking",
+      "meaning": "语境：开创性的、突破性的；常见义：创新的、具有突破意义的",
+      "sentence": "The theremin was a groundbreaking innovation.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "516",
+      "word": "theremin",
+      "meaning": "语境：特雷门琴；学科义：通过双手靠近天线改变电场来控制音高和音量的电子乐器",
+      "sentence": "The theremin can be played without touching it.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "517",
+      "word": "field",
+      "phrase": "electromagnetic fields",
+      "audioWord": "electromagnetic fields",
+      "meaning": "语境：电磁场；常见义：field 领域、田野、场；electromagnetic 电磁的",
+      "sentence": "Hand movements affect the theremin's electromagnetic fields.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "518",
+      "word": "tone",
+      "meaning": "语境：乐器的音色、声音；常见义：音调、音色、语气",
+      "sentence": "Its unusual tones became associated with experimental music.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "519",
+      "word": "synonymous",
+      "phrase": "synonymous with",
+      "audioWord": "synonymous with",
+      "meaning": "语境：与……紧密相联、几乎成为……的代名词；常见义：同义的",
+      "sentence": "The instrument became synonymous with experimental compositions.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "520",
+      "word": "expressive",
+      "meaning": "语境：富有表现力的（声音）；常见义：有表现力的、能传达感情的",
+      "sentence": "The instrument offered musicians an expressive range of sounds.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "521",
+      "word": "glide",
+      "meaning": "语境：让指环平滑滑动；常见义：滑行、滑动、滑翔",
+      "sentence": "The player glides a ring along a wire.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "522",
+      "word": "wire",
+      "meaning": "语境：乐器上的金属丝；常见义：金属丝、电线",
+      "sentence": "A ring moves along the wire to control the sound.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "523",
+      "word": "bow",
+      "phrase": "violin bow",
+      "audioWord": "violin bow",
+      "meaning": "语境：小提琴琴弓；常见义：弓、弓形、蝴蝶结；琴弓的 bow 与 go 押韵",
+      "sentence": "The musician moves the bow across the violin strings.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "524",
+      "word": "string",
+      "meaning": "语境：琴弦；常见义：细绳、一串、弦",
+      "sentence": "The bow moves across the strings of the violin.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "525",
+      "word": "violin",
+      "meaning": "语境：小提琴；常见义：小提琴",
+      "sentence": "The performer played a melody on the violin.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "526",
+      "word": "despite",
+      "meaning": "语境：尽管受到现代电子乐器的掩盖；常见义：尽管、不管，后接名词或动名词",
+      "sentence": "Despite later advances, early electrophones left a lasting mark.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "527",
+      "word": "overshadow",
+      "meaning": "语境：使相形见绌、掩盖其光芒；常见义：使失色、使不显眼",
+      "sentence": "Modern electronics have overshadowed some early instruments.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "528",
+      "word": "quest",
+      "meaning": "语境：探索、追求；常见义：长期寻求、探索",
+      "sentence": "Artists continue their quest for new sounds.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "529",
+      "word": "redefine",
+      "meaning": "语境：重新界定音乐的边界；常见义：重新定义、重新解释",
+      "sentence": "Musicians try to redefine musical boundaries.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "530",
+      "word": "boundary",
+      "meaning": "语境：音乐创作的界限；常见义：边界、界限、范围",
+      "sentence": "New instruments push the boundaries of music.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "531",
+      "word": "insightful",
+      "meaning": "语境：有深刻见解的（词表未附完整句）；常见义：有洞察力的、见解深刻的",
+      "sentence": "The professor gave an insightful explanation of the music.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "532",
+      "word": "mention",
+      "meaning": "语境：提到一项作业；常见义：提及、谈到",
+      "sentence": "The professor mentioned an optional assignment.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "533",
+      "word": "optional",
+      "meaning": "语境：可选择做的、非必做的；常见义：可选的、选修的",
+      "sentence": "The assignment is optional for students.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "534",
+      "word": "redesign",
+      "meaning": "语境：重新设计大学网站；常见义：重新设计、改版",
+      "sentence": "The university is redesigning its websites.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "535",
+      "word": "page",
+      "phrase": "academic pages",
+      "audioWord": "academic pages",
+      "meaning": "语境：学术相关网页；常见义：页面、书页、网页",
+      "sentence": "The professor is helping redesign the academic pages.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "536",
+      "word": "overdue",
+      "phrase": "long overdue",
+      "audioWord": "long overdue",
+      "meaning": "语境：早就该做了、拖得太久；常见义：逾期的、早该发生的",
+      "sentence": "The website update is long overdue.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "537",
+      "word": "try",
+      "phrase": "try out",
+      "audioWord": "try out",
+      "meaning": "语境：试用新网站；常见义：试用、试验；参加选拔",
+      "sentence": "Students will try out the new site and offer suggestions.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "538",
+      "word": "echo",
+      "meaning": "语境：文化的回响（节目名 Echoes of Culture）；常见义：回声、呼应；重复表达",
+      "sentence": "The program explores echoes of culture in music.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "539",
+      "word": "dive",
+      "phrase": "dive into",
+      "audioWord": "dive into",
+      "meaning": "语境：深入探讨一个话题；常见义：潜入；投入、深入研究",
+      "sentence": "Today, we are diving into the relationship between music and society.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "540",
+      "word": "mirror",
+      "meaning": "语境：反映社会面貌；常见义：反映、映照；名词为镜子",
+      "sentence": "Musical composition mirrors the society it comes from.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "541",
+      "word": "more than",
+      "meaning": "语境：不仅仅是；常见义：超过；不仅仅",
+      "sentence": "Music is more than just sounds.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "542",
+      "word": "rewind",
+      "meaning": "语境：回溯到过去的时期；常见义：倒带、倒回",
+      "sentence": "Let's rewind to the Baroque period.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "543",
+      "word": "picture",
+      "meaning": "语境：在脑海中想象；常见义：想象、描绘；图片",
+      "sentence": "Picture the grandeur of European courts.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "544",
+      "word": "grandeur",
+      "meaning": "语境：宫廷的宏伟壮丽；常见义：宏伟、壮丽、庄严",
+      "sentence": "The music reflected the grandeur of royal courts.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "545",
+      "word": "ornate",
+      "meaning": "语境：装饰华丽繁复的；常见义：装饰繁复的、华丽的",
+      "sentence": "Ornate buildings reflected the wealth of the courts.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "546",
+      "word": "architecture",
+      "meaning": "语境：建筑、建筑风格；常见义：建筑学、建筑设计、结构",
+      "sentence": "The period was known for its elaborate architecture.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "547",
+      "word": "lavish",
+      "meaning": "语境：奢华的、豪华的（服饰）；常见义：奢华的、丰盛的；慷慨给予",
+      "sentence": "Lavish clothing displayed wealth and status.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "548",
+      "word": "complexity",
+      "meaning": "语境：复杂精巧的艺术特点；常见义：复杂性、复杂程度",
+      "sentence": "The society valued structure and complexity.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "549",
+      "word": "craft",
+      "meaning": "语境：精心创作音乐；常见义：精心制作、工艺、技艺",
+      "sentence": "Composers were crafting rich musical textures.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "550",
+      "word": "sonic",
+      "meaning": "语境：声音的、听觉上的；常见义：声音的、声波的",
+      "sentence": "The composers created rich sonic textures.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "551",
+      "word": "tapestry",
+      "phrase": "sonic tapestries",
+      "audioWord": "sonic tapestries",
+      "meaning": "语境：声音交织成的丰富音乐织体；常见义：tapestry 挂毯；多种元素交织的整体",
+      "sentence": "The composers created sonic tapestries that reflected their era.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "552",
+      "word": "opulence",
+      "meaning": "语境：富丽堂皇、奢华；常见义：富裕、豪华、奢华",
+      "sentence": "The music mirrored the opulence of the time.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "553",
+      "word": "counterpoint",
+      "meaning": "语境：对位法（多条旋律相互结合）；学科义：使独立旋律同时协调进行的作曲技法；引申义为对照",
+      "sentence": "Elaborate counterpoint gave the music several interacting melodies.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "554",
+      "word": "intricate",
+      "meaning": "语境：复杂精细的（装饰）；常见义：错综复杂的、精巧的",
+      "sentence": "The music contained intricate ornamentation.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "555",
+      "word": "ornamentation",
+      "phrase": "intricate ornamentation",
+      "audioWord": "intricate ornamentation",
+      "meaning": "语境：复杂精细的音乐装饰；常见义：装饰、装饰性细节；音乐中指装饰音或润饰",
+      "sentence": "Intricate ornamentation was a feature of the style.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "556",
+      "word": "stylistic",
+      "meaning": "语境：艺术风格上的；常见义：风格的、文体的",
+      "sentence": "These were more than stylistic choices.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "557",
+      "word": "hierarchy",
+      "meaning": "语境：社会等级秩序；常见义：等级制度、层级结构",
+      "sentence": "The music reflected a society that valued hierarchy.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "558",
+      "word": "excess",
+      "meaning": "语境：过度、铺张、奢靡；常见义：过量、过度；in excess of 超过",
+      "sentence": "The art reflected a taste for beauty and excess.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "559",
+      "word": "fast-forward",
+      "meaning": "语境：把时间推进到后来的年代；常见义：快进、跳转到未来的阶段",
+      "sentence": "Fast-forward to the twentieth century, and the musical scene changes.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "560",
+      "word": "burst",
+      "phrase": "burst onto the scene",
+      "audioWord": "burst onto the scene",
+      "meaning": "语境：突然崭露头角、迅速进入公众视野；常见义：burst 爆发、突然出现",
+      "sentence": "Jazz burst onto the scene in the United States.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "561",
+      "word": "scene",
+      "meaning": "语境：音乐界、音乐舞台；常见义：场景、现场、某一活动领域",
+      "sentence": "Jazz transformed the American music scene.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "562",
+      "word": "born",
+      "phrase": "born in",
+      "audioWord": "born in",
+      "meaning": "语境：起源于、诞生于某个群体；常见义：出生于、产生于",
+      "sentence": "Jazz was born in African American communities.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "563",
+      "word": "pulse",
+      "phrase": "the pulse of",
+      "audioWord": "the pulse of",
+      "meaning": "语境：社会的活力与时代脉动；常见义：脉搏、节奏、动态",
+      "sentence": "Jazz carried the pulse of a changing society.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "564",
+      "word": "flux",
+      "phrase": "in flux",
+      "audioWord": "in flux",
+      "meaning": "语境：处于不断变化之中；常见义：变动、不稳定状态；流动",
+      "sentence": "The society was in flux during this period.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "565",
+      "word": "improvisational",
+      "meaning": "语境：即兴创作的；常见义：即兴的、临场发挥的",
+      "sentence": "Jazz has an improvisational nature.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "566",
+      "word": "yearning",
+      "meaning": "语境：对自由的强烈渴望；常见义：强烈向往、渴望",
+      "sentence": "The music expressed a yearning for freedom.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "567",
+      "word": "soundtrack",
+      "meaning": "语境：伴随并代表一场社会运动的音乐；常见义：电影配乐、原声带、伴随音乐",
+      "sentence": "Jazz became a soundtrack to the Civil Rights movement.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "568",
+      "word": "civil",
+      "phrase": "civil rights",
+      "audioWord": "civil rights",
+      "meaning": "语境：公民权利、民权；常见义：civil 公民的、民事的、文明有礼的",
+      "sentence": "The music echoed the goals of the Civil Rights movement.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "569",
+      "word": "triumph",
+      "meaning": "语境：群体斗争中取得的胜利；常见义：胜利、重大成功；获胜",
+      "sentence": "The songs reflected the people's struggles and triumphs.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "570",
+      "word": "communal",
+      "meaning": "语境：集体共享的、社区性的；常见义：公共的、共享的、群体的",
+      "sentence": "Traditional music can be deeply communal.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "571",
+      "word": "emphasis",
+      "meaning": "语境：对群体表达的重视；常见义：强调、重点、重视",
+      "sentence": "There is an emphasis on group expression.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "572",
+      "word": "expression",
+      "meaning": "语境：群体通过音乐表达情感；常见义：表达、表情、措辞",
+      "sentence": "The music allows for shared cultural expression.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "573",
+      "word": "weave",
+      "phrase": "woven into",
+      "audioWord": "woven into",
+      "meaning": "语境：融入、交织在音乐之中；常见义：编织、将元素结合在一起",
+      "sentence": "Communal values are woven into the rhythms.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "574",
+      "word": "rhythm",
+      "meaning": "语境：音乐节奏；常见义：节奏、韵律、规律性变化",
+      "sentence": "The rhythms encourage people to participate.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "575",
+      "word": "performer",
+      "meaning": "语境：表演者；常见义：演员、演奏者、执行者",
+      "sentence": "Performers interact with the audience.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "576",
+      "word": "audience",
+      "meaning": "语境：听众、观众；常见义：观众、听众、受众",
+      "sentence": "The audience takes part in the musical performance.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "577",
+      "word": "participation",
+      "meaning": "语境：集体参与；常见义：参与、参加",
+      "sentence": "Communal participation is central to the tradition.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "578",
+      "word": "revisit",
+      "meaning": "语境：重新讨论城市绿地这一话题；常见义：重新审视、再次探讨、重访",
+      "sentence": "Today, we are revisiting the topic of urban green spaces.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "579",
+      "word": "densely",
+      "phrase": "densely populated",
+      "audioWord": "densely populated",
+      "meaning": "语境：人口稠密的；常见义：densely 密集地；populated 有人居住的",
+      "sentence": "Creating parks is difficult in densely populated cities.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "580",
+      "word": "vegetation",
+      "meaning": "语境：种植在屋顶上的植被；常见义：植被、植物群落",
+      "sentence": "A green roof has a layer of vegetation on top of a building.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "581",
+      "word": "greenery",
+      "meaning": "语境：城市中的绿色植物；常见义：绿叶、绿色植被",
+      "sentence": "Green roofs add greenery without using ground space.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "582",
+      "word": "repurpose",
+      "phrase": "repurpose unused lots",
+      "audioWord": "repurpose unused lots",
+      "meaning": "语境：将闲置地块改作其他用途；常见义：repurpose 改变用途、重新利用；lot 地块",
+      "sentence": "Cities can repurpose unused lots as small parks.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "583",
+      "word": "vacant",
+      "meaning": "语境：闲置的、空着的（土地）；常见义：空置的、未被占用的、空缺的",
+      "sentence": "Vacant lots can become community gardens.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "584",
+      "word": "vertical",
+      "phrase": "vertical gardens",
+      "audioWord": "vertical gardens",
+      "meaning": "语境：垂直花园、立体绿化；常见义：vertical 垂直的、竖直的",
+      "sentence": "Vertical gardens let plants grow on walls.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "585",
+      "word": "upward",
+      "meaning": "语境：向上生长；常见义：向上、朝上、上升地",
+      "sentence": "Special structures allow the plants to grow upward.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "586",
+      "word": "insulation",
+      "meaning": "语境：建筑的隔热保温效果；常见义：隔热、隔音、绝缘及相应材料",
+      "sentence": "Vertical gardens can improve a building's insulation.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "587",
+      "word": "legitimate",
+      "meaning": "语境：合理的、正当的（顾虑）；常见义：合法的、合理的、正当的",
+      "sentence": "Cost and upkeep are legitimate concerns.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "588",
+      "word": "quota",
+      "phrase": "green space quotas",
+      "audioWord": "green space quotas",
+      "meaning": "语境：规定的最低绿地指标；常见义：配额、定额、规定数量",
+      "sentence": "Green space quotas require a minimum amount of greenery.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "589",
+      "word": "mandate",
+      "meaning": "语境：强制要求开发商增加绿化；常见义：授权、下令、强制规定",
+      "sentence": "The policies mandate the inclusion of green features.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "590",
+      "word": "feature",
+      "meaning": "语境：树木、屋顶花园等景观要素；常见义：特征、特色、设施；以……为特色",
+      "sentence": "Builders must include features such as trees and rooftop gardens.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "591",
+      "word": "courtyard",
+      "meaning": "语境：庭院、院落；常见义：由建筑围成的露天院子",
+      "sentence": "Courtyards can provide green space in new developments.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "592",
+      "word": "step",
+      "phrase": "a step toward",
+      "audioWord": "a step toward",
+      "meaning": "语境：朝更可持续生活迈出的一步；常见义：step 步骤、措施、进展",
+      "sentence": "The quotas are a step toward more sustainable urban living.",
+      "batch": "2026-10-21"
     }
   ],
-  "updated_at": "2026-10-06",
-  "audio_revision": 7
+  "updated_at": "2026-10-21",
+  "audio_revision": 8
 }
