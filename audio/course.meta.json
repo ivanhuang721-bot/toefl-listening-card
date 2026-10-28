@@ -595,9 +595,13 @@
     3497.664,
     3503.16,
     3509.472,
-    3514.872
+    3514.872,
+    3520.608,
+    3525.288,
+    3530.064,
+    3534.96
   ],
-  "duration": 3520.608,
+  "duration": 3539.784,
   "practice_manifest": [
     {
       "id": "001",
@@ -5334,6 +5338,38 @@
       "word_file": "word/592.mp3",
       "sentence_file": "sentence/592.mp3",
       "meaning_file": "meaning/592.mp3"
+    },
+    {
+      "id": "593",
+      "word": "break",
+      "audio_word": "break rules",
+      "word_file": "word/593.mp3",
+      "sentence_file": "sentence/593.mp3",
+      "meaning_file": "meaning/593.mp3"
+    },
+    {
+      "id": "594",
+      "word": "imperative",
+      "audio_word": "imperative",
+      "word_file": "word/594.mp3",
+      "sentence_file": "sentence/594.mp3",
+      "meaning_file": "meaning/594.mp3"
+    },
+    {
+      "id": "595",
+      "word": "neglected",
+      "audio_word": "neglected",
+      "word_file": "word/595.mp3",
+      "sentence_file": "sentence/595.mp3",
+      "meaning_file": "meaning/595.mp3"
+    },
+    {
+      "id": "596",
+      "word": "ambience",
+      "audio_word": "ambience",
+      "word_file": "word/596.mp3",
+      "sentence_file": "sentence/596.mp3",
+      "meaning_file": "meaning/596.mp3"
     }
   ],
   "generated_at": "github-actions"
