@@ -4330,8 +4330,38 @@
       "meaning": "语境：朝更可持续生活迈出的一步；常见义：step 步骤、措施、进展",
       "sentence": "The quotas are a step toward more sustainable urban living.",
       "batch": "2026-10-21"
+    },
+    {
+      "id": "593",
+      "word": "break",
+      "phrase": "break rules",
+      "audioWord": "break rules",
+      "meaning": "语境：违反规定；托福常见义：break 打破、违反（规则、法律、承诺）；break rules 违规",
+      "sentence": "Students who break rules may face penalties.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "594",
+      "word": "imperative",
+      "meaning": "语境：紧急而必要的、至关重要的；托福常见义：极其重要的、迫切需要的",
+      "sentence": "It is imperative to follow the safety rules.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "595",
+      "word": "neglected",
+      "meaning": "语境：被忽视、无人照管的；托福常见义：忽视的、疏于照料的；neglect 忽略、疏忽",
+      "sentence": "Neglected campus facilities need repairs.",
+      "batch": "2026-10-21"
+    },
+    {
+      "id": "596",
+      "word": "ambience",
+      "meaning": "语境：场所的氛围、环境气氛；托福常见义：氛围、格调，尤指房间或场所给人的感觉",
+      "sentence": "The dining hall has a welcoming ambience.",
+      "batch": "2026-10-21"
     }
   ],
-  "updated_at": "2026-10-21",
-  "audio_revision": 9
+  "updated_at": "2026-10-28",
+  "audio_revision": 10
 }
