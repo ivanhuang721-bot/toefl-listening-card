@@ -271,11 +271,11 @@ const memoryKey=c=>Number(c.id)>224?c.word+'@'+batchOf(c):c.word;
 function isHidden(c,state=loadMemory()){return !!state.cards?.[memoryKey(c)]?.hidden}
 function selectedIndices(){const batch=$('#batchSelect').value,state=loadMemory();return cards.map((c,i)=>!isHidden(c,state)&&(batch==='all'||batchOf(c)===batch)?i:-1).filter(i=>i>=0)}
 function renderBatches(){
-  const select=$('#batchSelect');
+  const select=$('#batchSelect'),state=loadMemory();
   const batches=[...new Set(cards.map(batchOf))].sort().reverse();
   let saved='';try{saved=localStorage.getItem('toeflSelectedBatch')||''}catch(e){}
   const previous=select.value||saved||batches[0];
-  select.innerHTML=batches.map(b=>'<option value="'+esc(b)+'">'+esc(BATCH_NAMES[b]||b)+'（'+cards.filter(c=>batchOf(c)===b&&!isHidden(c)).length+'词）</option>').join('')+'<option value="all">全部批次（'+cards.filter(c=>!isHidden(c)).length+'词，数量较多）</option>';
+  select.innerHTML=batches.map(b=>'<option value="'+esc(b)+'">'+esc(BATCH_NAMES[b]||b)+'（'+cards.filter(c=>batchOf(c)===b&&!isHidden(c,state)).length+'词）</option>').join('')+'<option value="all">全部批次（'+cards.filter(c=>!isHidden(c,state)).length+'词，数量较多）</option>';
   select.value=previous==='all'||batches.includes(previous)?previous:batches[0];
   $('#batchSummary').textContent=(select.value==='all'?'全部批次':BATCH_NAMES[select.value]||select.value)+' · '+selectedIndices().length+' 个词';
   renderList();renderHiddenList();
